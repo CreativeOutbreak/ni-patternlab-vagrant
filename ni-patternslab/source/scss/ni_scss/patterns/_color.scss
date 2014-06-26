@@ -1,0 +1,44 @@
+#ni { /* css namespacing 'ni' IMPORTANT!  This is used so we don't get conflicts with other css libs. */ 
+    .colors {
+        overflow: hidden;
+    }
+
+    .colors li {
+        overflow: hidden;
+        border: 1px solid rgb(221, 221, 221);
+        padding: 0.3em;
+        margin: 0px 0.2em 0.2em 0px;
+    }
+
+    .title {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 2px;
+
+        font-size: 0.875em;
+        font-weight: bold;
+        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .swatch {
+        display: block;
+        height: 1.5em;
+        width: 50%;
+        float: left;
+        margin-right: 0.3em;
+    }
+
+    .label {
+        width: 100%;
+        padding: .4em .6em .3em;
+        display: inline-block;
+        line-height: 1;
+        color: $gray-dark;
+        font-size: 1em;
+        font-weight: normal;
+    }
+}
