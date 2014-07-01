@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         shell: {
             patternlab: {
-                command: "php core/builder.php -wpr"
+                command: "php core/builder.php -wr"
             },
         },
         compass: {                    // Task

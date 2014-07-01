@@ -53,19 +53,47 @@
 //@import "ni_scss/variables";
 //@import "ni_scss/mixins";
 @import "ni_scss/patterns/color";
+@import "ni_scss/patterns/logo";
+@import "ni_scss/patterns/header";
+@import "ni_scss/patterns/search";
+@import "ni_scss/patterns/primary-nav";
 
 @media (min-width: $screen-xs-min) {    
-    @import "ni_scss/patterns/color-xs";
+    @import "ni_scss/patterns/color-xs"; 
+    @import "ni_scss/patterns/logo-xsup";
 }
 
+// > 768px
+@media (min-width: $screen-sm-min) {
+    @import "ni_scss/patterns/logo-smup";
+    @import "ni_scss/patterns/search-smup";
+}
+
+// > 800px
+@media (min-width: 50em) {
+    @import "ni_scss/patterns/search-50emup";
+}
+
+// > 880px
+@media (min-width: 55em) {
+    @import "ni_scss/patterns/search-55emup";
+
+}
+
+// 768px -> 991px 
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
     //@import "ni_scss/color-sm";
+    //@import "ni_scss/patterns/search-sm";
 }
 
+// 992px -> 1199px 
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
     //@import "ni_scss/color-md";
+    //@import "ni_scss/patterns/search-md";
 }
 
+// > 1200px 
 @media (min-width: $screen-lg-min) {
     //@import "ni_scss/color-lg";
+    @import "ni_scss/patterns/logo-xl";
 }

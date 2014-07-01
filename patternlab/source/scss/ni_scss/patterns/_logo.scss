@@ -1,0 +1,12 @@
+#ni {
+    #logo {
+        h1, h2 {
+            @include text-hide(); 
+        }
+        display: inline-block;
+        width: 50px; 
+        height: 40px;
+        background: url(../images/logo.svg) no-repeat -135px -161px;
+    }
+
+}
