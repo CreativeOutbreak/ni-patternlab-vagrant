@@ -1,7 +1,7 @@
 .DS_Store
-ni-patternsalb/public/*
-ni-patternsalb/config.ini
-ni-patternsalb/latest-change.txt
+patternlab/public/*
+patternlab/config.ini
+patternlab/latest-change.txt
 *-ck.js
 *.sass-cache/
 .vagrant
