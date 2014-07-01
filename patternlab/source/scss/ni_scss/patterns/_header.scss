@@ -2,6 +2,8 @@
     .header {
         background-color: $brand-primary;
         height: 42px;
+        width: 100%;
+        max-width: 100%;
         .nav-toggle {
             color: #fff;
             height: 100%;

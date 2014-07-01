@@ -32,13 +32,15 @@
             "alt" : "large image"
         },
         "medium" : {
-            "high" : "http://placehold.it/360x180/005500/png/&text=high%20res%20360x180",
-            "low" : "http://placehold.it/360x180/005500/png/&text=low%20res%20360x180",
+            "high" : "http://placehold.it/360x180/229944/png/&text=high%20res%20360x180",
+            "low" : "http://placehold.it/360x180/229944/png/&text=low%20res%20360x180",
             "alt" : "medium image"
         },
         "small" : {
-            "high" : "http://placehold.it/180x180/000055/png/&text=high%20res%20180x180",
-            "low" : "http://placehold.it/180x180/000055/png/&text=low%20res%20180x180",
+            "high" : "http://placehold.it/180x180/4400ff/png/&text=high%20res%20180x180",
+            "low" : "http://placehold.it/180x180/4400ff/png/&text=low%20res%20180x180",
+            "high-dark" : "http://placehold.it/180x180/4400bb/png/&text=high%20res%20180x180",
+            "low-dark" : "http://placehold.it/180x180/4400bb/png/&text=low%20res%20180x180",
             "alt" : "small image"
         }
     },

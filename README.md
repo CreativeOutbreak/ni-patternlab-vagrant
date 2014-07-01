@@ -1,5 +1,5 @@
 ## New Int Patternlab dev with Vagrant & Chef
-We've now setup our [Drupal][2] development enviroment using [Vagrant][1] & [Chef][3] for collaboration, demonstration and deployment reasons. We are using the [Vagrant Drupal Development (VDD)][9] preconfigured setup.
+We've now setup our patternlab development enviroment using [Vagrant][1] & [Chef][3] for collaboration, demonstration and deployment reasons.
 ### Setting up and running
 #### Cloning Repository
 IMPORTANT NOTE: If you have an encrypted home directory, make sure you don't put the files there, otherwise you'll end up in a world of pain when you try to setup NFS!!!  
@@ -7,7 +7,7 @@ First thing to do is to browser to where you want to work on your local machine 
 ```shell
 $ sudo mkdir ~/ni_dev
 $ cd ~/ni_dev
-$ sudo git clone https://github.com/CreativeOutbreak/ni-drupal-vagrant.git
+$ sudo git clone https://github.com/CreativeOutbreak/ni-patternlab-vagrant.git
 ```
 If you don't have [git][4] installed, install it! ;)
 Then run the previous code.
@@ -22,30 +22,6 @@ Now you've got them both install we'll move onto running the Vagrant box.
 #### Running Vagrant
 Fortunately, this couldn't really be simpler!  If you're not already in the working directory, browser to it `cd ~/ni_dev` and then run `vagrant up`. This may take a while the first time, as it need to download a linux box and then set it all up with the [Chef][3] config.  
 NOTE: *Should take around 10 minutes, but may be longer if you have a slow connection.  It will tell you when it's done.*
-
-### Setting up Drupal
-[VDD][9] Doesn't include the Drupal files, as you'll probably want to pick your own flavour.  It is however very easy to get it setup.  
-As you should now have a Vagrant server running, and are in the root of the working directory, you can ssh into the server using:
-```
-$ vagrant ssh
-```
-The [Chef config file][10] should of done most of the heavy lifting for you, including setting you [users & passwords][11]  
-All you need to do now is setup the Drupal install of choice.  We're going to be using Drupal 8 & Drupal 7 (Spark).
-You should alread of ssh'd into the Vagrant box, so now just run the following code to get Drupal 8 installed.
-```
-cd ~/sites/drupal8
-git clone --branch 8.x http://git.drupal.org/project/drupal.git .
-drush @drupal8 si standard -y
-```
-Now you've got a Drupal 8 install up and running, all you need to do is add some code to your *'host'* file:
-```
-# Sites declared in VDD's config.json
-    192.168.44.44 drupal8.dev
-    192.168.44.44 www.drupal8.dev
-    192.168.44.44 drupal7.dev
-    192.168.44.44 www.drupal7.dev
-# End of sites declared with VDD
-```
 
 ##### VirtualBox shared file
 IMPORTANT NOTE: If you have an encrypted home directory, make sure you don't put the files there, otherwise you'll end up in a world of pain when you try to setup NFS!!!

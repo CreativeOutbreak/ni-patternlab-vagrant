@@ -13,6 +13,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "hashicorp/precise32"
   config.vm.provision :shell, path: "bootstrap.sh"
   config.vm.network :forwarded_port, host: 4568, guest: 80
+
+  # Uncomment the following line to enable NFS
+  # config.vm.synced_folder ".", "/vagrant", type: "nfs"
+
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
