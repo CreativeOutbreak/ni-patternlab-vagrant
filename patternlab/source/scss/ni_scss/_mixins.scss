@@ -1,0 +1,18 @@
+@mixin ni_visibility($parent) {
+  #{$parent} {
+    display: block !important;
+    visibility: visible;
+  }
+  table#{$parent}  { display: table; }
+  tr#{$parent}     { display: table-row !important; }
+  th#{$parent},
+  td#{$parent}     { display: table-cell !important; }
+}
+
+// [converter] $parent hack
+@mixin ni_invisibility($parent) {
+  #{$parent} {
+    display: none !important;
+    visibility: hidden;
+  }
+}

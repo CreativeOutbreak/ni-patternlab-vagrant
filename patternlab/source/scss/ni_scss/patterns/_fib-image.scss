@@ -1,1 +1,15 @@
+#ni {
+    
+    .fib-image {
+        width:100%;
+        @include clearfix();
+    }
+    
+    .fib-pic img, .fib-box img {
+        width: 100%;
+    }
 
+    .fib-pic {
+        width: 100%    
+    }
+}

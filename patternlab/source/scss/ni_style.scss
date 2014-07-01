@@ -51,22 +51,27 @@
 
 // New Internationalist styling
 //@import "ni_scss/variables";
-//@import "ni_scss/mixins";
+@import "ni_scss/mixins";
+@import "ni_scss/responsive_utilities";
 @import "ni_scss/patterns/color";
 @import "ni_scss/patterns/logo";
 @import "ni_scss/patterns/header";
 @import "ni_scss/patterns/search";
 @import "ni_scss/patterns/primary-nav";
+@import "ni_scss/patterns/fib-image";
 
+// > 480px
 @media (min-width: $screen-xs-min) {    
     @import "ni_scss/patterns/color-xs"; 
     @import "ni_scss/patterns/logo-xsup";
+    @import "ni_scss/patterns/fib-image-xsup";
 }
 
 // > 768px
 @media (min-width: $screen-sm-min) {
     @import "ni_scss/patterns/logo-smup";
     @import "ni_scss/patterns/search-smup";
+    @import "ni_scss/patterns/fib-image-smup";
 }
 
 // > 800px

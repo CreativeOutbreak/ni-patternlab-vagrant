@@ -25,6 +25,23 @@
 			"alt": "Rectangle"
 		}
 	},
+    "fib-imgs" : {
+        "large" : {
+            "high" : "http://placehold.it/540x360/990000/png/&text=high%20res%20540x360",
+            "low" : "http://placehold.it/540x360/990000/png/&text=low%20res%20540x360",
+            "alt" : "large image"
+        },
+        "medium" : {
+            "high" : "http://placehold.it/360x180/005500/png/&text=high%20res%20360x180",
+            "low" : "http://placehold.it/360x180/005500/png/&text=low%20res%20360x180",
+            "alt" : "medium image"
+        },
+        "small" : {
+            "high" : "http://placehold.it/180x180/000055/png/&text=high%20res%20180x180",
+            "low" : "http://placehold.it/180x180/000055/png/&text=low%20res%20180x180",
+            "alt" : "small image"
+        }
+    },
 	"headline" : {
 		"short" : "Lorem ipsum dolor sit (37 characters)",
 		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
