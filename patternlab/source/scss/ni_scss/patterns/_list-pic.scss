@@ -1,0 +1,19 @@
+#ni {
+    
+    
+    
+    .list-pic img {
+        width: 100%;
+    }
+
+    .list-pic {
+        width: 40%;
+        padding: px_em(5);
+    }
+
+    .media-block {
+        .list-pic {
+            float: left;
+        }
+    }
+}

@@ -1,9 +1,11 @@
 #ni {
     .header {
         background-color: $brand-primary;
-        height: 42px;
+        height: 44px;
         width: 100%;
         max-width: 100%;
+        position: fixed;
+        border-bottom: 2px solid rgba(0,0,0,0.2);
         .nav-toggle {
             color: #fff;
             height: 100%;

@@ -1,10 +1,16 @@
 
-@include ni_invisibility('.visible-xs, .visible-sm, .visible-md, .visible-lg, .visible-xsup, .visible-smup, .visible-mdup, .visible-lgup, .visible-50up, .visible-55up');
+@include ni_invisibility('.visible-xs, .visible-sm, .visible-md, .visible-lg, .visible-xsup, .visible-smup, .visible-mdup, .visible-lgup, .visible-32up, .visible-50up, .visible-55up');
 
 // > 480px
 @media (min-width: $screen-xs-min) {    
     @include ni_visibility('.visible-xsup');
     @include ni_invisibility('.hidden-xsup');
+}
+
+// > 513px
+@media (min-width: 32.06em) {    
+    @include ni_visibility('.visible-32up');
+    @include ni_invisibility('.hidden-32up');
 }
 
 // > 768px

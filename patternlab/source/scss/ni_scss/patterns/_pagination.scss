@@ -1,0 +1,7 @@
+#ni {
+
+    .pagination {
+        @include max_width_rem(484);
+        @include center-block();
+    }
+}

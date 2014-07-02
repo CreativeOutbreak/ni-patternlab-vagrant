@@ -1,0 +1,19 @@
+#ni {
+    
+    .post-list {
+        border-right: 1px dashed #ccc;
+    }
+    
+    .post-list li:nth-child(odd) {
+        background-color: #eee;
+    }
+    .post-list li:nth-child(even) {
+
+    }
+
+    .post-list li {
+        padding-right: px_em(5);
+        border-top: 1px dashed #ccc;
+        border-bottom: 1px dashed #ccc;
+    }
+}

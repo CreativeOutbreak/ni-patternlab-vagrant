@@ -1,18 +1,54 @@
 @mixin ni_visibility($parent) {
-  #{$parent} {
-    display: block !important;
-    visibility: visible;
-  }
-  table#{$parent}  { display: table; }
-  tr#{$parent}     { display: table-row !important; }
-  th#{$parent},
-  td#{$parent}     { display: table-cell !important; }
+    #{$parent} {
+        display: block !important;
+        visibility: visible;
+    }
+    table#{$parent}  { display: table; }
+    tr#{$parent}     { display: table-row !important; }
+    th#{$parent},
+    td#{$parent}     { display: table-cell !important; }
 }
 
 // [converter] $parent hack
 @mixin ni_invisibility($parent) {
-  #{$parent} {
-    display: none !important;
-    visibility: hidden;
-  }
+    #{$parent} {
+        display: none !important;
+        visibility: hidden;
+    }
+}
+
+@mixin width_rem($px) {
+    width: $px * 1px;
+    width: px_rem($px);
+}
+
+@mixin height_rem($px) {
+    height: $px * 1px;
+    height: px_rem($px);
+}
+
+@mixin min_width_rem($px) {
+    min-width: $px * 1px;
+    min-width: px_rem($px);
+}
+
+@mixin min_height_rem($px) {
+    min-height: $px * 1px;
+    min-height: px_rem($px);
+}
+
+@mixin max_width_rem($px) {
+    max-width: $px * 1px;
+    max-width: px_rem($px);
+}
+
+@mixin max_height_rem($px) {
+    max-height: $px * 1px;
+    max-height: px_rem($px);
+}
+
+@mixin line_clamp() {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }

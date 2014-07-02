@@ -27,21 +27,38 @@
 	},
     "fib-imgs" : {
         "large" : {
-            "high" : "http://placehold.it/540x360/990000/png/&text=high%20res%20540x360",
-            "low" : "http://placehold.it/540x360/990000/png/&text=low%20res%20540x360",
+            "high" : "http://placehold.it/1080x720/444/png/&text=high%20res%201080x720",
+            "low" : "http://placehold.it/540x360/444/png/&text=low%20res%20540x360",
             "alt" : "large image"
         },
         "medium" : {
-            "high" : "http://placehold.it/360x180/229944/png/&text=high%20res%20360x180",
-            "low" : "http://placehold.it/360x180/229944/png/&text=low%20res%20360x180",
+            "high" : "http://placehold.it/720x360/ccc/png/&text=high%20res%20720x360",
+            "low" : "http://placehold.it/360x180/ccc/png/&text=low%20res%20360x180",
             "alt" : "medium image"
         },
         "small" : {
-            "high" : "http://placehold.it/180x180/4400ff/png/&text=high%20res%20180x180",
-            "low" : "http://placehold.it/180x180/4400ff/png/&text=low%20res%20180x180",
-            "high-dark" : "http://placehold.it/180x180/4400bb/png/&text=high%20res%20180x180",
-            "low-dark" : "http://placehold.it/180x180/4400bb/png/&text=low%20res%20180x180",
+            "high" : "http://placehold.it/360x360/999/png/&text=high%20res%20360x360",
+            "low" : "http://placehold.it/180x180/999/png/&text=low%20res%20180x180",
+            "high-dark" : "http://placehold.it/360x360/666/png/&text=high%20res%20360x360",
+            "low-dark" : "http://placehold.it/180x180/666/png/&text=low%20res%20180x180",
             "alt" : "small image"
+        }
+    },
+    "list-imgs" : {
+        "large" : {
+            "high" : "http://placehold.it/180x180/999/png/&text=high%20res%20180x180",
+            "low" : "http://placehold.it/180x180/999/png/&text=low%20res%20180x180",
+            "alt" : ""
+        },
+        "medium" : {
+            "high" : "http://placehold.it/180x180/999/png/&text=high%20res%20180x180",
+            "low" : "http://placehold.it/180x180/999/png/&text=low%20res%20180x180",
+            "alt" : ""
+        },
+        "small" : {
+            "high" : "http://placehold.it/500x300/999/png/&text=high%20res%20500x300",
+            "low" : "http://placehold.it/250x150/999/png/&text=low%20res%20250x150",
+            "alt" : ""
         }
     },
 	"headline" : {

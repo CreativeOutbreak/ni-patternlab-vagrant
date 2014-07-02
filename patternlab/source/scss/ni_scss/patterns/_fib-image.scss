@@ -1,7 +1,9 @@
 #ni {
     
     .fib-image {
-        width:100%;
+        padding-top: 44px;
+        padding-top: px_rem(44);
+        width: 100%;
         @include clearfix();
     }
     
