@@ -1,6 +1,15 @@
 
-	<!--DO NOT REMOVE-->
-	{% pattern-lab-foot %}
-
-	</body>
+        <!--DO NOT REMOVE-->
+        {% pattern-lab-foot %}
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/jqueryui/jquery-ui.min.js"></script>
+        <script>
+            var init = function() {
+                console.log('********* tabs loaded *********');
+                $( "#tabs" ).tabs();
+                console.log('********* tabs loaded *********');
+            }
+            $(document).ready(init);
+        </script>
+    </body>
 </html>

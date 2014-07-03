@@ -1,7 +1,11 @@
 #ni {
+    
+    .pagination ol, .pagination li, .pagination a {
+        margin-left: 0;
+    }
 
     .pagination {
-        @include max_width_rem(484);
+        @include max_width_rem(495);
         @include center-block();
     }
 }

@@ -1,10 +1,19 @@
 #ni {
     
     .fib-image {
-        padding-top: 44px;
-        padding-top: px_rem(44);
+        padding-top: 43px;
+        padding-top: px_rem(43);
         width: 100%;
         @include clearfix();
+        border: 1px solid #000;
+    }
+
+    .fib-image picture {
+        border: none;
+    }
+
+    .fib-box picture {
+        border-left: 1px solid #000;
     }
     
     .fib-pic img, .fib-box img {
