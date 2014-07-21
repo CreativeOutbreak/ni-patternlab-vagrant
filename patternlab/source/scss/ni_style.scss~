@@ -48,8 +48,6 @@
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
 
-// Sasslines
-//@import "sasslines/assets/sass/style";
 
 // New Internationalist styling
 //@import "ni_scss/variables";
