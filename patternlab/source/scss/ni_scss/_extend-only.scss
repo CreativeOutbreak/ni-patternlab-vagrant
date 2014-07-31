@@ -1,0 +1,17 @@
+/**
+ **  NI Extend-Only
+ **  These classes are only extended!
+ **  None of these classes are rendered.
+ **
+ *******************************************/
+
+%title {
+    color: #fff;
+    display: inline-block;
+    width: auto;
+    @include mod_rem("padding", 5);
+    @include mod_rem("margin-left", 20);
+    @include vendor("box-shadow",-3px 3px 3px rgba(0,0,0,0.4));
+    font: $title-font;
+    text-shadow: -1px 1px 2px rgba(0,0,0,0.4);
+}

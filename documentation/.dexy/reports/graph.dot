@@ -1,0 +1,12 @@
+digraph G {
+"BundleNode(screenshots)" -> "Doc(screenshots.js|casperjs)";
+"BundleNode(partials)" -> "PatternNode(_*.html)";
+"BundleNode(assets)" -> "PatternNode(*.css)";
+"BundleNode(assets)" -> "PatternNode(*.js)";
+"BundleNode(assets)" -> "PatternNode(*.png)";
+"BundleNode(assets)" -> "PatternNode(*.jpg)";
+"BundleNode(partials)" -> "PatternNode(_*.html)";
+"Doc(guidelines.markdown|pandoc|hd|ft|jinja)" -> "BundleNode(partials)";
+"BundleNode(screenshots)" -> "Doc(screenshots.js|casperjs)";
+"Doc(guidelines.markdown|pandoc|hd|ft|jinja)" -> "BundleNode(screenshots)";
+}

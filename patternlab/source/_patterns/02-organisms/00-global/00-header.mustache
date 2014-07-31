@@ -1,9 +1,11 @@
 <!-- Begin .header -->
 <header class="header cf" role="banner">
 	{{> atoms-logo }}
-	<a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a>
-	<a href="#nav" class="nav-toggle nav-toggle-menu icon-menu"><span class="is-vishidden">Menu</span></a>
-	{{> molecules-primary-nav }}
-	{{> molecules-search }}
+	<!-- <a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a> -->
+	
+	<!-- {{> molecules-search }} -->
+    <a id="nav-open-btn" href="#nav"><span class="screen-reader">Main Navigation</span> <i class="fa fa-bars" ></i></a>
+
 </header>
+{{> molecules-primary-nav }}
 <!-- End .header -->

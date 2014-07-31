@@ -1,0 +1,2110 @@
+(dp1
+S'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/build/minify.js'
+p2
+V[["environment", {}]]
+p3
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/hybi_parser_spec.js'
+p4
+V[["environment", {}]]
+p5
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/index.js'
+p6
+V[["environment", {}]]
+p7
+sS'doc:node_modules/grunt/node_modules/lodash/lodash.min.js'
+p8
+V[["environment", {}]]
+p9
+sS'doc:node_modules/grunt/node_modules/glob/node_modules/graceful-fs/graceful-fs.js'
+p10
+V[["environment", {}]]
+p11
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore.js'
+p12
+V[["environment", {}]]
+p13
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/examples.js'
+p14
+V[["environment", {}]]
+p15
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/examples.js'
+p16
+V[["environment", {}]]
+p17
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/fstream.js'
+p18
+V[["environment", {}]]
+p19
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/root.js'
+p20
+V[["environment", {}]]
+p21
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/objects.js'
+p22
+V[["environment", {}]]
+p23
+sS'doc:node_modules/grunt/node_modules/minimatch/node_modules/sigmund/bench.js'
+p24
+V[["environment", {}]]
+p25
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/global-header-writer.js'
+p26
+V[["environment", {}]]
+p27
+sS'doc:node_modules/grunt/node_modules/js-yaml/examples/dumper.js'
+p28
+V[["environment", {}]]
+p29
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/graceful-fs/graceful-fs.js'
+p30
+V[["environment", {}]]
+p31
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/test/index.js'
+p32
+V[["environment", {}]]
+p33
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/underscore.js'
+p34
+V[["environment", {}]]
+p35
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js'
+p36
+V[["environment", {}]]
+p37
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/chaining.js'
+p38
+V[["environment", {}]]
+p39
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/extended-header.js'
+p40
+V[["environment", {}]]
+p41
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js'
+p42
+V[["environment", {}]]
+p43
+sS'doc:node_modules/grunt/node_modules/hooker/dist/ba-hooker.js'
+p44
+V[["environment", {}]]
+p45
+sS'doc:node_modules/grunt/node_modules/nopt/bin/nopt.js'
+p46
+V[["environment", {}]]
+p47
+sS'doc:node_modules/grunt/node_modules/lodash/build/post-compile.js'
+p48
+V[["environment", {}]]
+p49
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/arrays.js'
+p50
+V[["environment", {}]]
+p51
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/tar.js'
+p52
+V[["environment", {}]]
+p53
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/proxy-writer.js'
+p54
+V[["environment", {}]]
+p55
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/lib/helper.js'
+p56
+V[["environment", {}]]
+p57
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/util/extend.js'
+p58
+V[["environment", {}]]
+p59
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/collections.js'
+p60
+V[["environment", {}]]
+p61
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/client_spec.js'
+p62
+V[["environment", {}]]
+p63
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/link-writer.js'
+p64
+V[["environment", {}]]
+p65
+sS'doc:node_modules/grunt/node_modules/minimatch/minimatch.js'
+p66
+V[["environment", {}]]
+p67
+sS'doc:node_modules/grunt/node_modules/glob/test/00-setup.js'
+p68
+V[["environment", {}]]
+p69
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/build.js'
+p70
+V[["environment", {}]]
+p71
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/collectable.js'
+p72
+V[["environment", {}]]
+p73
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/index.js'
+p74
+V[["environment", {}]]
+p75
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv-child.js'
+p76
+V[["environment", {}]]
+p77
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/mocha.css'
+p78
+V[["environment", {}]]
+p79
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/qunit/qunit/qunit.js'
+p80
+V[["environment", {}]]
+p81
+sS'doc:node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.js'
+p82
+V[["environment", {}]]
+p83
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/dumper.js'
+p84
+V[["environment", {}]]
+p85
+sS'doc:node_modules/grunt/lib/grunt.js'
+p86
+V[["environment", {}]]
+p87
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/strings_standalone.js'
+p88
+V[["environment", {}]]
+p89
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/set.js'
+p90
+V[["environment", {}]]
+p91
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/repl.js'
+p92
+V[["environment", {}]]
+p93
+sS'doc:screenshots/_patterns_03-templates-03-ni-blog_03-templates-03-ni-blog.html1200.png'
+p94
+V[["environment", {}]]
+p95
+sS'doc:node_modules/grunt/node_modules/rimraf/test/test-async.js'
+p96
+V[["environment", {}]]
+p97
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.min.js'
+p98
+V[["environment", {}]]
+p99
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/brace-expand.js'
+p100
+V[["environment", {}]]
+p101
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/speed.js'
+p102
+V[["environment", {}]]
+p103
+sS'doc:node_modules/grunt/lib/grunt/task.js'
+p104
+V[["environment", {}]]
+p105
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/client.js'
+p106
+V[["environment", {}]]
+p107
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/client.js'
+p108
+V[["environment", {}]]
+p109
+sS'doc:node_modules/grunt/node_modules/findup-sync/Gruntfile.js'
+p110
+V[["environment", {}]]
+p111
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/version.js'
+p112
+V[["environment", {}]]
+p113
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/basic.js'
+p114
+V[["environment", {}]]
+p115
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/draft75_parser.js'
+p116
+V[["environment", {}]]
+p117
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/pack.js'
+p118
+V[["environment", {}]]
+p119
+sS'doc:node_modules/grunt-contrib-watch/node_modules/async/lib/async.js'
+p120
+V[["environment", {}]]
+p121
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/index.js'
+p122
+V[["environment", {}]]
+p123
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/dist/underscore.string.min.js'
+p124
+V[["environment", {}]]
+p125
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/mark.js'
+p126
+V[["environment", {}]]
+p127
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits_browser.js'
+p128
+V[["environment", {}]]
+p129
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/strings_standalone.js'
+p130
+V[["environment", {}]]
+p131
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.js'
+p132
+V[["environment", {}]]
+p133
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/functions.js'
+p134
+V[["environment", {}]]
+p135
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js'
+p136
+V[["environment", {}]]
+p137
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/mkdirp/index.js'
+p138
+V[["environment", {}]]
+p139
+sS'doc:node_modules/grunt/node_modules/glob/test/zz-cleanup.js'
+p140
+V[["environment", {}]]
+p141
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/spawn-multibyte.js'
+p142
+V[["environment", {}]]
+p143
+sS'doc:node_modules/grunt/node_modules/glob/test/root-nomount.js'
+p144
+V[["environment", {}]]
+p145
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/index.js'
+p146
+V[["environment", {}]]
+p147
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js'
+p148
+V[["environment", {}]]
+p149
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/count.js'
+p150
+V[["environment", {}]]
+p151
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/parser.js'
+p152
+V[["environment", {}]]
+p153
+sS'doc:node_modules/grunt/node_modules/minimatch/test/basic.js'
+p154
+V[["environment", {}]]
+p155
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/true.js'
+p156
+V[["environment", {}]]
+p157
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/nodes.js'
+p158
+V[["environment", {}]]
+p159
+sS'doc:node_modules/grunt/node_modules/lodash/build.js'
+p160
+V[["environment", {}]]
+p161
+sS'doc:node_modules/grunt/node_modules/colors/colors.js'
+p162
+V[["environment", {}]]
+p163
+sS'doc:node_modules/grunt/node_modules/minimatch/test/brace-expand.js'
+p164
+V[["environment", {}]]
+p165
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/reader.js'
+p166
+V[["environment", {}]]
+p167
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.min.js'
+p168
+V[["environment", {}]]
+p169
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.underscore.min.js'
+p170
+V[["environment", {}]]
+p171
+sS'pattern:*.png'
+p172
+V[["environment", {}]]
+p173
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/caching.js'
+p174
+V[["environment", {}]]
+p175
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema.js'
+p176
+V[["environment", {}]]
+p177
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/build/pre-compile.js'
+p178
+V[["environment", {}]]
+p179
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/mocha.js'
+p180
+V[["environment", {}]]
+p181
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/00-setup.js'
+p182
+V[["environment", {}]]
+p183
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/index.js'
+p184
+V[["environment", {}]]
+p185
+sS'doc:node_modules/grunt/node_modules/colors/themes/winston-dark.js'
+p186
+V[["environment", {}]]
+p187
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api/event.js'
+p188
+V[["environment", {}]]
+p189
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-execArgv.js'
+p190
+V[["environment", {}]]
+p191
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/link-reader.js'
+p192
+V[["environment", {}]]
+p193
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/collections.js'
+p194
+V[["environment", {}]]
+p195
+sS'doc:node_modules/grunt/lib/grunt/file.js'
+p196
+V[["environment", {}]]
+p197
+sS'doc:node_modules/grunt/node_modules/minimatch/node_modules/sigmund/test/basic.js'
+p198
+V[["environment", {}]]
+p199
+sS'doc:node_modules/grunt/node_modules/hooker/lib/hooker.js'
+p200
+V[["environment", {}]]
+p201
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/Gruntfile.js'
+p202
+V[["environment", {}]]
+p203
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml.js'
+p204
+V[["environment", {}]]
+p205
+sS'doc:node_modules/grunt/internal-tasks/subgrunt.js'
+p206
+V[["environment", {}]]
+p207
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/functions.js'
+p208
+V[["environment", {}]]
+p209
+sS'doc:node_modules/grunt/node_modules/rimraf/test/test-sync.js'
+p210
+V[["environment", {}]]
+p211
+sS'doc:node_modules/grunt/node_modules/lodash/index.js'
+p212
+V[["environment", {}]]
+p213
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/subparsers.js'
+p214
+V[["environment", {}]]
+p215
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/omap.js'
+p216
+V[["environment", {}]]
+p217
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/eventsource.js'
+p218
+V[["environment", {}]]
+p219
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/speed.js'
+p220
+V[["environment", {}]]
+p221
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/bench.js'
+p222
+V[["environment", {}]]
+p223
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/server.js'
+p224
+V[["environment", {}]]
+p225
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/graceful-fs/graceful-fs.js'
+p226
+V[["environment", {}]]
+p227
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/namespace.js'
+p228
+V[["environment", {}]]
+p229
+sS'pattern:*.js'
+p230
+V[["environment", {}]]
+p231
+sS'doc:node_modules/grunt/node_modules/nopt/lib/nopt.js'
+p232
+V[["environment", {}]]
+p233
+sS'doc:node_modules/grunt/node_modules/hooker/child.js'
+p234
+V[["environment", {}]]
+p235
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/chaining.js'
+p236
+V[["environment", {}]]
+p237
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/run-qunit.js'
+p238
+V[["environment", {}]]
+p239
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/stream_reader.js'
+p240
+V[["environment", {}]]
+p241
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/lodash.js'
+p242
+V[["environment", {}]]
+p243
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store.js'
+p244
+V[["environment", {}]]
+p245
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/test/fixtures/expand/css/baz.css'
+p246
+V[["environment", {}]]
+p247
+sS'doc:node_modules/grunt/node_modules/colors/themes/winston-light.js'
+p248
+V[["environment", {}]]
+p249
+sS'doc:node_modules/grunt-contrib-watch/tasks/lib/taskrun.js'
+p250
+V[["environment", {}]]
+p251
+sS'doc:screenshots.js|casperjs'
+p252
+V[["environment", {}]]
+p253
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/lib/gaze.js'
+p254
+V[["environment", {}]]
+p255
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp.js'
+p256
+V[["environment", {}]]
+p257
+sS'bundle:partials'
+p258
+V[["environment", {}]]
+p259
+sS'doc:screenshots/_patterns_04-pages-03-ni-blog_04-pages-03-ni-blog.html900.png'
+p260
+V[["environment", {}]]
+p261
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/loader.js'
+p262
+V[["environment", {}]]
+p263
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/common.js'
+p264
+V[["environment", {}]]
+p265
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/js/function.js'
+p266
+V[["environment", {}]]
+p267
+sS'doc:node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.min.js'
+p268
+V[["environment", {}]]
+p269
+sS'doc:node_modules/grunt/node_modules/iconv-lite/index.js'
+p270
+V[["environment", {}]]
+p271
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/group.js'
+p272
+V[["environment", {}]]
+p273
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/objects.js'
+p274
+V[["environment", {}]]
+p275
+sS'doc:node_modules/grunt/node_modules/findup-sync/lib/findup-sync.js'
+p276
+V[["environment", {}]]
+p277
+sS'doc:node_modules/grunt/node_modules/glob/test/bash-comparison.js'
+p278
+V[["environment", {}]]
+p279
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.compat.js'
+p280
+V[["environment", {}]]
+p281
+sS'doc:node_modules/grunt/node_modules/rimraf/rimraf.js'
+p282
+V[["environment", {}]]
+p283
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/dir-writer.js'
+p284
+V[["environment", {}]]
+p285
+sS'doc:screenshots.js'
+p286
+V[["environment", {}]]
+p287
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/speed.js'
+p288
+V[["environment", {}]]
+p289
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/speed.js'
+p290
+V[["environment", {}]]
+p291
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/test/index.js'
+p292
+V[["environment", {}]]
+p293
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/strings.js'
+p294
+V[["environment", {}]]
+p295
+sS'doc:node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.underscore.js'
+p296
+V[["environment", {}]]
+p297
+sS'doc:node_modules/grunt/node_modules/underscore.string/dist/underscore.string.min.js'
+p298
+V[["environment", {}]]
+p299
+sS'doc:screenshots/home1200.png'
+p300
+V[["environment", {}]]
+p301
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/block-stream/block-stream.js'
+p302
+V[["environment", {}]]
+p303
+sS'doc:node_modules/grunt/node_modules/iconv-lite/test/main-test.js'
+p304
+V[["environment", {}]]
+p305
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/dist/underscore.string.min.js'
+p306
+V[["environment", {}]]
+p307
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/runner.js'
+p308
+V[["environment", {}]]
+p309
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/lib/debug.js'
+p310
+V[["environment", {}]]
+p311
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/sigmund.js'
+p312
+V[["environment", {}]]
+p313
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action.js'
+p314
+V[["environment", {}]]
+p315
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket.js'
+p316
+V[["environment", {}]]
+p317
+sS'doc:node_modules/grunt/node_modules/dateformat/lib/dateformat.js'
+p318
+V[["environment", {}]]
+p319
+sS'doc:node_modules/grunt/lib/grunt/template.js'
+p320
+V[["environment", {}]]
+p321
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/entry-writer.js'
+p322
+V[["environment", {}]]
+p323
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js'
+p324
+V[["environment", {}]]
+p325
+sS'doc:node_modules/grunt/node_modules/iconv-lite/encodings/table/big5.js'
+p326
+V[["environment", {}]]
+p327
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/cake.js'
+p328
+V[["environment", {}]]
+p329
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/lib/underscore.string.js'
+p330
+V[["environment", {}]]
+p331
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/collect.js'
+p332
+V[["environment", {}]]
+p333
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esvalidate.js'
+p334
+V[["environment", {}]]
+p335
+sS'doc:node_modules/grunt/lib/grunt/event.js'
+p336
+V[["environment", {}]]
+p337
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/writer.js'
+p338
+V[["environment", {}]]
+p339
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/tasks/tiny-lr.js'
+p340
+V[["environment", {}]]
+p341
+sS'doc:node_modules/grunt/node_modules/glob/test/nocase-nomagic.js'
+p342
+V[["environment", {}]]
+p343
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/inherits/inherits.js'
+p344
+V[["environment", {}]]
+p345
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/index.js'
+p346
+V[["environment", {}]]
+p347
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/binary.js'
+p348
+V[["environment", {}]]
+p349
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/chaining.js'
+p350
+V[["environment", {}]]
+p351
+sS'doc:node_modules/grunt/node_modules/nopt/node_modules/abbrev/abbrev.js'
+p352
+V[["environment", {}]]
+p353
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/safe.js'
+p354
+V[["environment", {}]]
+p355
+sS'doc:node_modules/grunt/internal-tasks/bump.js'
+p356
+V[["environment", {}]]
+p357
+sS'doc:node_modules/grunt/node_modules/minimatch/test/defaults.js'
+p358
+V[["environment", {}]]
+p359
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/minimatch.js'
+p360
+V[["environment", {}]]
+p361
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/run-qunit.js'
+p362
+V[["environment", {}]]
+p363
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/globstar-match.js'
+p364
+V[["environment", {}]]
+p365
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/test/open.js'
+p366
+V[["environment", {}]]
+p367
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/collections.js'
+p368
+V[["environment", {}]]
+p369
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/brace-expand.js'
+p370
+V[["environment", {}]]
+p371
+sS'doc:node_modules/grunt/node_modules/getobject/Gruntfile.js'
+p372
+V[["environment", {}]]
+p373
+sS'doc:node_modules/grunt/node_modules/lodash/build/pre-compile.js'
+p374
+V[["environment", {}]]
+p375
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/build/post-compile.js'
+p376
+V[["environment", {}]]
+p377
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/underscore-min.js'
+p378
+V[["environment", {}]]
+p379
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/readme-issue.js'
+p380
+V[["environment", {}]]
+p381
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/dir-reader.js'
+p382
+V[["environment", {}]]
+p383
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/header.js'
+p384
+V[["environment", {}]]
+p385
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/collect.js'
+p386
+V[["environment", {}]]
+p387
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.js'
+p388
+V[["environment", {}]]
+p389
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/bin/esparse.js'
+p390
+V[["environment", {}]]
+p391
+sS'doc:node_modules/grunt/node_modules/glob/glob.js'
+p392
+V[["environment", {}]]
+p393
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api.js'
+p394
+V[["environment", {}]]
+p395
+sS'doc:screenshots/_patterns_03-templates-03-ni-blog_03-templates-03-ni-blog.html600.png'
+p396
+V[["environment", {}]]
+p397
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js'
+p398
+V[["environment", {}]]
+p399
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/extract.js'
+p400
+V[["environment", {}]]
+p401
+sS'doc:node_modules/grunt-contrib-watch/node_modules/lodash/lodash.js'
+p402
+V[["environment", {}]]
+p403
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/map.js'
+p404
+V[["environment", {}]]
+p405
+sS'doc:node_modules/grunt/node_modules/getobject/test/namespace_test.js'
+p406
+V[["environment", {}]]
+p407
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/lodash/lodash.js'
+p408
+V[["environment", {}]]
+p409
+sS'doc:node_modules/grunt/lib/grunt/config.js'
+p410
+V[["environment", {}]]
+p411
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/buffer-entry.js'
+p412
+V[["environment", {}]]
+p413
+sS'doc:node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js'
+p414
+V[["environment", {}]]
+p415
+sS'doc:node_modules/grunt/node_modules/iconv-lite/test/greek-test.js'
+p416
+V[["environment", {}]]
+p417
+sS'doc:node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js'
+p418
+V[["environment", {}]]
+p419
+sS'doc:node_modules/grunt/node_modules/underscore.string/lib/underscore.string.js'
+p420
+V[["environment", {}]]
+p421
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/fixtures/b.js'
+p422
+V[["environment", {}]]
+p423
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/index.js'
+p424
+V[["environment", {}]]
+p425
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/test/test-build.js'
+p426
+V[["environment", {}]]
+p427
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/speed.js'
+p428
+V[["environment", {}]]
+p429
+sS'doc:_header.html'
+p430
+V[["environment", {}]]
+p431
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/test/ulimit.js'
+p432
+V[["environment", {}]]
+p433
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/utility.js'
+p434
+V[["environment", {}]]
+p435
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.js'
+p436
+V[["environment", {}]]
+p437
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/jquery.js'
+p438
+V[["environment", {}]]
+p439
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/pause-resume.js'
+p440
+V[["environment", {}]]
+p441
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings.js'
+p442
+V[["environment", {}]]
+p443
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/speed.js'
+p444
+V[["environment", {}]]
+p445
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/test/globule_test.js'
+p446
+V[["environment", {}]]
+p447
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/buffer-entry.js'
+p448
+V[["environment", {}]]
+p449
+sS'doc:node_modules/grunt/node_modules/glob/node_modules/inherits/inherits.js'
+p450
+V[["environment", {}]]
+p451
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/reader.js'
+p452
+V[["environment", {}]]
+p453
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/extended-header-writer.js'
+p454
+V[["environment", {}]]
+p455
+sS'doc:node_modules/grunt/node_modules/iconv-lite/generation/generate-big5-table.js'
+p456
+V[["environment", {}]]
+p457
+sS'doc:node_modules/grunt/node_modules/rimraf/bin.js'
+p458
+V[["environment", {}]]
+p459
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/bool.js'
+p460
+V[["environment", {}]]
+p461
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/rimraf/rimraf.js'
+p462
+V[["environment", {}]]
+p463
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/perf/perf.js'
+p464
+V[["environment", {}]]
+p465
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/fixtures/a.js'
+p466
+V[["environment", {}]]
+p467
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/lexer.js'
+p468
+V[["environment", {}]]
+p469
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js'
+p470
+V[["environment", {}]]
+p471
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/defaults.js'
+p472
+V[["environment", {}]]
+p473
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/str.js'
+p474
+V[["environment", {}]]
+p475
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/socket-reader.js'
+p476
+V[["environment", {}]]
+p477
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/error.js'
+p478
+V[["environment", {}]]
+p479
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/dir-reader.js'
+p480
+V[["environment", {}]]
+p481
+sS'doc:node_modules/grunt/node_modules/iconv-lite/encodings/gbk.js'
+p482
+V[["environment", {}]]
+p483
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/basic.js'
+p484
+V[["environment", {}]]
+p485
+sS'doc:node_modules/grunt/node_modules/hooker/test/hooker_test.js'
+p486
+V[["environment", {}]]
+p487
+sS'doc:node_modules/grunt-contrib-compass/node_modules/dargs/dargs.js'
+p488
+V[["environment", {}]]
+p489
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/get-type.js'
+p490
+V[["environment", {}]]
+p491
+sS'doc:node_modules/grunt/node_modules/eventemitter2/index.js'
+p492
+V[["environment", {}]]
+p493
+sS'doc:node_modules/grunt/node_modules/lodash/lodash.underscore.js'
+p494
+V[["environment", {}]]
+p495
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/run-qunit.js'
+p496
+V[["environment", {}]]
+p497
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/examples/usr-local.js'
+p498
+V[["environment", {}]]
+p499
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/rewriter.js'
+p500
+V[["environment", {}]]
+p501
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/qunit.css'
+p502
+V[["environment", {}]]
+p503
+sS'doc:node_modules/grunt/node_modules/iconv-lite/test/gbk-test.js'
+p504
+V[["environment", {}]]
+p505
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/00-setup.js'
+p506
+V[["environment", {}]]
+p507
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/entry-writer.js'
+p508
+V[["environment", {}]]
+p509
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.underscore.min.js'
+p510
+V[["environment", {}]]
+p511
+sS'doc:node_modules/grunt/node_modules/minimatch/test/caching.js'
+p512
+V[["environment", {}]]
+p513
+sS'doc:node_modules/grunt/node_modules/exit/test/fixtures/log.js'
+p514
+V[["environment", {}]]
+p515
+sS'doc:css/style.css'
+p516
+V[["environment", {}]]
+p517
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sub_commands.js'
+p518
+V[["environment", {}]]
+p519
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/draft76parser_spec.js'
+p520
+V[["environment", {}]]
+p521
+sS'doc:node_modules/grunt/node_modules/nopt/node_modules/abbrev/test.js'
+p522
+V[["environment", {}]]
+p523
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/null.js'
+p524
+V[["environment", {}]]
+p525
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/extended-header-writer.js'
+p526
+V[["environment", {}]]
+p527
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js'
+p528
+V[["environment", {}]]
+p529
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.min.js'
+p530
+V[["environment", {}]]
+p531
+sS'doc:node_modules/grunt/node_modules/glob/examples/g.js'
+p532
+V[["environment", {}]]
+p533
+sS'doc:node_modules/grunt-contrib-watch/tasks/watch.js'
+p534
+V[["environment", {}]]
+p535
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/strings.js'
+p536
+V[["environment", {}]]
+p537
+sS'doc:node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/foreach.js'
+p538
+V[["environment", {}]]
+p539
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/help.js'
+p540
+V[["environment", {}]]
+p541
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/header.js'
+p542
+V[["environment", {}]]
+p543
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/caching.js'
+p544
+V[["environment", {}]]
+p545
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/choice.js'
+p546
+V[["environment", {}]]
+p547
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/dir-writer.js'
+p548
+V[["environment", {}]]
+p549
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/test/test.js'
+p550
+V[["environment", {}]]
+p551
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/added_formatters.js'
+p552
+V[["environment", {}]]
+p553
+sS'doc:node_modules/grunt/node_modules/dateformat/test/test_weekofyear.js'
+p554
+V[["environment", {}]]
+p555
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.compat.js'
+p556
+V[["environment", {}]]
+p557
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/test/extglob-ending-with-state-char.js'
+p558
+V[["environment", {}]]
+p559
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/utility.js'
+p560
+V[["environment", {}]]
+p561
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/require.js'
+p562
+V[["environment", {}]]
+p563
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/qs.js'
+p564
+V[["environment", {}]]
+p565
+sS'doc:node_modules/grunt/node_modules/js-yaml/index.js'
+p566
+V[["environment", {}]]
+p567
+sS'doc:node_modules/grunt/node_modules/glob/node_modules/graceful-fs/test/open.js'
+p568
+V[["environment", {}]]
+p569
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/underscore.js'
+p570
+V[["environment", {}]]
+p571
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append.js'
+p572
+V[["environment", {}]]
+p573
+sS'doc:node_modules/grunt/node_modules/glob/test/mark.js'
+p574
+V[["environment", {}]]
+p575
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/Gruntfile.js'
+p576
+V[["environment", {}]]
+p577
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/utility.js'
+p578
+V[["environment", {}]]
+p579
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/global-header-writer.js'
+p580
+V[["environment", {}]]
+p581
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/entry.js'
+p582
+V[["environment", {}]]
+p583
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/actions/collectable.js'
+p584
+V[["environment", {}]]
+p585
+sS'doc:node_modules/grunt/node_modules/eventemitter2/lib/eventemitter2.js'
+p586
+V[["environment", {}]]
+p587
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/arrays.js'
+p588
+V[["environment", {}]]
+p589
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/helpers.js'
+p590
+V[["environment", {}]]
+p591
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/underscore.js'
+p592
+V[["environment", {}]]
+p593
+sS'doc:node_modules/grunt/node_modules/lodash/build/minify.js'
+p594
+V[["environment", {}]]
+p595
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/const.js'
+p596
+V[["environment", {}]]
+p597
+sS'doc:node_modules/grunt-contrib-compass/node_modules/async/lib/async.js'
+p598
+V[["environment", {}]]
+p599
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/entry.js'
+p600
+V[["environment", {}]]
+p601
+sS'doc:node_modules/grunt/node_modules/colors/example.js'
+p602
+V[["environment", {}]]
+p603
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/qs.css'
+p604
+V[["environment", {}]]
+p605
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.js'
+p606
+V[["environment", {}]]
+p607
+sS'doc:node_modules/grunt/node_modules/hooker/dist/ba-hooker.min.js'
+p608
+V[["environment", {}]]
+p609
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/constants.js'
+p610
+V[["environment", {}]]
+p611
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/file-reader.js'
+p612
+V[["environment", {}]]
+p613
+sS'doc:node_modules/grunt-contrib-watch/tasks/lib/taskrunner.js'
+p614
+V[["environment", {}]]
+p615
+sS'pattern:*.jpg'
+p616
+V[["environment", {}]]
+p617
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.min.js'
+p618
+V[["environment", {}]]
+p619
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/functions.js'
+p620
+V[["environment", {}]]
+p621
+sS'doc:node_modules/grunt/node_modules/iconv-lite/encodings/singlebyte.js'
+p622
+V[["environment", {}]]
+p623
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/proxy-reader.js'
+p624
+V[["environment", {}]]
+p625
+sS'doc:node_modules/grunt/node_modules/glob/test/cwd-test.js'
+p626
+V[["environment", {}]]
+p627
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root.js'
+p628
+V[["environment", {}]]
+p629
+sS'doc:node_modules/grunt/lib/grunt/fail.js'
+p630
+V[["environment", {}]]
+p631
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/api.js'
+p632
+V[["environment", {}]]
+p633
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/nargs.js'
+p634
+V[["environment", {}]]
+p635
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/foreach.js'
+p636
+V[["environment", {}]]
+p637
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js'
+p638
+V[["environment", {}]]
+p639
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/stat.js'
+p640
+V[["environment", {}]]
+p641
+sS'doc:node_modules/grunt/node_modules/glob/test/pause-resume.js'
+p642
+V[["environment", {}]]
+p643
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argparse.js'
+p644
+V[["environment", {}]]
+p645
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js'
+p646
+V[["environment", {}]]
+p647
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/jquery.js'
+p648
+V[["environment", {}]]
+p649
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/grammar.js'
+p650
+V[["environment", {}]]
+p651
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/sigmund/test/basic.js'
+p652
+V[["environment", {}]]
+p653
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument/exclusive.js'
+p654
+V[["environment", {}]]
+p655
+sS'doc:node_modules/grunt/lib/grunt/cli.js'
+p656
+V[["environment", {}]]
+p657
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/public/livereload.js'
+p658
+V[["environment", {}]]
+p659
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/default.js'
+p660
+V[["environment", {}]]
+p661
+sS'doc:node_modules/grunt/node_modules/exit/test/fixtures/log-broken.js'
+p662
+V[["environment", {}]]
+p663
+sS'doc:screenshots/_patterns_04-pages-03-ni-blog_04-pages-03-ni-blog.html400.png'
+p664
+V[["environment", {}]]
+p665
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/server.js'
+p666
+V[["environment", {}]]
+p667
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/test/fixtures/expand/css/qux.css'
+p668
+V[["environment", {}]]
+p669
+sS'doc:node_modules/grunt/node_modules/iconv-lite/encodings/big5.js'
+p670
+V[["environment", {}]]
+p671
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/merge.js'
+p672
+V[["environment", {}]]
+p673
+sS'doc:node_modules/grunt/node_modules/js-yaml/bin/js-yaml.js'
+p674
+V[["environment", {}]]
+p675
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/actions/commandable.js'
+p676
+V[["environment", {}]]
+p677
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/inherits.js'
+p678
+V[["environment", {}]]
+p679
+sS'doc:screenshots/_patterns_03-templates-03-ni-blog_03-templates-03-ni-blog.html400.png'
+p680
+V[["environment", {}]]
+p681
+sS'doc:node_modules/grunt/node_modules/hooker/grunt.js'
+p682
+V[["environment", {}]]
+p683
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/esprima.js'
+p684
+V[["environment", {}]]
+p685
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/socket-reader.js'
+p686
+V[["environment", {}]]
+p687
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/zz-cleanup.js'
+p688
+V[["environment", {}]]
+p689
+sS'doc:screenshots/_patterns_04-pages-03-ni-blog_04-pages-03-ni-blog.html600.png'
+p690
+V[["environment", {}]]
+p691
+sS'doc:screenshots/_patterns_04-pages-03-ni-blog_04-pages-03-ni-blog.html1200.png'
+p692
+V[["environment", {}]]
+p693
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/parse.js'
+p694
+V[["environment", {}]]
+p695
+sS'doc:node_modules/grunt-contrib-watch/tasks/lib/livereload.js'
+p696
+V[["environment", {}]]
+p697
+sS'doc:node_modules/grunt/node_modules/minimatch/node_modules/sigmund/sigmund.js'
+p698
+V[["environment", {}]]
+p699
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/arguments.js'
+p700
+V[["environment", {}]]
+p701
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/test/commandable.js'
+p702
+V[["environment", {}]]
+p703
+sS'doc:node_modules/grunt/node_modules/iconv-lite/encodings/table/gbk.js'
+p704
+V[["environment", {}]]
+p705
+sS'doc:node_modules/grunt/lib/grunt/help.js'
+p706
+V[["environment", {}]]
+p707
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/rimraf/rimraf.js'
+p708
+V[["environment", {}]]
+p709
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/vendor/qunit.css'
+p710
+V[["environment", {}]]
+p711
+sS'doc:node_modules/grunt/node_modules/glob/examples/usr-local.js'
+p712
+V[["environment", {}]]
+p713
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/index.js'
+p714
+V[["environment", {}]]
+p715
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/runner.js'
+p716
+V[["environment", {}]]
+p717
+sS'doc:node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.compat.min.js'
+p718
+V[["environment", {}]]
+p719
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.underscore.js'
+p720
+V[["environment", {}]]
+p721
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/file-reader.js'
+p722
+V[["environment", {}]]
+p723
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.js'
+p724
+V[["environment", {}]]
+p725
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/server.js'
+p726
+V[["environment", {}]]
+p727
+sS'doc:node_modules/grunt/node_modules/iconv-lite/test/turkish-test.js'
+p728
+V[["environment", {}]]
+p729
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/basic.js'
+p730
+V[["environment", {}]]
+p731
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/proxy-reader.js'
+p732
+V[["environment", {}]]
+p733
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/autobahn_client.js'
+p734
+V[["environment", {}]]
+p735
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/sum.js'
+p736
+V[["environment", {}]]
+p737
+sS'doc:node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/test/basic.js'
+p738
+V[["environment", {}]]
+p739
+sS'pattern:_*.html'
+p740
+V[["environment", {}]]
+p741
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action_container.js'
+p742
+V[["environment", {}]]
+p743
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/browser.js'
+p744
+V[["environment", {}]]
+p745
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/arrays.js'
+p746
+V[["environment", {}]]
+p747
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/zz-cleanup.js'
+p748
+V[["environment", {}]]
+p749
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/parse.js'
+p750
+V[["environment", {}]]
+p751
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/parse.js'
+p752
+V[["environment", {}]]
+p753
+sS'doc:screenshots/home400.png'
+p754
+V[["environment", {}]]
+p755
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/timestamp.js'
+p756
+V[["environment", {}]]
+p757
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/coffee-script.js'
+p758
+V[["environment", {}]]
+p759
+sS'doc:node_modules/grunt/node_modules/iconv-lite/test/cyrillic-test.js'
+p760
+V[["environment", {}]]
+p761
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/stringify.js'
+p762
+V[["environment", {}]]
+p763
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/schema/minimal.js'
+p764
+V[["environment", {}]]
+p765
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js'
+p766
+V[["environment", {}]]
+p767
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js'
+p768
+V[["environment", {}]]
+p769
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser/handshake.js'
+p770
+V[["environment", {}]]
+p771
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/glob.js'
+p772
+V[["environment", {}]]
+p773
+sS'bundle:screenshots'
+p774
+V[["environment", {}]]
+p775
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/testformatters.js'
+p776
+V[["environment", {}]]
+p777
+sS'doc:node_modules/grunt/node_modules/lodash/lodash.js'
+p778
+V[["environment", {}]]
+p779
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/parents.js'
+p780
+V[["environment", {}]]
+p781
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.underscore.js'
+p782
+V[["environment", {}]]
+p783
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/bin/nopt.js'
+p784
+V[["environment", {}]]
+p785
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/inherits/inherits.js'
+p786
+V[["environment", {}]]
+p787
+sS'doc:node_modules/grunt/lib/grunt/option.js'
+p788
+V[["environment", {}]]
+p789
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/constant.js'
+p790
+V[["environment", {}]]
+p791
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/test/fixtures/expand/js/bar.js'
+p792
+V[["environment", {}]]
+p793
+sS'doc:node_modules/grunt/node_modules/iconv-lite/generation/generate-singlebyte.js'
+p794
+V[["environment", {}]]
+p795
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/defaults.js'
+p796
+V[["environment", {}]]
+p797
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/lib/nopt.js'
+p798
+V[["environment", {}]]
+p799
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/index.js'
+p800
+V[["environment", {}]]
+p801
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/minimatch.js'
+p802
+V[["environment", {}]]
+p803
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/strings_standalone.js'
+p804
+V[["environment", {}]]
+p805
+sS'doc:_footer.html'
+p806
+V[["environment", {}]]
+p807
+sS'doc:node_modules/grunt/node_modules/findup-sync/test/findup-sync_test.js'
+p808
+V[["environment", {}]]
+p809
+sS'doc:screenshots/_patterns_03-templates-03-ni-blog_03-templates-03-ni-blog.html900.png'
+p810
+V[["environment", {}]]
+p811
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/link-writer.js'
+p812
+V[["environment", {}]]
+p813
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/proxy-writer.js'
+p814
+V[["environment", {}]]
+p815
+sS'doc:node_modules/grunt/node_modules/lodash/lodash.underscore.min.js'
+p816
+V[["environment", {}]]
+p817
+sS'doc:node_modules/grunt/node_modules/minimatch/test/extglob-ending-with-state-char.js'
+p818
+V[["environment", {}]]
+p819
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/hybi_parser.js'
+p820
+V[["environment", {}]]
+p821
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/platform.js/platform.js'
+p822
+V[["environment", {}]]
+p823
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/prefix_chars.js'
+p824
+V[["environment", {}]]
+p825
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/abbrev.js'
+p826
+V[["environment", {}]]
+p827
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/qunit.css'
+p828
+V[["environment", {}]]
+p829
+sS'doc:node_modules/grunt/node_modules/hooker/parent.js'
+p830
+V[["environment", {}]]
+p831
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/test/fixtures/expand/js/foo.js'
+p832
+V[["environment", {}]]
+p833
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/compat.js'
+p834
+V[["environment", {}]]
+p835
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/graceful-fs/graceful-fs.js'
+p836
+V[["environment", {}]]
+p837
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/scope.js'
+p838
+V[["environment", {}]]
+p839
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/file-writer.js'
+p840
+V[["environment", {}]]
+p841
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/command.js'
+p842
+V[["environment", {}]]
+p843
+sS'bundle:assets'
+p844
+V[["environment", {}]]
+p845
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/lib/extended-header.js'
+p846
+V[["environment", {}]]
+p847
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/test/browser/expect.js'
+p848
+V[["environment", {}]]
+p849
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js'
+p850
+V[["environment", {}]]
+p851
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/tar.js'
+p852
+V[["environment", {}]]
+p853
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/get-type.js'
+p854
+V[["environment", {}]]
+p855
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/link-reader.js'
+p856
+V[["environment", {}]]
+p857
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/glob.js'
+p858
+V[["environment", {}]]
+p859
+sS'doc:node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.underscore.min.js'
+p860
+V[["environment", {}]]
+p861
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/float.js'
+p862
+V[["environment", {}]]
+p863
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/store/false.js'
+p864
+V[["environment", {}]]
+p865
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/reflect.js'
+p866
+V[["environment", {}]]
+p867
+sS'doc:node_modules/grunt/node_modules/exit/test/exit_test.js'
+p868
+V[["environment", {}]]
+p869
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action/append/constant.js'
+p870
+V[["environment", {}]]
+p871
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/spec/faye/websocket/draft75parser_spec.js'
+p872
+V[["environment", {}]]
+p873
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/lib/faye/websocket/draft76_parser.js'
+p874
+V[["environment", {}]]
+p875
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/extract.js'
+p876
+V[["environment", {}]]
+p877
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/cwd-test.js'
+p878
+V[["environment", {}]]
+p879
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/qunit-clib/qunit-clib.js'
+p880
+V[["environment", {}]]
+p881
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.min.js'
+p882
+V[["environment", {}]]
+p883
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/lib/pack.js'
+p884
+V[["environment", {}]]
+p885
+sS'doc:node_modules/grunt/node_modules/colors/test.js'
+p886
+V[["environment", {}]]
+p887
+sS'doc:node_modules/grunt-contrib-compass/tasks/lib/compass.js'
+p888
+V[["environment", {}]]
+p889
+sS'doc:guidelines.markdown|pandoc|hd|ft|jinja'
+p890
+V[["environment", {}]]
+p891
+sS'doc:node_modules/grunt/node_modules/exit/lib/exit.js'
+p892
+V[["environment", {}]]
+p893
+sS'doc:node_modules/grunt/node_modules/glob/test/root.js'
+p894
+V[["environment", {}]]
+p895
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/nocase-nomagic.js'
+p896
+V[["environment", {}]]
+p897
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/test/extglob-ending-with-state-char.js'
+p898
+V[["environment", {}]]
+p899
+sS'doc:node_modules/grunt/node_modules/iconv-lite/test/performance.js'
+p900
+V[["environment", {}]]
+p901
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/qunit.js'
+p902
+V[["environment", {}]]
+p903
+sS'doc:Gruntfile.js'
+p904
+V[["environment", {}]]
+p905
+sS'doc:node_modules/grunt/node_modules/which/which.js'
+p906
+V[["environment", {}]]
+p907
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/examples/help.js'
+p908
+V[["environment", {}]]
+p909
+sS'doc:node_modules/grunt/node_modules/getobject/lib/getobject.js'
+p910
+V[["environment", {}]]
+p911
+sS'doc:node_modules/grunt/node_modules/iconv-lite/test/big5-test.js'
+p912
+V[["environment", {}]]
+p913
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/underscore/underscore.js'
+p914
+V[["environment", {}]]
+p915
+sS'doc:node_modules/grunt/node_modules/js-yaml/examples/sample_document.js'
+p916
+V[["environment", {}]]
+p917
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/dist/lodash.underscore.js'
+p918
+V[["environment", {}]]
+p919
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/g.js'
+p920
+V[["environment", {}]]
+p921
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.min.js'
+p922
+V[["environment", {}]]
+p923
+sS'doc:screenshots/home900.png'
+p924
+V[["environment", {}]]
+p925
+sS'doc:node_modules/grunt/node_modules/js-yaml/examples/custom_types.js'
+p926
+V[["environment", {}]]
+p927
+sS'doc:node_modules/grunt-contrib-compass/tasks/compass.js'
+p928
+V[["environment", {}]]
+p929
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/spawn.js'
+p930
+V[["environment", {}]]
+p931
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js'
+p932
+V[["environment", {}]]
+p933
+sS'doc:node_modules/grunt/node_modules/async/lib/async.js'
+p934
+V[["environment", {}]]
+p935
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/run.js'
+p936
+V[["environment", {}]]
+p937
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/mark.js'
+p938
+V[["environment", {}]]
+p939
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/node_modules/inherits/inherits.js'
+p940
+V[["environment", {}]]
+p941
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/objects.js'
+p942
+V[["environment", {}]]
+p943
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/examples/my-program.js'
+p944
+V[["environment", {}]]
+p945
+sS'doc:node_modules/grunt/node_modules/coffee-script/lib/coffee-script/optparse.js'
+p946
+V[["environment", {}]]
+p947
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/writer.js'
+p948
+V[["environment", {}]]
+p949
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/node_modules/nopt/node_modules/abbrev/test.js'
+p950
+V[["environment", {}]]
+p951
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/minimatch/node_modules/lru-cache/test/foreach.js'
+p952
+V[["environment", {}]]
+p953
+sS'pattern:*.css'
+p954
+V[["environment", {}]]
+p955
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/lib/client.js'
+p956
+V[["environment", {}]]
+p957
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/benchmark.js'
+p958
+V[["environment", {}]]
+p959
+sS'doc:node_modules/grunt-contrib-watch/node_modules/lodash/dist/lodash.compat.js'
+p960
+V[["environment", {}]]
+p961
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/lodash/dist/lodash.compat.js'
+p962
+V[["environment", {}]]
+p963
+sS'doc:screenshots/home600.png'
+p964
+V[["environment", {}]]
+p965
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/root-nomount.js'
+p966
+V[["environment", {}]]
+p967
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/test/middleware.js'
+p968
+V[["environment", {}]]
+p969
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/root-nomount.js'
+p970
+V[["environment", {}]]
+p971
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/lib/globule.js'
+p972
+V[["environment", {}]]
+p973
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/exception.js'
+p974
+V[["environment", {}]]
+p975
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/int.js'
+p976
+V[["environment", {}]]
+p977
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/lib/abstract.js'
+p978
+V[["environment", {}]]
+p979
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/examples/g.js'
+p980
+V[["environment", {}]]
+p981
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/test/basic.js'
+p982
+V[["environment", {}]]
+p983
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/index.js'
+p984
+V[["environment", {}]]
+p985
+sS'doc:node_modules/grunt/lib/util/task.js'
+p986
+V[["environment", {}]]
+p987
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/mark.js'
+p988
+V[["environment", {}]]
+p989
+sS'doc:node_modules/grunt/node_modules/underscore.string/test/test_underscore/vendor/jquery.js'
+p990
+V[["environment", {}]]
+p991
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js'
+p992
+V[["environment", {}]]
+p993
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug/debug.js'
+p994
+V[["environment", {}]]
+p995
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/inherits/test.js'
+p996
+V[["environment", {}]]
+p997
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/pause-resume.js'
+p998
+V[["environment", {}]]
+p999
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type.js'
+p1000
+V[["environment", {}]]
+p1001
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/test/bash-comparison.js'
+p1002
+V[["environment", {}]]
+p1003
+sS'doc:node_modules/grunt/node_modules/async/index.js'
+p1004
+V[["environment", {}]]
+p1005
+sS'doc:node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/sigmund/test/basic.js'
+p1006
+V[["environment", {}]]
+p1007
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/mkdirp/index.js'
+p1008
+V[["environment", {}]]
+p1009
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/nocase-nomagic.js'
+p1010
+V[["environment", {}]]
+p1011
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-print-text.js'
+p1012
+V[["environment", {}]]
+p1013
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/lib/underscore.string.js'
+p1014
+V[["environment", {}]]
+p1015
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/pairs.js'
+p1016
+V[["environment", {}]]
+p1017
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/file-writer.js'
+p1018
+V[["environment", {}]]
+p1019
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/lodash.js'
+p1020
+V[["environment", {}]]
+p1021
+sS'doc:node_modules/grunt/node_modules/glob/node_modules/graceful-fs/test/ulimit.js'
+p1022
+V[["environment", {}]]
+p1023
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/noptify/util/index.js'
+p1024
+V[["environment", {}]]
+p1025
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/esprima/test/test.js'
+p1026
+V[["environment", {}]]
+p1027
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/bash-comparison.js'
+p1028
+V[["environment", {}]]
+p1029
+sS'doc:node_modules/grunt/node_modules/exit/Gruntfile.js'
+p1030
+V[["environment", {}]]
+p1031
+sS'doc:node_modules/grunt/node_modules/js-yaml/lib/js-yaml/type/seq.js'
+p1032
+V[["environment", {}]]
+p1033
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/benchmark.js/benchmark.js'
+p1034
+V[["environment", {}]]
+p1035
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/fstream/fstream.js'
+p1036
+V[["environment", {}]]
+p1037
+sS'doc:node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/help/formatter.js'
+p1038
+V[["environment", {}]]
+p1039
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/lodash/vendor/tar/vendor/fstream/lib/abstract.js'
+p1040
+V[["environment", {}]]
+p1041
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jquery.js'
+p1042
+V[["environment", {}]]
+p1043
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/node_modules/lodash/dist/lodash.compat.min.js'
+p1044
+V[["environment", {}]]
+p1045
+sS'doc:node_modules/grunt/node_modules/lodash/vendor/tar/vendor/block-stream/block-stream.js'
+p1046
+V[["environment", {}]]
+p1047
+sS'doc:node_modules/grunt/node_modules/grunt-legacy-log/Gruntfile.js'
+p1048
+V[["environment", {}]]
+p1049
+sS'doc:node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/faye-websocket/examples/client.js'
+p1050
+V[["environment", {}]]
+p1051
+sS'doc:node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule/node_modules/glob/test/cwd-test.js'
+p1052
+V[["environment", {}]]
+p1053
+sS'doc:node_modules/grunt/node_modules/nopt/examples/my-program.js'
+p1054
+V[["environment", {}]]
+p1055
+s.

@@ -11,8 +11,8 @@ module.exports = function(grunt) {
         compass: {                    // Task
             dist: {                   // Target
                 options: {            // Target options
-                    sassDir: 'source/scss',
-                    cssDir: 'public/css',
+                    sassDir: ['source/scss'],
+                    cssDir: ['public/css', "source/css"],
                     environment: 'production'
                 }
             }

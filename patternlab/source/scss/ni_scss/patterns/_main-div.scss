@@ -1,6 +1,12 @@
 #ni {
     [role="main"] {
         padding: 0;
-        text-align: center;
+        //text-align: center;
+        @include mod_rem("max-width", 1400);
+        @extend .align-center;
+        background-color: #ffffff;
+        @include mod_rem("padding-left", 30);
+        @include mod_rem("padding-right", 40);
+        
     }
 }

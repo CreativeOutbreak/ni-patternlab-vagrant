@@ -1,61 +1,24 @@
 // Core variables and mixins
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
 
-// Reset
-@import "bootstrap/normalize";
-@import "bootstrap/print";
-
-// Core CSS
-@import "bootstrap/scaffolding";
-@import "bootstrap/type";
-@import "bootstrap/code";
-@import "bootstrap/grid";
-@import "bootstrap/tables";
-@import "bootstrap/forms";
-@import "bootstrap/buttons";
-
-// Components
-@import "bootstrap/component-animations";
-@import "bootstrap/glyphicons";
-@import "bootstrap/dropdowns";
-@import "bootstrap/button-groups";
-@import "bootstrap/input-groups";
-@import "bootstrap/navs";
-@import "bootstrap/navbar";
-@import "bootstrap/breadcrumbs";
-@import "bootstrap/pagination";
-@import "bootstrap/pager";
-@import "bootstrap/labels";
-@import "bootstrap/badges";
-//@import "bootstrap/jumbotron";
-@import "bootstrap/thumbnails";
-@import "bootstrap/alerts";
-@import "bootstrap/progress-bars";
-@import "bootstrap/media";
-@import "bootstrap/list-group";
-@import "bootstrap/panels";
-@import "bootstrap/wells";
-@import "bootstrap/close";
-
-// Components w/ JavaScript
-//@import "bootstrap/modals";
-@import "bootstrap/tooltip";
-//@import "bootstrap/popovers";
-//@import "bootstrap/carousel";
-
-// Utility classes
-@import "bootstrap/utilities";
-@import "bootstrap/responsive-utilities";
 
 // Sasslines
 //@import "sasslines/assets/sass/style";
 
 // New Internationalist styling
-//@import "ni_scss/variables";
+@import "ni_scss/variables";
+
+// Concise css import
+@import "concise/scss/concise";
+
 @import "ni_scss/functions";
 @import "ni_scss/mixins";
-@import "ni_scss/responsive_utilities";
+// @import "ni_scss/responsive_utilities"; this is no longer used.
+@import "ni_scss/extend-only";
+
+@import "ni_scss/demo";
+
+//@import "oc-menu/step4";
+
 @import "ni_scss/base";
 @import "ni_scss/patterns/main-div";
 @import "ni_scss/patterns/color";
@@ -64,23 +27,39 @@
 @import "ni_scss/patterns/search";
 @import "ni_scss/patterns/primary-nav";
 @import "ni_scss/patterns/fib-image";
+@import "ni_scss/patterns/titles";
 @import "ni_scss/patterns/list-pic";
 @import "ni_scss/patterns/media-block";
 @import "ni_scss/patterns/post-list";
 @import "ni_scss/patterns/pagination";
 
+
+/*
+// Breakpoints
+$extra-small-start: 30em !default;  480px
+$small-start:       48em !default;  768px
+$medium-start:      60em !default;  960px
+$large-start:       70em !default;  1120px
+$extra-large-start: 80em !default;  1280px
+*/
+
+
+
 // > 480px
-@media (min-width: $screen-xs-min) {    
+@media (min-width: $extra-small-start) { //$screen-xs-min) {    
     @import "ni_scss/patterns/color-xs"; 
     @import "ni_scss/patterns/logo-xsup";
     @import "ni_scss/patterns/fib-image-xsup";
+    @import "ni_scss/patterns/titles-xsup";
 }
 
 // > 768px
-@media (min-width: $screen-sm-min) {
+@media (min-width: $small-start) { //$screen-sm-min) {
+    
     @import "ni_scss/patterns/logo-smup";
     @import "ni_scss/patterns/search-smup";
     @import "ni_scss/patterns/fib-image-smup";
+    @import "ni_scss/patterns/titles-smup";
 }
 
 // > 800px
@@ -94,20 +73,18 @@
 
 }
 
-// 768px -> 991px 
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-    //@import "ni_scss/color-sm";
-    //@import "ni_scss/patterns/search-sm";
-}
-
-// 992px -> 1199px 
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+// > 960px 
+@media (min-width: $medium-start) { 
     //@import "ni_scss/color-md";
     //@import "ni_scss/patterns/search-md";
 }
 
-// > 1200px 
-@media (min-width: $screen-lg-min) {
-    //@import "ni_scss/color-lg";
-    @import "ni_scss/patterns/logo-xl";
+// > 1120px 
+@media (min-width: $large-start) { 
+
+}
+
+// > 1280px 
+@media (min-width: $extra-large-start) { 
+
 }

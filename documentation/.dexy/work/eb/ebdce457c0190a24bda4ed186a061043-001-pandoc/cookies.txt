@@ -1,0 +1,2 @@
+[General]
+cookies="@Variant(\0\0\0\x7f\0\0\0\x16QList<QNetworkCookie>\0\0\0\0\x1\0\0\0\x1\0\0\0\x86__cfduid=d7c1a29c920e9c67198b620392cce27701406222131249; HttpOnly; expires=Mon, 23-Dec-2019 23:50:00 GMT; domain=.placehold.it; path=/)"

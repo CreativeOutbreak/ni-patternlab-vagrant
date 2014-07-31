@@ -1,0 +1,71 @@
+Sass::SyntaxError on line ["5"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_scss/_responsive_utilities.scss: Undefined variable: "$screen-xs-min".
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 5 of source/scss/ni_scss/_responsive_utilities.scss: Undefined variable: "$screen-xs-min".)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 2.755s at Fri Jul 25 2014 16:34:11 GMT+0100 (BST) - Waiting...
+>> File "source/scss/ni_style.scss" changed.
+Running "compass:dist" (compass) task
+Sass::SyntaxError on line ["14"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_scss/_extend-only.scss: Undefined mixin 'box-shadow'.
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 14 of source/scss/ni_scss/_extend-only.scss: Undefined mixin 'box-shadow'.)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 1.014s at Fri Jul 25 2014 16:34:48 GMT+0100 (BST) - Waiting...
+>> File "source/scss/ni_style.scss" changed.
+Running "compass:dist" (compass) task
+Sass::SyntaxError on line ["40"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_scss/patterns/_color.scss: Undefined variable: "$gray-dark".
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 40 of source/scss/ni_scss/patterns/_color.scss: Undefined variable: "$gray-dark".)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 1.043s at Fri Jul 25 2014 16:35:12 GMT+0100 (BST) - Waiting...
+>> File "source/scss/ni_style.scss" changed.
+Running "compass:dist" (compass) task
+Sass::SyntaxError on line ["4"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_scss/patterns/_logo.scss: Undefined mixin 'text-hide'.
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 4 of source/scss/ni_scss/patterns/_logo.scss: Undefined mixin 'text-hide'.)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 1.027s at Fri Jul 25 2014 16:35:24 GMT+0100 (BST) - Waiting...
+>> File "source/scss/ni_style.scss" changed.
+Running "compass:dist" (compass) task
+Sass::SyntaxError on line ["3"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_scss/patterns/_header.scss: Undefined variable: "$brand-primary".
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 3 of source/scss/ni_scss/patterns/_header.scss: Undefined variable: "$brand-primary".)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 0.964s at Fri Jul 25 2014 16:35:35 GMT+0100 (BST) - Waiting...
+>> File "source/scss/ni_style.scss" changed.
+Running "compass:dist" (compass) task
+Sass::SyntaxError on line ["9"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_scss/patterns/_fib-image.scss: Undefined mixin 'clearfix'.
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 9 of source/scss/ni_scss/patterns/_fib-image.scss: Undefined mixin 'clearfix'.)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 1.004s at Fri Jul 25 2014 16:35:44 GMT+0100 (BST) - Waiting...
+>> File "source/scss/ni_style.scss" changed.
+Running "compass:dist" (compass) task
+Sass::SyntaxError on line ["9"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_scss/patterns/_pagination.scss: Undefined mixin 'center-block'.
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 9 of source/scss/ni_scss/patterns/_pagination.scss: Undefined mixin 'center-block'.)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 1.033s at Fri Jul 25 2014 16:35:56 GMT+0100 (BST) - Waiting...
+>> File "source/scss/ni_style.scss" changed.
+Running "compass:dist" (compass) task
+Sass::SyntaxError on line ["78"] of /vagrant_projects/ni-patternlab-vagrant/patternlab/source/scss/ni_style.scss: Undefined variable: "$screen-xs-min".
+Run with --trace to see the full backtrace
+    error source/scss/ni_style.scss (Line 78: Undefined variable: "$screen-xs-min".)
+Warning: ↑ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 0.979s at Fri Jul 25 2014 16:36:13 GMT+0100 (BST) - Waiting...
+

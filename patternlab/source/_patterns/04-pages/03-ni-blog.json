@@ -1,38 +1,148 @@
 {
     "fib-imgs" : {
         "large" : {
-            "high" : "../../images/sample/ni/blog-9.jpg",
-            "low" : "../../images/sample/ni/blog-9.jpg",
+            "high" : "http://pattern/images/sample/ni/blog-9.jpg",
+            "low" : "http://pattern/images/sample/ni/blog-9.jpg",
             "alt" : "large image"
         },
         "medium" : {
-            "high" : "../../images/sample/ni/medium/blog-4.jpg",
-            "low" : "../../images/sample/ni/medium/blog-4.jpg",
+            "high" : "http://pattern/images/sample/ni/medium/blog-4.jpg",
+            "low" : "http://pattern/images/sample/ni/medium/blog-4.jpg",
             "alt" : "medium image"
         },
         "small" : {
-            "high" : "../../images/sample/ni/square/blog-5.jpg",
-            "low" : "../../images/sample/ni/square/blog-5.jpg",
-            "high-dark" : "../../images/sample/ni/square/blog-7.jpg",
-            "low-dark" : "../../images/sample/ni/square/blog-7.jpg",
+            "high" : "http://pattern/images/sample/ni/square/blog-5.jpg",
+            "low" : "http://pattern/images/sample/ni/square/blog-5.jpg",
+            "high-dark" : "http://pattern/images/sample/ni/square/blog-7.jpg",
+            "low-dark" : "http://pattern/images/sample/ni/square/blog-7.jpg",
             "alt" : "small image"
         }
     },
-    "list-imgs" : {
-                "large" : {
-                    "high" : "../../images/sample/ni/thumb/blog-2.jpg",
-                    "low" : "../../images/sample/ni/thumb/blog-2.jpg",
-                    "alt" : ""
+    "latest-posts" : [
+            {
+                "img" : {
+                    "large" : {
+                        "high" : "../../images/sample/ni/thumb/blog-0.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-0.jpg",
+                        "alt" : ""
+                    },
+                    "medium" : {
+                        "high" : "../../images/sample/ni/thumb/blog-0.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-0.jpg",
+                        "alt" : ""
+                    },
+                    "small" : {
+                        "high" : "../../images/sample/ni/square/blog-0.jpg",
+                        "low" : "../../images/sample/ni/square/blog-0.jpg",
+                        "alt" : ""
+                    }
                 },
-                "medium" : {
-                    "high" : "../../images/sample/ni/thumb/blog-2.jpg",
-                    "low" : "../../images/sample/ni/thumb/blog-2.jpg",
-                    "alt" : ""
+                "headline" : {
+				    "short" : "Navigate the Allegheny River"
+			    },
+			    "exerpt" : {
+				    "medium" : "The Allegheny River is a principal tributary of the Ohio River; it is located in the Eastern United States. The Allegheny River joins with the Monongahela River to form the Ohio River at the Point of Point State Park in Downtown Pittsburgh, Pennsylvania."
+			    }
+            },
+            {
+                "img" : {
+                    "large" : {
+                        "high" : "../../images/sample/ni/thumb/blog-1.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-1.jpg",
+                        "alt" : ""
+                    },
+                    "medium" : {
+                        "high" : "../../images/sample/ni/thumb/blog-1.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-1.jpg",
+                        "alt" : ""
+                    },
+                    "small" : {
+                        "high" : "../../images/sample/ni/square/blog-1.jpg",
+                        "low" : "../../images/sample/ni/square/blog-1.jpg",
+                        "alt" : ""
+                    }
                 },
-                "small" : {
-                    "high" : "../../images/sample/ni/thumb/blog-2.jpg",
-                    "low" : "../../images/sample/ni/thumb/blog-2.jpg",
-                    "alt" : ""
-                }
+                "headline" : {
+				    "short" : "Navigate the Allegheny River"
+			    },
+			    "exerpt" : {
+				    "medium" : "The Allegheny River is a principal tributary of the Ohio River; it is located in the Eastern United States. The Allegheny River joins with the Monongahela River to form the Ohio River at the Point of Point State Park in Downtown Pittsburgh, Pennsylvania."
+			    }
+            },
+            {
+                "img" : {
+                    "large" : {
+                        "high" : "../../images/sample/ni/thumb/blog-2.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-2.jpg",
+                        "alt" : ""
+                    },
+                    "medium" : {
+                        "high" : "../../images/sample/ni/thumb/blog-2.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-2.jpg",
+                        "alt" : ""
+                    },
+                    "small" : {
+                        "high" : "../../images/sample/ni/square/blog-2.jpg",
+                        "low" : "../../images/sample/ni/square/blog-2.jpg",
+                        "alt" : ""
+                    }
+                },
+                "headline" : {
+				    "short" : "Navigate the Allegheny River"
+			    },
+			    "exerpt" : {
+				    "medium" : "The Allegheny River is a principal tributary of the Ohio River; it is located in the Eastern United States. The Allegheny River joins with the Monongahela River to form the Ohio River at the Point of Point State Park in Downtown Pittsburgh, Pennsylvania."
+			    }
+            },
+            {
+                "img" : {
+                    "large" : {
+                        "high" : "../../images/sample/ni/thumb/blog-3.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-3.jpg",
+                        "alt" : ""
+                    },
+                    "medium" : {
+                        "high" : "../../images/sample/ni/thumb/blog-3.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-3.jpg",
+                        "alt" : ""
+                    },
+                    "small" : {
+                        "high" : "../../images/sample/ni/square/blog-3.jpg",
+                        "low" : "../../images/sample/ni/square/blog-3.jpg",
+                        "alt" : ""
+                    }
+                },
+                "headline" : {
+				    "short" : "Navigate the Allegheny River"
+			    },
+			    "exerpt" : {
+				    "medium" : "The Allegheny River is a principal tributary of the Ohio River; it is located in the Eastern United States. The Allegheny River joins with the Monongahela River to form the Ohio River at the Point of Point State Park in Downtown Pittsburgh, Pennsylvania."
+			    }
+            },
+            {
+                "img" : {
+                    "large" : {
+                        "high" : "../../images/sample/ni/thumb/blog-4.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-4.jpg",
+                        "alt" : ""
+                    },
+                    "medium" : {
+                        "high" : "../../images/sample/ni/thumb/blog-4.jpg",
+                        "low" : "../../images/sample/ni/thumb/blog-4.jpg",
+                        "alt" : ""
+                    },
+                    "small" : {
+                        "high" : "../../images/sample/ni/square/blog-4.jpg",
+                        "low" : "../../images/sample/ni/square/blog-4.jpg",
+                        "alt" : ""
+                    }
+                },
+                "headline" : {
+				    "short" : "Navigate the Allegheny River"
+			    },
+			    "exerpt" : {
+				    "medium" : "The Allegheny River is a principal tributary of the Ohio River; it is located in the Eastern United States. The Allegheny River joins with the Monongahela River to form the Ohio River at the Point of Point State Park in Downtown Pittsburgh, Pennsylvania."
+			    }
             }
+    ]
 }

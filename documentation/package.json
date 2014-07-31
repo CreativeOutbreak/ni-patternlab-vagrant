@@ -1,0 +1,32 @@
+{
+  "name": "ni-documentation",
+  "version": "0.0.0",
+  "description": "This is the documentation for the New Internationalist",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CreativeOutbreak/ni-documentation.git"
+  },
+  "keywords": [
+    "guidelines",
+    "newint",
+    "design"
+  ],
+  "author": "Peter Stewart (newint.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreativeOutbreak/ni-documentation/issues"
+  },
+  "homepage": "https://github.com/CreativeOutbreak/ni-documentation"
+}

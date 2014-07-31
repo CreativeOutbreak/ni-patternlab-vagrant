@@ -2,17 +2,21 @@
 	{{> organisms-header }}
     {{> molecules-fib-image-block }}
 	<div role="main">
-		<h1 class="section-title">Blog</h1>
-		<div class="l-two-col">
-			<div class="l-main">
-				{{> organisms-latest-posts }}
-				{{> molecules-pagination }}
-			</div><!--end l-main-->
+		<h1 class="blog-title">NI Blog</h1>
+            <div class="row gutters">
 
-			<div class="l-sidebar">
-				{{> organisms-recent-tweets }}
-			</div><!--end l-sidebar-->
-		</div><!--end two-col-->
+                <section class="column-7">
+                    {{> organisms-recent-tweets }}
+                </section><!--end column-7-->
+
+                <section class="column-17">
+                    {{# latest-posts}}
+							{{> molecules-media-block }}
+					{{/ latest-posts}}
+                    {{> molecules-pagination }}
+                </section><!--end column-17-->
+
+		    </div><!--end row-->
 	</div><!--End role=main-->
 	{{> organisms-footer }}
 </div>

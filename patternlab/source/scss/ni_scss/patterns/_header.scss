@@ -1,16 +1,18 @@
 #ni {
     .header {
         background-color: $brand-primary;
+        //background: transparent;
         height: 44px;
         width: 100%;
-        max-width: 100%;
-        position: fixed;
-        border-bottom: 2px solid rgba(0,0,0,0.2);
-        .nav-toggle {
+        position: absolute;
+        z-index: 1000;
+        padding-right: 10px;
+        //border-bottom: 2px solid rgba(0,0,0,0.2);
+        /*.nav-toggle {
             color: #fff;
             height: 100%;
             padding-top: 2.2%;
             font-size: 20px;
-        }            
+        }*/           
     }
 }

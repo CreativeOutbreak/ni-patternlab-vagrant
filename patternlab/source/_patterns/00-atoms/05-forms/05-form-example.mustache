@@ -1,0 +1,44 @@
+<form>
+    <fieldset>
+        <div class="form-item">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Jane Doe" />
+        </div>
+        
+        <div class="form-item">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="jane_doe@example.com" />
+        </div>
+        
+        <div class="form-item">
+            <label for="website">Website:</label>
+            <input type="text" name="website" placeholder="http://newint.org" disabled />
+        </div>
+        
+        <div class="form-item">
+            <label for="gender">How did you hear:</label>
+            <input type="radio" name="hdyh" value="Facebook" /> Facebook <br />
+            <input type="radio" name="hdyh" value="Twitter" /> Twitter <br />
+            <input type="radio" name="hdyh" value="Magazine" /> Magazine
+        </div>
+        
+        <div class="form-item">
+            <label for="interest">Inquiry:</label>
+            <input type="checkbox" name="interest" value="Quote" /> Quote <br />
+            <input type="checkbox" name="interest" value="Question" /> Question
+        </div>
+        
+        <div class="form-item">
+             <select>
+                 <option name="Test">Test</option>
+             </select>
+        </div>
+        
+        <div class="form-item">
+            <label for="message">Message:</label>
+            <textarea name="message"></textarea>
+        </div><!-- .form-item -->
+        
+        <input type="submit" value="Submit" class="btn btn-small btn-border green ">
+    </fieldset>
+</form>

@@ -1,0 +1,12 @@
+guidelines.markdown|pandoc|hd|ft|jinja:
+    - partials
+    - screenshots
+partials:
+    - _*.html
+screenshots:
+    - screenshots.js|casperjs
+assets:
+    - .css
+    - .js
+    - .png
+    - .jpg

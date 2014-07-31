@@ -1,6 +1,6 @@
 {
 	"title" : "Pattern Lab",
-	"htmlClass": "pl",
+	"htmlClass": "no-js",
 	"bodyId": "ni",
 	"bodyClass": "body",
 	"img": {
@@ -46,18 +46,18 @@
     },
     "list-imgs" : {
         "large" : {
-            "high" : "http://placehold.it/180x180/999/png/&text=high%20res%20180x180",
-            "low" : "http://placehold.it/180x180/999/png/&text=low%20res%20180x180",
+            "high" : "http://placehold.it/1000x600/999/png/&text=high%20res%201000x600",
+            "low" : "http://placehold.it/500x300/999/png/&text=low%20res%20500x300",
             "alt" : ""
         },
         "medium" : {
-            "high" : "http://placehold.it/180x180/999/png/&text=high%20res%20180x180",
-            "low" : "http://placehold.it/180x180/999/png/&text=low%20res%20180x180",
+            "high" : "http://placehold.it/500x300/999/png/&text=high%20res%20500x300",
+            "low" : "http://placehold.it/250x150/999/png/&text=low%20res%20250x150",
             "alt" : ""
         },
         "small" : {
-            "high" : "http://placehold.it/500x300/999/png/&text=high%20res%20500x300",
-            "low" : "http://placehold.it/250x150/999/png/&text=low%20res%20250x150",
+            "high" : "http://placehold.it/500x500/999/png/&text=high%20res%20500x500",
+            "low" : "http://placehold.it/250x250/999/png/&text=low%20res%20250x250",
             "alt" : ""
         }
     },

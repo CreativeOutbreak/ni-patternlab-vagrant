@@ -1,0 +1,8 @@
+#ni {
+
+    h1.blog-title {
+        @extend %title;
+        background-color: $blog-color;
+        border-left: px_rem(5) solid darken($blog-color, 5%);
+    }
+} 

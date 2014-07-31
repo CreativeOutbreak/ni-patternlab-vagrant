@@ -1,0 +1,10 @@
+#ni {
+
+    h1.blog-title {
+        font-size: 20px;
+        line-height: 27px;
+        border-left: px_rem(7) solid darken($blog-color, 5%);
+        @include vendor("box-shadow", -4px 4px 4px rgba(0,0,0,0.4));
+        text-shadow: -2px 2px 2px rgba(0,0,0,0.4);
+    }
+} 

@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html class="pl">
+<html class="no-js">
 	<head>
 		<title>Pattern Lab</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" />
-		
-		<link rel="stylesheet" href="../../css/style.css?1404417084" media="all" />
-        <link rel="stylesheet" href="../../css/ni_style.css?1404417084" media="all" />
-        <link rel="stylesheet" href="../../js/jqueryui/jquery-ui.min.css?1404417084" media="all" />
-        
-        
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
 
+		<!-- <link rel="stylesheet" href="../../css/style.css?1406819851" media="all" />-->
+        <link rel="stylesheet" href="../../css/ni_style.css?1406819851" media="all" />
+        <link rel="stylesheet" href="../../js/jqueryui/jquery-ui.min.css?1406819851" media="all" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!--[if (gt IE 8) | (IEMobile)]><!-->
+            <link rel="stylesheet" href="../../css/oc-menu/step4.css">
+        <!--<![endif]-->
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <link rel="stylesheet" href="../../css/oc-menu/ie.css">
+        <![endif]-->
+ 
+        <script src="../../js/modernizr.js"></script> 
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/jqueryui/jquery-ui.min.js"></script>
+        
         <script>
         // Picture element HTML5 shiv
         document.createElement( "picture" );
@@ -25,8 +37,8 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1404417084" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1404417084" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1406819851" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1406819851" media="all" />
 		
 
 		<!-- End Pattern Lab -->
@@ -40,36 +52,66 @@
 	    <h1>New Internationalist</h1>
 	    <h2>Putting the world to rights since 1973</h2>
 	</a>
-	<a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a>
-	<a href="#nav" class="nav-toggle nav-toggle-menu icon-menu"><span class="is-vishidden">Menu</span></a>
-	<nav id="nav" class="nav">
-		<ul class="nav-list">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Magazine</a></li>
-			<li><a href="#">Books</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Shop</a></li>
-		</ul>
-	</nav><!--end .nav-->
-	<form action="#" method="post" class="inline-form search-form">           
-	    <fieldset>
-		    <legend class="is-vishidden">Search</legend>
-		    <label for="search-field" class="is-vishidden">Search</label>
-		    <input type="search" placeholder="Search" id="search-field" class="search-field" />
-		    <button class="search-submit">
-		    	<span class="icon-search" aria-hidden="true"></span>
-		    	<span class="is-vishidden">Search</span>
-		    </button>
-	    </fieldset>
-	</form></header>
+	<!-- <a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a> -->
+	
+	<!-- <form action="#" method="post" class="inline-form search-form">           
+    <fieldset>
+	    <legend class="is-vishidden">Search</legend>
+	    <label for="search-field" class="is-vishidden">Search</label>
+	    <input type="search" placeholder="Search" id="search-field" class="search-field" />
+	    <button class="search-submit">
+	    	<span class="icon-search" aria-hidden="true"></span>
+	    	<span class="is-vishidden">Search</span>
+	    </button>
+    </fieldset>
+</form> -->
+    <a id="nav-open-btn" href="#nav"><span class="screen-reader">Main Navigation</span> <i class="fa fa-bars" ></i></a>
+
+</header>
+<nav id="nav" role="navigation">
+    <div class="block">
+        <input type="search" placeholder="Search" />
+        <ul>
+            <li class="is-active">
+                <a href="#">Chapter 1</a>
+            </li>
+             <li>
+                    <a href="#">Chapter 2</a>
+                </li>
+             <li>
+                    <a href="#">Chapter 3</a>
+                </li>
+             <li>
+                    <a href="#">Chapter 4</a>
+                </li>
+             <li>
+                <a href="#">Chapter 5</a>
+            </li>
+        </ul>
+    </div>
+    <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+</nav><!--end .nav-->
 <!-- End .header -->
+        <script src="../../js/concise/js/naver.js"></script>
+        <script src="../../js/concise/js/close.js"></script>
+        <script src="../../js/concise/js/dropdown.js"></script>
+        <script src="../../js/concise/js/navigation.js"></script>
+        <script src="../../js/oc-menu/main.js"></script>
+        <script>
+            var init = function() {
+                console.log('********* tabs loaded *********');
+                $( "#tabs" ).tabs();
+                console.log('********* tabs loaded *********');
+            }
+            $(document).ready(init);
+        </script>
         <!--DO NOT REMOVE-->
         	
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "organisms-header";
-		var lineage        = [{"lineagePattern":"atoms-logo","lineagePath":"..\/..\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html"},{"lineagePattern":"molecules-primary-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-00-primary-nav\/01-molecules-05-navigation-00-primary-nav.html"},{"lineagePattern":"molecules-search","lineagePath":"..\/..\/patterns\/01-molecules-04-forms-00-search\/01-molecules-04-forms-00-search.html"}];
-		var lineageR       = [{"lineagePattern":"templates-homepage","lineagePath":"..\/..\/patterns\/03-templates-00-homepage\/03-templates-00-homepage.html"},{"lineagePattern":"templates-blog","lineagePath":"..\/..\/patterns\/03-templates-01-blog\/03-templates-01-blog.html"},{"lineagePattern":"templates-article","lineagePath":"..\/..\/patterns\/03-templates-02-article\/03-templates-02-article.html"},{"lineagePattern":"templates-ni-blog","lineagePath":"..\/..\/patterns\/03-templates-03-ni-blog\/03-templates-03-ni-blog.html"},{"lineagePattern":"pages-blog","lineagePath":"..\/..\/patterns\/04-pages-01-blog\/04-pages-01-blog.html"},{"lineagePattern":"pages-ni-blog","lineagePath":"..\/..\/patterns\/04-pages-03-ni-blog\/04-pages-03-ni-blog.html"}];
+		var lineage        = [{"lineagePattern":"atoms-logo","lineagePath":"..\/..\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html"},{"lineagePattern":"molecules-search","lineagePath":"..\/..\/patterns\/01-molecules-04-forms-00-search\/01-molecules-04-forms-00-search.html"},{"lineagePattern":"molecules-primary-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-00-primary-nav\/01-molecules-05-navigation-00-primary-nav.html"}];
+		var lineageR       = [{"lineagePattern":"templates-homepage","lineagePath":"..\/..\/patterns\/03-templates-00-homepage\/03-templates-00-homepage.html"},{"lineagePattern":"templates-blog","lineagePath":"..\/..\/patterns\/03-templates-01-blog\/03-templates-01-blog.html"},{"lineagePattern":"templates-article","lineagePath":"..\/..\/patterns\/03-templates-02-article\/03-templates-02-article.html"},{"lineagePattern":"templates-ni-blog","lineagePath":"..\/..\/patterns\/03-templates-03-ni-blog\/03-templates-03-ni-blog.html"},{"lineagePattern":"pages-blog","lineagePath":"..\/..\/patterns\/04-pages-01-blog\/04-pages-01-blog.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;
 	</script>
@@ -105,10 +147,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1404417084">
+	<script id="pl-js-polyfill-insert-1406819851">
 		(function() {
 			if (self != top) {
-				var cb = '1404417084';
+				var cb = '1406819851';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -117,10 +159,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1404417084">
+	<script id="pl-js-insert-1406819851">
 		(function() {
 			if (self != top) {
-				var cb = '1404417084';
+				var cb = '1406819851';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}
@@ -128,15 +170,6 @@
 	</script>
 	
 
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/jqueryui/jquery-ui.min.js"></script>
-        <script>
-            var init = function() {
-                console.log('********* tabs loaded *********');
-                $( "#tabs" ).tabs();
-                console.log('********* tabs loaded *********');
-            }
-            $(document).ready(init);
-        </script>
+        
     </body>
 </html>

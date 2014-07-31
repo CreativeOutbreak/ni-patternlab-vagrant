@@ -16,36 +16,36 @@
         visibility: hidden;
     }
 }
+@mixin mod_rem($mod, $px) {
+    #{$mod} : $px * 1px;
+    #{$mod} : px_rem($px);
+}
 
 @mixin width_rem($px) {
-    width: $px * 1px;
-    width: px_rem($px);
+    @include mod_rem("width", $px);
 }
 
 @mixin height_rem($px) {
-    height: $px * 1px;
-    height: px_rem($px);
+    @include mod_rem("height", $px);
 }
 
 @mixin min_width_rem($px) {
-    min-width: $px * 1px;
-    min-width: px_rem($px);
+    @include mod_rem("min-width", $px);
 }
 
 @mixin min_height_rem($px) {
-    min-height: $px * 1px;
-    min-height: px_rem($px);
+    @include mod_rem("min-height", $px);
 }
 
 @mixin max_width_rem($px) {
-    max-width: $px * 1px;
-    max-width: px_rem($px);
+    @include mod_rem("max-width", $px);
 }
 
 @mixin max_height_rem($px) {
-    max-height: $px * 1px;
-    max-height: px_rem($px);
+    @include mod_rem("max-height", $px);
 }
+
+
 
 @mixin line_clamp() {
     display: -webkit-box;

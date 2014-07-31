@@ -1,12 +1,18 @@
 #ni {
-
+    
+   @include mod_rem("min-width", 320); 
+   background-color: #f2f3f4; 
     // Patternlab - start
     .sg-pattern-body {
         text-align: left;
     }
     // Patternlab - end
 
-    
+    picture {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+    } 
 
     
 

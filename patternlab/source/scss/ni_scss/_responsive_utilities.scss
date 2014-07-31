@@ -2,7 +2,7 @@
 @include ni_invisibility('.visible-xs, .visible-sm, .visible-md, .visible-lg, .visible-xsup, .visible-smup, .visible-mdup, .visible-lgup, .visible-32up, .visible-50up, .visible-55up');
 
 // > 480px
-@media (min-width: $screen-xs-min) {    
+@media (min-width: $extra-small-start) {    
     @include ni_visibility('.visible-xsup');
     @include ni_invisibility('.hidden-xsup');
 }
@@ -14,7 +14,7 @@
 }
 
 // > 768px
-@media (min-width: $screen-sm-min) {
+@media (min-width: $small-start) {
     @include ni_visibility('.visible-smup');
     @include ni_invisibility('.hidden-xsup');
 
@@ -36,21 +36,21 @@
 }
 
 // 768px -> 991px 
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+/*@media (min-width: $small-start) and (max-width: (($medium-start * 1px) - 1px) * 1em) {
     @include ni_visibility('.visible-sm');
     @include ni_invisibility('.hidden-xsup');
     
-}
+}*/
 
 // 992px -> 1199px 
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+/*@media (min-width: $medium-start) and (max-width: (($large-start * 1px) - 1px) * 1em) {
     @include ni_visibility('.visible-md');
     @include ni_invisibility('.hidden-xsup');
     
-}
+}*/
 
 // > 1200px 
-@media (min-width: $screen-lg-min) {
+@media (min-width: $extra-large-start) {
     @include ni_visibility('.visible-lgup');
     @include ni_invisibility('.hidden-xsup');
     

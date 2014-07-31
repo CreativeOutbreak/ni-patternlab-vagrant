@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html class="pl">
+<html class="no-js">
 	<head>
 		<title>Pattern Lab</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" />
-		
-		<link rel="stylesheet" href="../../css/style.css?1404417084" media="all" />
-        <link rel="stylesheet" href="../../css/ni_style.css?1404417084" media="all" />
-        <link rel="stylesheet" href="../../js/jqueryui/jquery-ui.min.css?1404417084" media="all" />
-        
-        
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
 
+		<!-- <link rel="stylesheet" href="../../css/style.css?1406819851" media="all" />-->
+        <link rel="stylesheet" href="../../css/ni_style.css?1406819851" media="all" />
+        <link rel="stylesheet" href="../../js/jqueryui/jquery-ui.min.css?1406819851" media="all" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <!--[if (gt IE 8) | (IEMobile)]><!-->
+            <link rel="stylesheet" href="../../css/oc-menu/step4.css">
+        <!--<![endif]-->
+        <!--[if (lt IE 9) & (!IEMobile)]>
+            <link rel="stylesheet" href="../../css/oc-menu/ie.css">
+        <![endif]-->
+ 
+        <script src="../../js/modernizr.js"></script> 
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/jqueryui/jquery-ui.min.js"></script>
+        
         <script>
         // Picture element HTML5 shiv
         document.createElement( "picture" );
@@ -25,8 +37,8 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1404417084" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1404417084" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1406819851" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1406819851" media="all" />
 		
 
 		<!-- End Pattern Lab -->
@@ -99,11 +111,6 @@
 		<span class="swatch" style="background: #e1e1e1;"></span>
 		<code class="label">#e1e1e1</code>
 	</li>
-	<li>
-        <span class="title">Some title</span>
-		<span class="swatch" style="background: #cdcac9;"></span>
-		<code class="label">#cdcac9</code>
-	</li>
 </ul>
 
 							<div class="sg-code" style="display: none">
@@ -166,11 +173,6 @@
 		&lt;span class=&quot;swatch&quot; style=&quot;background: #e1e1e1;&quot;&gt;&lt;/span&gt;
 		&lt;code class=&quot;label&quot;&gt;#e1e1e1&lt;/code&gt;
 	&lt;/li&gt;
-	&lt;li&gt;
-        &lt;span class=&quot;title&quot;&gt;Some title&lt;/span&gt;
-		&lt;span class=&quot;swatch&quot; style=&quot;background: #cdcac9;&quot;&gt;&lt;/span&gt;
-		&lt;code class=&quot;label&quot;&gt;#cdcac9&lt;/code&gt;
-	&lt;/li&gt;
 &lt;/ul&gt;
 
 									</code>
@@ -223,32 +225,50 @@
 					<div id="atoms-visibility" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-01-global-03-visibility/00-atoms-01-global-03-visibility.html" class="patternLink" data-patternpartial="atoms-visibility">Visibility</a></h2>
 						<div class="sg-pattern-body">
-							<p class="hide-small">This text is hidden on smaller screens</p>
+							<p class="hide-extra-small">This text is hidden on extra-small screens</p>
 
-<p class="hide-med hide-large"><em>This text is only visible on smaller screens</em></p>
+<p class="hide-small hide-medium hide-large hide-extra-large"><em>This text is only visible on extra-small screens</em></p>
 
-<p class="hide-med">This text is hidden on medium screens only</p>
+<p class="hide-small">This text is hidden on small screens</p>
 
-<p class="hide-small hide-large"><em>This text is only visible on medium screens</em></p>
+<p class="hide-extra-small hide-medium hide-large hide-extra-large"><em>This text is only visible on small screens</em></p>
 
-<p class="hide-large">This text is hidden on large screens</p>
+<p class="hide-medium">This text is hidden on medium screens only</p>
 
-<p class="hide-small hide-med"><em>This text is only visible on large screens</em></p>
+<p class="hide-extra-small hide-small hide-large hide-extra-large"><em>This text is only visible on medium screens</em></p> 
+
+<p class="hide-large ">This text is hidden on large screens</p>
+
+<p class="hide-extra-small hide-small hide-medium hide-extra-large"><em>This text is only visible on large screens</em></p> 
+
+<p class="hide-extra-large">This text is hidden on extra-large screens</p>
+
+<p class="hide-extra-small hide-small hide-medium hide-large"><em>This text is only visible on extra-large screens</em></p>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;p class=&quot;hide-small&quot;&gt;This text is hidden on smaller screens&lt;/p&gt;
+										&lt;p class=&quot;hide-extra-small&quot;&gt;This text is hidden on extra-small screens&lt;/p&gt;
 
-&lt;p class=&quot;hide-med hide-large&quot;&gt;&lt;em&gt;This text is only visible on smaller screens&lt;/em&gt;&lt;/p&gt;
+&lt;p class=&quot;hide-small hide-medium hide-large hide-extra-large&quot;&gt;&lt;em&gt;This text is only visible on extra-small screens&lt;/em&gt;&lt;/p&gt;
 
-&lt;p class=&quot;hide-med&quot;&gt;This text is hidden on medium screens only&lt;/p&gt;
+&lt;p class=&quot;hide-small&quot;&gt;This text is hidden on small screens&lt;/p&gt;
 
-&lt;p class=&quot;hide-small hide-large&quot;&gt;&lt;em&gt;This text is only visible on medium screens&lt;/em&gt;&lt;/p&gt;
+&lt;p class=&quot;hide-extra-small hide-medium hide-large hide-extra-large&quot;&gt;&lt;em&gt;This text is only visible on small screens&lt;/em&gt;&lt;/p&gt;
 
-&lt;p class=&quot;hide-large&quot;&gt;This text is hidden on large screens&lt;/p&gt;
+&lt;p class=&quot;hide-medium&quot;&gt;This text is hidden on medium screens only&lt;/p&gt;
 
-&lt;p class=&quot;hide-small hide-med&quot;&gt;&lt;em&gt;This text is only visible on large screens&lt;/em&gt;&lt;/p&gt;
+&lt;p class=&quot;hide-extra-small hide-small hide-large hide-extra-large&quot;&gt;&lt;em&gt;This text is only visible on medium screens&lt;/em&gt;&lt;/p&gt; 
+
+&lt;p class=&quot;hide-large &quot;&gt;This text is hidden on large screens&lt;/p&gt;
+
+&lt;p class=&quot;hide-extra-small hide-small hide-medium hide-extra-large&quot;&gt;&lt;em&gt;This text is only visible on large screens&lt;/em&gt;&lt;/p&gt; 
+
+&lt;p class=&quot;hide-extra-large&quot;&gt;This text is hidden on extra-large screens&lt;/p&gt;
+
+&lt;p class=&quot;hide-extra-small hide-small hide-medium hide-large&quot;&gt;&lt;em&gt;This text is only visible on extra-large screens&lt;/em&gt;&lt;/p&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -294,7 +314,7 @@
 										&lt;p&gt; Celebrating its 40th year of publication in 2013, the New Internationalist is renowned for its radical, campaigning stance on a range of world issues, from the cynical marketing of babymilk in the Majority World to human rights in Burma. &lt;p&gt;
 &lt;p&gt;The &lt;i&gt;New Internationalist&lt;/i&gt; magazine is published ten times a year and has won several awards, including an Amnesty Media Award in 2012 and an Utne Reader Award in 2013. The magazine sets out to explain and inform, giving readers the essentials of a subject in a concise, easy-to-read full-colour format with excellent photos and graphics. We also produce a range of books, calendars and diaries that bring you the clearest, most accessible reference sources about our complex world. Our mail order catalogue and online shop sell a wide range of books, clothes, food, and other fair trade and organic gifts.&lt;p&gt;
 &lt;p&gt;June 2013 saw the launch of an iPad app, New Internationalist for iPad, which was developed by the NI design and tech teams.&lt;p&gt;
-&lt;p&gt;Publications from the New Internationalist are produced by an independent trust working as a not-for-profit cooperative. Because the New Internationalist operates as a not-for-profit, income from sales of publications and gifts goes into the production of our titles and to spread our aims and ideals, not into a rich media tycoon&rsquo;s pocket!&lt;p&gt;
+&lt;p&gt;Publications from the New Internationalist are produced by an independent trust working as a not-for-profit cooperative. Because the New Internationalist operates as a not-for-profit, income from sales of publications and gifts goes into the production of our titles and to spread our aims and ideals, not into a rich media tycoon&acirc;€™s pocket!&lt;p&gt;
 									</code>
 								</pre>
 							</div>
@@ -303,20 +323,22 @@
 					<div id="atoms-blockquote" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-02-text-02-blockquote/00-atoms-02-text-02-blockquote.html" class="patternLink" data-patternpartial="atoms-blockquote">Blockquote</a></h2>
 						<div class="sg-pattern-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur consectetur metus, vitae gravida mauris venenatis sit amet. Donec feugiat sed mi nec rhoncus. Nunc sollicitudin, magna pretium tincidunt sagittis, nibh nulla placerat dolor, eget cursus ipsum urna quis enim. Quisque sed pellentesque sapien. Donec ac lacus vulputate, vestibulum enim et, ultricies tellus. Quisque commodo id magna sed sodales. Cras eu tortor tincidunt, fermentum eros vitae, sollicitudin tortor. Morbi nisl enim, ullamcorper non volutpat nec, egestas vel tortor. Quisque aliquet non urna sit amet posuere. Nunc nulla risus, commodo sed volutpat vitae, hendrerit eu arcu.<p>
+							<!-- section "blockquote" -->
 <blockquote>
-	<p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.</p>
+	A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.
 </blockquote>
-<p>In hac habitasse platea dictumst. Praesent dapibus metus et magna sollicitudin, quis laoreet massa gravida. Fusce sed ipsum iaculis, lacinia arcu sodales, lacinia dui. Duis vitae arcu ac odio facilisis scelerisque in sed tellus. Curabitur imperdiet eleifend mi eu semper. Quisque porta, mi sit amet venenatis rutrum, ante lacus lobortis dolor, eu lacinia enim sem quis nulla. Nunc non turpis sit amet metus gravida tincidunt. Praesent tristique lectus sit amet neque blandit, et vestibulum ante eleifend. Aliquam mollis, nisi vitae condimentum imperdiet, erat mi semper nisl, non viverra neque felis aliquam risus. Cras risus enim, sodales ac libero at, eleifend facilisis mi. Maecenas volutpat vestibulum nibh sit amet pharetra. Proin pharetra nisl elit, et lacinia mauris tempus a.<p>
+<!-- section "end" -->
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur consectetur metus, vitae gravida mauris venenatis sit amet. Donec feugiat sed mi nec rhoncus. Nunc sollicitudin, magna pretium tincidunt sagittis, nibh nulla placerat dolor, eget cursus ipsum urna quis enim. Quisque sed pellentesque sapien. Donec ac lacus vulputate, vestibulum enim et, ultricies tellus. Quisque commodo id magna sed sodales. Cras eu tortor tincidunt, fermentum eros vitae, sollicitudin tortor. Morbi nisl enim, ullamcorper non volutpat nec, egestas vel tortor. Quisque aliquet non urna sit amet posuere. Nunc nulla risus, commodo sed volutpat vitae, hendrerit eu arcu.&lt;p&gt;
+										&lt;!-- section &quot;blockquote&quot; --&gt;
 &lt;blockquote&gt;
-	&lt;p&gt;A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.&lt;/p&gt;
+	A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.
 &lt;/blockquote&gt;
-&lt;p&gt;In hac habitasse platea dictumst. Praesent dapibus metus et magna sollicitudin, quis laoreet massa gravida. Fusce sed ipsum iaculis, lacinia arcu sodales, lacinia dui. Duis vitae arcu ac odio facilisis scelerisque in sed tellus. Curabitur imperdiet eleifend mi eu semper. Quisque porta, mi sit amet venenatis rutrum, ante lacus lobortis dolor, eu lacinia enim sem quis nulla. Nunc non turpis sit amet metus gravida tincidunt. Praesent tristique lectus sit amet neque blandit, et vestibulum ante eleifend. Aliquam mollis, nisi vitae condimentum imperdiet, erat mi semper nisl, non viverra neque felis aliquam risus. Cras risus enim, sodales ac libero at, eleifend facilisis mi. Maecenas volutpat vestibulum nibh sit amet pharetra. Proin pharetra nisl elit, et lacinia mauris tempus a.&lt;p&gt;
+&lt;!-- section &quot;end&quot; --&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -387,7 +409,7 @@
 
 	&lt;p&gt;&lt;s&gt;This text has a strikethrough&lt;/s&gt;&lt;/p&gt;
 
-	&lt;p&gt;Superscript&lt;sup&gt;&reg;&lt;/sup&gt;&lt;/p&gt;
+	&lt;p&gt;Superscript&lt;sup&gt;&Acirc;&reg;&lt;/sup&gt;&lt;/p&gt;
 
 	&lt;p&gt;Subscript for things like H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
 
@@ -668,33 +690,65 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-05-icons/00-atoms-04-images-05-icons.html" class="patternLink" data-patternpartial="atoms-icons">Icons</a></h2>
 						<div class="sg-pattern-body">
 							<ul class="icons inline-list">
-	<li class="icon-twitter"></li>
-	<li class="icon-facebook"></li>
-	<li class="icon-stumbleupon"></li>
-	<li class="icon-linkedin"></li>
-	<li class="icon-pinterest"></li>
-	<li class="icon-google-plus"></li>
-	<li class="icon-youtube"></li>
-	<li class="icon-feed"></li>
-	<li class="icon-search"></li>
-	<li class="icon-play"></li>
+	<li class="fa fa-twitter"></li>
+	<li class="fa fa-facebook"></li>
+	<li class="fa fa-google-plus"></li>
+	<li class="fa fa-stumbleupon"></li>
+	<li class="fa fa-linkedin"></li>
+	<li class="fa fa-pinterest"></li>
+	<li class="fa fa-youtube"></li>
+
+	<li class="fa fa-rss"></li>
+	<li class="fa fa-search"></li>
+	<li class="fa fa-play"></li>
+    
+    <li class="fa fa-twitter-square"></li>
+	<li class="fa fa-facebook-square"></li>
+	<li class="fa fa-google-plus-square"></li>
+	<li class="fa fa-stumbleupon-circle"></li>
+	<li class="fa fa-linkedin-square"></li>
+	<li class="fa fa-pinterest-square"></li>
+	<li class="fa fa-youtube-square"></li>
+	<li class="fa fa-rss-square"></li>
+	
+	<li class="fa fa-circle-o-notch"></li>
+	<li class="fa fa-cog"></li>
+	<li class="fa fa-refresh"></li>
+	<li class="fa fa-spinner"></li>
 </ul>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;ul class=&quot;icons inline-list&quot;&gt;
-	&lt;li class=&quot;icon-twitter&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-facebook&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-stumbleupon&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-linkedin&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-pinterest&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-google-plus&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-youtube&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-feed&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-search&quot;&gt;&lt;/li&gt;
-	&lt;li class=&quot;icon-play&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-twitter&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-facebook&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-google-plus&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-stumbleupon&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-linkedin&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-pinterest&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-youtube&quot;&gt;&lt;/li&gt;
+
+	&lt;li class=&quot;fa fa-rss&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-search&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-play&quot;&gt;&lt;/li&gt;
+    
+    &lt;li class=&quot;fa fa-twitter-square&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-facebook-square&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-google-plus-square&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-stumbleupon-circle&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-linkedin-square&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-pinterest-square&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-youtube-square&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-rss-square&quot;&gt;&lt;/li&gt;
+	
+	&lt;li class=&quot;fa fa-circle-o-notch&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-cog&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-refresh&quot;&gt;&lt;/li&gt;
+	&lt;li class=&quot;fa fa-spinner&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -705,12 +759,22 @@ p q r s t u v w x y z { | } ~
 						<div class="sg-pattern-body">
 							<img src="../../images/ajax-loader.gif" alt="Loading" />
 <img src="../../images/ni-loader2.gif" alt="Load" />
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<i class="fa fa-cog fa-spin"></i>
+<i class="fa fa-refresh fa-spin"></i>
+<i class="fa fa-spinner fa-spin"></i>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;img src=&quot;../../images/ajax-loader.gif&quot; alt=&quot;Loading&quot; /&gt;
 &lt;img src=&quot;../../images/ni-loader2.gif&quot; alt=&quot;Load&quot; /&gt;
+&lt;i class=&quot;fa fa-circle-o-notch fa-spin&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-cog fa-spin&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-refresh fa-spin&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-spinner fa-spin&quot;&gt;&lt;/i&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -740,11 +804,11 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-08-list-picture/00-atoms-04-images-08-list-picture.html" class="patternLink" data-patternpartial="atoms-list-picture">List Picture</a></h2>
 						<div class="sg-pattern-body">
 							<picture class="list-pic">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
+    <source srcset="" media="(min-width: 1000px)">
+    <source srcset="" media="(min-width: 800px)">
+    <source srcset="" media="(min-width: 480px)">
+    <source srcset="">
+    <img srcset="" alt="">
 </picture>
 
 							<div class="sg-code" style="display: none">
@@ -752,95 +816,11 @@ p q r s t u v w x y z { | } ~
 								<pre class="sg-code-html">
 									<code>
 										&lt;picture class=&quot;list-pic&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
-&lt;/picture&gt;
-
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="atoms-list-picture-2" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-09-list-picture-2/00-atoms-04-images-09-list-picture-2.html" class="patternLink" data-patternpartial="atoms-list-picture-2">List Picture 2</a></h2>
-						<div class="sg-pattern-body">
-							<picture class="list-pic">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
-</picture>
-
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;picture class=&quot;list-pic&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
-&lt;/picture&gt;
-
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="atoms-list-picture-3" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-10-list-picture-3/00-atoms-04-images-10-list-picture-3.html" class="patternLink" data-patternpartial="atoms-list-picture-3">List Picture 3</a></h2>
-						<div class="sg-pattern-body">
-							<picture class="list-pic">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
-</picture>
-
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;picture class=&quot;list-pic&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
-&lt;/picture&gt;
-
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="atoms-list-picture-4" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-04-images-11-list-picture-4/00-atoms-04-images-11-list-picture-4.html" class="patternLink" data-patternpartial="atoms-list-picture-4">List Picture 4</a></h2>
-						<div class="sg-pattern-body">
-							<picture class="list-pic">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
-</picture>
-
-							<div class="sg-code" style="display: none">
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;picture class=&quot;list-pic&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
+    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 1000px)&quot;&gt;
+    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 800px)&quot;&gt;
+    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 480px)&quot;&gt;
+    &lt;source srcset=&quot;&quot;&gt;
+    &lt;img srcset=&quot;&quot; alt=&quot;&quot;&gt;
 &lt;/picture&gt;
 
 									</code>
@@ -851,86 +831,124 @@ p q r s t u v w x y z { | } ~
 					<div id="atoms-text-fields" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-05-forms-00-text-fields/00-atoms-05-forms-00-text-fields.html" class="patternLink" data-patternpartial="atoms-text-fields">Text Fields</a></h2>
 						<div class="sg-pattern-body">
-							<fieldset>
-    <div class="field-container">
-        <label for="text">Text Input <abbr title="Required">*</abbr></label>
-        <input id="text" type="text" placeholder="Text Input">
-    </div>
-    <div class="field-container">
-        <label for="password">Password</label>
-        <input id="password" type="password" placeholder="Type your Password">
-    </div>
-    <div class="field-container">
-        <label for="webaddress">Web Address</label>
-        <input id="webaddress" type="url" placeholder="http://yoursite.com">
-    </div>
-    <div class="field-container">
-        <label for="emailaddress">Email Address</label>
-        <input id="emailaddress" type="email" placeholder="name@email.com">
-    </div>
-    <div class="field-container">
-        <label for="search">Search</label>
-        <input id="search" type="search" placeholder="Enter Search Term">
-    </div>
-    <div class="field-container">
-        <label for="text">Number Input <abbr title="Required">*</abbr></label>
-        <input id="text" type="number" placeholder="Enter a Number" pattern="[0-9]*">
-    </div>
-    <div class="field-container">
-        <label for="textarea">Textarea</label>
-        <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
-    </div>
-    <div class="field-container">
-        <label class="error">Error Input</label>
-        <input class="is-error" type="text" placeholder="Text Input">
-    </div>
-    <div class="field-container">
-        <label  class="valid">Valid</label>
-        <input  class="is-valid" type="text" placeholder="Text Input">
-    </div>
-</fieldset>
+							<form>
+    <fieldset>
+        <div class="form-item">
+            <label for="text">Text Input <abbr title="Required">*</abbr></label>
+            <input id="text" type="text" placeholder="Text Input">
+        </div>
+        <div class="form-item">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Type your Password">
+        </div>
+        <div class="form-item">
+            <label for="webaddress">Web Address</label>
+            <input id="webaddress" type="url" placeholder="http://yoursite.com">
+        </div>
+        <div class="form-item">
+            <label for="emailaddress">Email Address</label>
+            <input id="emailaddress" type="email" placeholder="name@email.com">
+        </div>
+        <div class="form-item">
+            <label for="search">Search</label>
+            <input id="search" type="search" placeholder="Enter Search Term">
+        </div>
+        <div class="form-item">
+            <label for="text">Number Input <abbr title="Required">*</abbr></label>
+            <input id="text" type="number" placeholder="Enter a Number" pattern="[0-9]*">
+        </div>
+        <div class="form-item">
+            <label for="textarea">Textarea</label>
+            <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
+        </div>
+        <div class="form-item">
+            <label class="error">Error Input</label>
+            <input class="is-error" type="text" placeholder="Text Input">
+        </div>
+        <div class="form-item">
+            <label  class="valid">Valid</label>
+            <input  class="is-valid" type="text" placeholder="Text Input">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Required Field</legend>
+        <div class="form-item">
+            <label for="name" class="screen-reader">Name:</label>
+            <input type="text" class="required" name="name" placeholder="Jane Doe" required />
+        </div>
+    </fieldset>
+</form>
+<form class="border-radius form-inline">
+    <fieldset>
+        <legend>Rounded Corners</legend>
+        <div class="form-item">
+            <label for="name">Name:</label>
+            <input type="text" class="required" name="name" placeholder="Jane Doe" required />
+        </div>
+    </fieldset>
+</form>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;fieldset&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label for=&quot;text&quot;&gt;Text Input &lt;abbr title=&quot;Required&quot;&gt;*&lt;/abbr&gt;&lt;/label&gt;
-        &lt;input id=&quot;text&quot; type=&quot;text&quot; placeholder=&quot;Text Input&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
-        &lt;input id=&quot;password&quot; type=&quot;password&quot; placeholder=&quot;Type your Password&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label for=&quot;webaddress&quot;&gt;Web Address&lt;/label&gt;
-        &lt;input id=&quot;webaddress&quot; type=&quot;url&quot; placeholder=&quot;http://yoursite.com&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label for=&quot;emailaddress&quot;&gt;Email Address&lt;/label&gt;
-        &lt;input id=&quot;emailaddress&quot; type=&quot;email&quot; placeholder=&quot;name@email.com&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label for=&quot;search&quot;&gt;Search&lt;/label&gt;
-        &lt;input id=&quot;search&quot; type=&quot;search&quot; placeholder=&quot;Enter Search Term&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label for=&quot;text&quot;&gt;Number Input &lt;abbr title=&quot;Required&quot;&gt;*&lt;/abbr&gt;&lt;/label&gt;
-        &lt;input id=&quot;text&quot; type=&quot;number&quot; placeholder=&quot;Enter a Number&quot; pattern=&quot;[0-9]*&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label for=&quot;textarea&quot;&gt;Textarea&lt;/label&gt;
-        &lt;textarea id=&quot;textarea&quot; rows=&quot;8&quot; cols=&quot;48&quot; placeholder=&quot;Enter your message here&quot;&gt;&lt;/textarea&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label class=&quot;error&quot;&gt;Error Input&lt;/label&gt;
-        &lt;input class=&quot;is-error&quot; type=&quot;text&quot; placeholder=&quot;Text Input&quot;&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;field-container&quot;&gt;
-        &lt;label  class=&quot;valid&quot;&gt;Valid&lt;/label&gt;
-        &lt;input  class=&quot;is-valid&quot; type=&quot;text&quot; placeholder=&quot;Text Input&quot;&gt;
-    &lt;/div&gt;
-&lt;/fieldset&gt;
+										&lt;form&gt;
+    &lt;fieldset&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;text&quot;&gt;Text Input &lt;abbr title=&quot;Required&quot;&gt;*&lt;/abbr&gt;&lt;/label&gt;
+            &lt;input id=&quot;text&quot; type=&quot;text&quot; placeholder=&quot;Text Input&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
+            &lt;input id=&quot;password&quot; type=&quot;password&quot; placeholder=&quot;Type your Password&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;webaddress&quot;&gt;Web Address&lt;/label&gt;
+            &lt;input id=&quot;webaddress&quot; type=&quot;url&quot; placeholder=&quot;http://yoursite.com&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;emailaddress&quot;&gt;Email Address&lt;/label&gt;
+            &lt;input id=&quot;emailaddress&quot; type=&quot;email&quot; placeholder=&quot;name@email.com&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;search&quot;&gt;Search&lt;/label&gt;
+            &lt;input id=&quot;search&quot; type=&quot;search&quot; placeholder=&quot;Enter Search Term&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;text&quot;&gt;Number Input &lt;abbr title=&quot;Required&quot;&gt;*&lt;/abbr&gt;&lt;/label&gt;
+            &lt;input id=&quot;text&quot; type=&quot;number&quot; placeholder=&quot;Enter a Number&quot; pattern=&quot;[0-9]*&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;textarea&quot;&gt;Textarea&lt;/label&gt;
+            &lt;textarea id=&quot;textarea&quot; rows=&quot;8&quot; cols=&quot;48&quot; placeholder=&quot;Enter your message here&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label class=&quot;error&quot;&gt;Error Input&lt;/label&gt;
+            &lt;input class=&quot;is-error&quot; type=&quot;text&quot; placeholder=&quot;Text Input&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label  class=&quot;valid&quot;&gt;Valid&lt;/label&gt;
+            &lt;input  class=&quot;is-valid&quot; type=&quot;text&quot; placeholder=&quot;Text Input&quot;&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Required Field&lt;/legend&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;name&quot; class=&quot;screen-reader&quot;&gt;Name:&lt;/label&gt;
+            &lt;input type=&quot;text&quot; class=&quot;required&quot; name=&quot;name&quot; placeholder=&quot;Jane Doe&quot; required /&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;
+&lt;form class=&quot;border-radius form-inline&quot;&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Rounded Corners&lt;/legend&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+            &lt;input type=&quot;text&quot; class=&quot;required&quot; name=&quot;name&quot; placeholder=&quot;Jane Doe&quot; required /&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -978,13 +996,12 @@ p q r s t u v w x y z { | } ~
 							<form action="#">
     <fieldset class="options">
         <legend>Checkbox <abbr title="Required">*</abbr></legend>
-        <ul>
-            <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label></li>
-            <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label></li>
-            <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
-        </ul>
+        <label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label>
+        <label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label>
+        <label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label>
     </fieldset>
 </form>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -992,13 +1009,12 @@ p q r s t u v w x y z { | } ~
 										&lt;form action=&quot;#&quot;&gt;
     &lt;fieldset class=&quot;options&quot;&gt;
         &lt;legend&gt;Checkbox &lt;abbr title=&quot;Required&quot;&gt;*&lt;/abbr&gt;&lt;/legend&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;label for=&quot;checkbox1&quot;&gt;&lt;input id=&quot;checkbox1&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot; checked=&quot;checked&quot;&gt; Choice A&lt;/label&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;label for=&quot;checkbox2&quot;&gt;&lt;input id=&quot;checkbox2&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot;&gt; Choice B&lt;/label&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;label for=&quot;checkbox3&quot;&gt;&lt;input id=&quot;checkbox3&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot;&gt; Choice C&lt;/label&gt;&lt;/li&gt;
-        &lt;/ul&gt;
+        &lt;label for=&quot;checkbox1&quot;&gt;&lt;input id=&quot;checkbox1&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot; checked=&quot;checked&quot;&gt; Choice A&lt;/label&gt;
+        &lt;label for=&quot;checkbox2&quot;&gt;&lt;input id=&quot;checkbox2&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot;&gt; Choice B&lt;/label&gt;
+        &lt;label for=&quot;checkbox3&quot;&gt;&lt;input id=&quot;checkbox3&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot;&gt; Choice C&lt;/label&gt;
     &lt;/fieldset&gt;
 &lt;/form&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1010,13 +1026,12 @@ p q r s t u v w x y z { | } ~
 							<form action="#">
     <fieldset class="options">
         <legend>Radio</legend>
-        <ul>
-            <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label></li>
-            <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label></li>
-            <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label></li>
-        </ul>
+        <label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label>
+        <label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label>
+        <label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label>
     </fieldset>
 </form>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -1024,13 +1039,12 @@ p q r s t u v w x y z { | } ~
 										&lt;form action=&quot;#&quot;&gt;
     &lt;fieldset class=&quot;options&quot;&gt;
         &lt;legend&gt;Radio&lt;/legend&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;label for=&quot;radio1&quot;&gt;&lt;input id=&quot;radio1&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot; checked=&quot;checked&quot;&gt; Option 1&lt;/label&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;label for=&quot;radio2&quot;&gt;&lt;input id=&quot;radio2&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot;&gt; Option 2&lt;/label&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;label for=&quot;radio3&quot;&gt;&lt;input id=&quot;radio3&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot;&gt; Option 3&lt;/label&gt;&lt;/li&gt;
-        &lt;/ul&gt;
+        &lt;label for=&quot;radio1&quot;&gt;&lt;input id=&quot;radio1&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot; checked=&quot;checked&quot;&gt; Option 1&lt;/label&gt;
+        &lt;label for=&quot;radio2&quot;&gt;&lt;input id=&quot;radio2&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot;&gt; Option 2&lt;/label&gt;
+        &lt;label for=&quot;radio3&quot;&gt;&lt;input id=&quot;radio3&quot; name=&quot;radio&quot; type=&quot;radio&quot; class=&quot;radio&quot;&gt; Option 3&lt;/label&gt;
     &lt;/fieldset&gt;
 &lt;/form&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1068,21 +1082,273 @@ p q r s t u v w x y z { | } ~
 							</div>
 						</div>
 					</div>
-					<div id="atoms-buttons" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-06-buttons-00-buttons/00-atoms-06-buttons-00-buttons.html" class="patternLink" data-patternpartial="atoms-buttons">Buttons</a></h2>
+					<div id="atoms-form-example" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-05-forms-05-form-example/00-atoms-05-forms-05-form-example.html" class="patternLink" data-patternpartial="atoms-form-example">Form Example</a></h2>
 						<div class="sg-pattern-body">
-							<p><a href="#" class="btn">Button</a></p>
-<p><a href="#" class="btn alt">Alternate Button</a></p>
-<p><a href="#" class="btn disabled">Disabled Button</a></p>
-<p><a href="#" class="text-btn">Text Button</a></p>
+							<form>
+    <fieldset>
+        <div class="form-item">
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Jane Doe" />
+        </div>
+        
+        <div class="form-item">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="jane_doe@example.com" />
+        </div>
+        
+        <div class="form-item">
+            <label for="website">Website:</label>
+            <input type="text" name="website" placeholder="http://newint.org" disabled />
+        </div>
+        
+        <div class="form-item">
+            <label for="gender">How did you hear:</label>
+            <input type="radio" name="hdyh" value="Facebook" /> Facebook <br />
+            <input type="radio" name="hdyh" value="Twitter" /> Twitter <br />
+            <input type="radio" name="hdyh" value="Magazine" /> Magazine
+        </div>
+        
+        <div class="form-item">
+            <label for="interest">Inquiry:</label>
+            <input type="checkbox" name="interest" value="Quote" /> Quote <br />
+            <input type="checkbox" name="interest" value="Question" /> Question
+        </div>
+        
+        <div class="form-item">
+             <select>
+                 <option name="Test">Test</option>
+             </select>
+        </div>
+        
+        <div class="form-item">
+            <label for="message">Message:</label>
+            <textarea name="message"></textarea>
+        </div><!-- .form-item -->
+        
+        <input type="submit" value="Submit" class="btn btn-small btn-border green ">
+    </fieldset>
+</form>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Button&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn alt&quot;&gt;Alternate Button&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn disabled&quot;&gt;Disabled Button&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;text-btn&quot;&gt;Text Button&lt;/a&gt;&lt;/p&gt;
+										&lt;form&gt;
+    &lt;fieldset&gt;
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;name&quot; placeholder=&quot;Jane Doe&quot; /&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;
+            &lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;jane_doe@example.com&quot; /&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;website&quot;&gt;Website:&lt;/label&gt;
+            &lt;input type=&quot;text&quot; name=&quot;website&quot; placeholder=&quot;http://newint.org&quot; disabled /&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;gender&quot;&gt;How did you hear:&lt;/label&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;hdyh&quot; value=&quot;Facebook&quot; /&gt; Facebook &lt;br /&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;hdyh&quot; value=&quot;Twitter&quot; /&gt; Twitter &lt;br /&gt;
+            &lt;input type=&quot;radio&quot; name=&quot;hdyh&quot; value=&quot;Magazine&quot; /&gt; Magazine
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;interest&quot;&gt;Inquiry:&lt;/label&gt;
+            &lt;input type=&quot;checkbox&quot; name=&quot;interest&quot; value=&quot;Quote&quot; /&gt; Quote &lt;br /&gt;
+            &lt;input type=&quot;checkbox&quot; name=&quot;interest&quot; value=&quot;Question&quot; /&gt; Question
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;form-item&quot;&gt;
+             &lt;select&gt;
+                 &lt;option name=&quot;Test&quot;&gt;Test&lt;/option&gt;
+             &lt;/select&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;form-item&quot;&gt;
+            &lt;label for=&quot;message&quot;&gt;Message:&lt;/label&gt;
+            &lt;textarea name=&quot;message&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;&lt;!-- .form-item --&gt;
+        
+        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot; class=&quot;btn btn-small btn-border green &quot;&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-buttons" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-06-buttons-00-buttons/00-atoms-06-buttons-00-buttons.html" class="patternLink" data-patternpartial="atoms-buttons">Buttons</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+    <a class="btn btn-extra-small">Extra Small Button</a>
+    <a class="btn btn-small">Small Button</a>
+    <a class="btn">Button</a>
+    <a class="btn btn-large">Large Button</a>
+    <a class="btn btn-extra-large">Extra Large Button</a>
+</div>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+    &lt;a class=&quot;btn btn-extra-small&quot;&gt;Extra Small Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-small&quot;&gt;Small Button&lt;/a&gt;
+    &lt;a class=&quot;btn&quot;&gt;Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-large&quot;&gt;Large Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-extra-large&quot;&gt;Extra Large Button&lt;/a&gt;
+&lt;/div&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-button-colors" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-06-buttons-01-button-colors/00-atoms-06-buttons-01-button-colors.html" class="patternLink" data-patternpartial="atoms-button-colors">Button Colors</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+    <a class="btn btn-small bg-gray">Gray Button</a>
+    <a class="btn btn-small bg-black">Black Button</a>
+    <a class="btn btn-small bg-white">White Button</a>
+    <a class="btn btn-small bg-green">Green Button</a>
+    <a class="btn btn-small bg-red">Red Button</a>
+    <a class="btn btn-small bg-yellow">Yellow Button</a>
+    <a class="btn btn-small bg-blue">Blue Button</a>
+</div>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+    &lt;a class=&quot;btn btn-small bg-gray&quot;&gt;Gray Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-small bg-black&quot;&gt;Black Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-small bg-white&quot;&gt;White Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-small bg-green&quot;&gt;Green Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-small bg-red&quot;&gt;Red Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-small bg-yellow&quot;&gt;Yellow Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-small bg-blue&quot;&gt;Blue Button&lt;/a&gt;
+&lt;/div&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-button-border" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-06-buttons-02-button-border/00-atoms-06-buttons-02-button-border.html" class="patternLink" data-patternpartial="atoms-button-border">Button Border</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+    <a class="btn btn-border btn-small">Button</a>
+    <a class="btn btn-border btn-small gray">Gray Button</a>
+    <a class="btn btn-border btn-small black">Black Button</a>
+    <a class="btn btn-border btn-small green">Green Button</a>
+    <a class="btn btn-border btn-small red">Red Button</a>
+    <a class="btn btn-border btn-small yellow">Yellow Button</a>
+    <a class="btn btn-border btn-small blue">Blue Button</a>
+</div>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+    &lt;a class=&quot;btn btn-border btn-small&quot;&gt;Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-border btn-small gray&quot;&gt;Gray Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-border btn-small black&quot;&gt;Black Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-border btn-small green&quot;&gt;Green Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-border btn-small red&quot;&gt;Red Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-border btn-small yellow&quot;&gt;Yellow Button&lt;/a&gt;
+    &lt;a class=&quot;btn btn-border btn-small blue&quot;&gt;Blue Button&lt;/a&gt;
+&lt;/div&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-button-radius" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-06-buttons-03-button-radius/00-atoms-06-buttons-03-button-radius.html" class="patternLink" data-patternpartial="atoms-button-radius">Button Radius</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+    <a class="btn border-radius bg-blue">Button</a>
+    <a class="btn border-radius btn-border blue">Button</a>
+</div> 
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+    &lt;a class=&quot;btn border-radius bg-blue&quot;&gt;Button&lt;/a&gt;
+    &lt;a class=&quot;btn border-radius btn-border blue&quot;&gt;Button&lt;/a&gt;
+&lt;/div&gt; 
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-button-pill" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-06-buttons-04-button-pill/00-atoms-06-buttons-04-button-pill.html" class="patternLink" data-patternpartial="atoms-button-pill">Button Pill</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+    <a class="btn pill bg-blue">Button</a>
+    <a class="btn pill btn-border blue">Button</a>
+</div> 
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+    &lt;a class=&quot;btn pill bg-blue&quot;&gt;Button&lt;/a&gt;
+    &lt;a class=&quot;btn pill btn-border blue&quot;&gt;Button&lt;/a&gt;
+&lt;/div&gt; 
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-button-dropdown" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-06-buttons-05-button-dropdown/00-atoms-06-buttons-05-button-dropdown.html" class="patternLink" data-patternpartial="atoms-button-dropdown">Button Dropdown</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+    <div class="btn dropdown line" tabindex="1">
+    Dropdown <span class="caret"></span>
+    <ul class="dropdown-menu">
+        <li><a href="#">Profile <span class="icon user right"></span></a></li>
+        <li><a href="#">Settings <span class="icon cog right"></span></a></li>
+        <li><a href="#">Log out <span class="icon times right"></span></a></li>
+    </ul>
+</div>
+</div> 
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+    &lt;div class=&quot;btn dropdown line&quot; tabindex=&quot;1&quot;&gt;
+    Dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
+    &lt;ul class=&quot;dropdown-menu&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Profile &lt;span class=&quot;icon user right&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Settings &lt;span class=&quot;icon cog right&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Log out &lt;span class=&quot;icon times right&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt; 
+
 									</code>
 								</pre>
 							</div>
@@ -1091,7 +1357,7 @@ p q r s t u v w x y z { | } ~
 					<div id="atoms-table" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-00-table/00-atoms-07-tables-00-table.html" class="patternLink" data-patternpartial="atoms-table">Table</a></h2>
 						<div class="sg-pattern-body">
-							<table>
+							<table class="table">
 	<thead>
 		<tr>
 			<th>Table Heading 1</th>
@@ -1141,11 +1407,12 @@ p q r s t u v w x y z { | } ~
 	</tr>
 	</tbody>
 </table>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;table&gt;
+										&lt;table class=&quot;table&quot;&gt;
 	&lt;thead&gt;
 		&lt;tr&gt;
 			&lt;th&gt;Table Heading 1&lt;/th&gt;
@@ -1195,6 +1462,1037 @@ p q r s t u v w x y z { | } ~
 	&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-border-all" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-01-table-border-all/00-atoms-07-tables-01-table-border-all.html" class="patternLink" data-patternpartial="atoms-table-border-all">Table Border All</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full table-border-all">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full table-border-all&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-border-inner" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-02-table-border-inner/00-atoms-07-tables-02-table-border-inner.html" class="patternLink" data-patternpartial="atoms-table-border-inner">Table Border Inner</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full table-border-inner">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full table-border-inner&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-border-outer" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-03-table-border-outer/00-atoms-07-tables-03-table-border-outer.html" class="patternLink" data-patternpartial="atoms-table-border-outer">Table Border Outer</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full table-border-outer">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full table-border-outer&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-fill-even" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-04-table-fill-even/00-atoms-07-tables-04-table-fill-even.html" class="patternLink" data-patternpartial="atoms-table-fill-even">Table Fill Even</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full table-fill-even">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full table-fill-even&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-fill-odd" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-05-table-fill-odd/00-atoms-07-tables-05-table-fill-odd.html" class="patternLink" data-patternpartial="atoms-table-fill-odd">Table Fill Odd</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full table-fill-odd">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full table-fill-odd&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-full-width" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-06-table-full-width/00-atoms-07-tables-06-table-full-width.html" class="patternLink" data-patternpartial="atoms-table-full-width">Table Full Width</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-hover-cell" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-07-table-hover-cell/00-atoms-07-tables-07-table-hover-cell.html" class="patternLink" data-patternpartial="atoms-table-hover-cell">Table Hover Cell</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full table-hover-cell">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full table-hover-cell&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-hover-row" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-08-table-hover-row/00-atoms-07-tables-08-table-hover-row.html" class="patternLink" data-patternpartial="atoms-table-hover-row">Table Hover Row</a></h2>
+						<div class="sg-pattern-body">
+							<table class="table table-full table-hover-row">
+	<thead>
+		<tr>
+			<th>Table Heading 1</th>
+			<th>Table Heading 2</th>
+			<th>Table Heading 3</th>
+			<th>Table Heading 4</th>
+			<th>Table Heading 5</th>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr>
+			<th>Table Footer 1</th>
+			<th>Table Footer 2</th>
+			<th>Table Footer 3</th>
+			<th>Table Footer 4</th>
+			<th>Table Footer 5</th>
+		</tr>
+	</tfoot>
+	<tbody>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	<tr>
+		<td>Table Cell 1</td>
+		<td>Table Cell 2</td>
+		<td>Table Cell 3</td>
+		<td>Table Cell 4</td>
+		<td>Table Cell 5</td>
+	</tr>
+	</tbody>
+</table>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;table class=&quot;table table-full table-hover-row&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Heading 1&lt;/th&gt;
+			&lt;th&gt;Table Heading 2&lt;/th&gt;
+			&lt;th&gt;Table Heading 3&lt;/th&gt;
+			&lt;th&gt;Table Heading 4&lt;/th&gt;
+			&lt;th&gt;Table Heading 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tfoot&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Table Footer 1&lt;/th&gt;
+			&lt;th&gt;Table Footer 2&lt;/th&gt;
+			&lt;th&gt;Table Footer 3&lt;/th&gt;
+			&lt;th&gt;Table Footer 4&lt;/th&gt;
+			&lt;th&gt;Table Footer 5&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/tfoot&gt;
+	&lt;tbody&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Table Cell 1&lt;/td&gt;
+		&lt;td&gt;Table Cell 2&lt;/td&gt;
+		&lt;td&gt;Table Cell 3&lt;/td&gt;
+		&lt;td&gt;Table Cell 4&lt;/td&gt;
+		&lt;td&gt;Table Cell 5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="atoms-table-responsive" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-07-tables-09-table-responsive/00-atoms-07-tables-09-table-responsive.html" class="patternLink" data-patternpartial="atoms-table-responsive">Table Responsive</a></h2>
+						<div class="sg-pattern-body">
+							<div class="table-responsive">
+    <table class="table table-full table-fill-odd">
+        <thead>
+            <tr>
+                <th>Table Heading 1</th>
+                <th>Table Heading 2</th>
+                <th>Table Heading 3</th>
+                <th>Table Heading 4</th>
+                <th>Table Heading 5</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Table Footer 1</th>
+                <th>Table Footer 2</th>
+                <th>Table Footer 3</th>
+                <th>Table Footer 4</th>
+                <th>Table Footer 5</th>
+            </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>Table Cell 1</td>
+            <td>Table Cell 2</td>
+            <td>Table Cell 3</td>
+            <td>Table Cell 4</td>
+            <td>Table Cell 5</td>
+        </tr>
+        <tr>
+            <td>Table Cell 1</td>
+            <td>Table Cell 2</td>
+            <td>Table Cell 3</td>
+            <td>Table Cell 4</td>
+            <td>Table Cell 5</td>
+        </tr>
+        <tr>
+            <td>Table Cell 1</td>
+            <td>Table Cell 2</td>
+            <td>Table Cell 3</td>
+            <td>Table Cell 4</td>
+            <td>Table Cell 5</td>
+        </tr>
+        <tr>
+            <td>Table Cell 1</td>
+            <td>Table Cell 2</td>
+            <td>Table Cell 3</td>
+            <td>Table Cell 4</td>
+            <td>Table Cell 5</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;table-responsive&quot;&gt;
+    &lt;table class=&quot;table table-full table-fill-odd&quot;&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Table Heading 1&lt;/th&gt;
+                &lt;th&gt;Table Heading 2&lt;/th&gt;
+                &lt;th&gt;Table Heading 3&lt;/th&gt;
+                &lt;th&gt;Table Heading 4&lt;/th&gt;
+                &lt;th&gt;Table Heading 5&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tfoot&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Table Footer 1&lt;/th&gt;
+                &lt;th&gt;Table Footer 2&lt;/th&gt;
+                &lt;th&gt;Table Footer 3&lt;/th&gt;
+                &lt;th&gt;Table Footer 4&lt;/th&gt;
+                &lt;th&gt;Table Footer 5&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/tfoot&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Table Cell 1&lt;/td&gt;
+            &lt;td&gt;Table Cell 2&lt;/td&gt;
+            &lt;td&gt;Table Cell 3&lt;/td&gt;
+            &lt;td&gt;Table Cell 4&lt;/td&gt;
+            &lt;td&gt;Table Cell 5&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Table Cell 1&lt;/td&gt;
+            &lt;td&gt;Table Cell 2&lt;/td&gt;
+            &lt;td&gt;Table Cell 3&lt;/td&gt;
+            &lt;td&gt;Table Cell 4&lt;/td&gt;
+            &lt;td&gt;Table Cell 5&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Table Cell 1&lt;/td&gt;
+            &lt;td&gt;Table Cell 2&lt;/td&gt;
+            &lt;td&gt;Table Cell 3&lt;/td&gt;
+            &lt;td&gt;Table Cell 4&lt;/td&gt;
+            &lt;td&gt;Table Cell 5&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Table Cell 1&lt;/td&gt;
+            &lt;td&gt;Table Cell 2&lt;/td&gt;
+            &lt;td&gt;Table Cell 3&lt;/td&gt;
+            &lt;td&gt;Table Cell 4&lt;/td&gt;
+            &lt;td&gt;Table Cell 5&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1251,18 +2549,62 @@ p q r s t u v w x y z { | } ~
 					<div id="molecules-heading-group" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-00-text-02-heading-group/01-molecules-00-text-02-heading-group.html" class="patternLink" data-patternpartial="molecules-heading-group">Heading Group</a></h2>
 						<div class="sg-pattern-body">
-							<div class="hgroup">
-   	<h2>This is the heading group's main heading</h2>
-   	<h3>This is the heading group's subheading</h3>
-</div>
+							<h1>
+    Heading 1
+    <small class="color-gray inline">This is a sub-heading</small>
+</h1>
+<h2>
+    Heading 2
+    <small class="color-gray inline">This is a sub-heading</small>
+</h2>
+<h3>
+    Heading 3
+    <small class="color-gray inline">This is a sub-heading</small>
+</h3>
+<h4>
+    Heading 4
+    <small class="color-gray inline">This is a sub-heading</small>
+</h4>
+<h5>
+    Heading 5
+    <small class="color-gray inline">This is a sub-heading</small>
+</h5>
+<h6>
+    Heading 6
+    <small class="color-gray inline">This is a sub-heading</small>
+</h6>
+
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;div class=&quot;hgroup&quot;&gt;
-   	&lt;h2&gt;This is the heading group's main heading&lt;/h2&gt;
-   	&lt;h3&gt;This is the heading group's subheading&lt;/h3&gt;
-&lt;/div&gt;
+										&lt;h1&gt;
+    Heading 1
+    &lt;small class=&quot;color-gray inline&quot;&gt;This is a sub-heading&lt;/small&gt;
+&lt;/h1&gt;
+&lt;h2&gt;
+    Heading 2
+    &lt;small class=&quot;color-gray inline&quot;&gt;This is a sub-heading&lt;/small&gt;
+&lt;/h2&gt;
+&lt;h3&gt;
+    Heading 3
+    &lt;small class=&quot;color-gray inline&quot;&gt;This is a sub-heading&lt;/small&gt;
+&lt;/h3&gt;
+&lt;h4&gt;
+    Heading 4
+    &lt;small class=&quot;color-gray inline&quot;&gt;This is a sub-heading&lt;/small&gt;
+&lt;/h4&gt;
+&lt;h5&gt;
+    Heading 5
+    &lt;small class=&quot;color-gray inline&quot;&gt;This is a sub-heading&lt;/small&gt;
+&lt;/h5&gt;
+&lt;h6&gt;
+    Heading 6
+    &lt;small class=&quot;color-gray inline&quot;&gt;This is a sub-heading&lt;/small&gt;
+&lt;/h6&gt;
+
+
 									</code>
 								</pre>
 							</div>
@@ -1271,22 +2613,20 @@ p q r s t u v w x y z { | } ~
 					<div id="molecules-blockquote-with-citation" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-00-text-03-blockquote-with-citation/01-molecules-00-text-03-blockquote-with-citation.html" class="patternLink" data-patternpartial="molecules-blockquote-with-citation">Blockquote With Citation</a></h2>
 						<div class="sg-pattern-body">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur consectetur metus, vitae gravida mauris venenatis sit amet. Donec feugiat sed mi nec rhoncus. Nunc sollicitudin, magna pretium tincidunt sagittis, nibh nulla placerat dolor, eget cursus ipsum urna quis enim. Quisque sed pellentesque sapien. Donec ac lacus vulputate, vestibulum enim et, ultricies tellus. Quisque commodo id magna sed sodales. Cras eu tortor tincidunt, fermentum eros vitae, sollicitudin tortor. Morbi nisl enim, ullamcorper non volutpat nec, egestas vel tortor. Quisque aliquet non urna sit amet posuere. Nunc nulla risus, commodo sed volutpat vitae, hendrerit eu arcu.<p>
-<blockquote>
+							<blockquote>
    	<p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation. </p>
-	<cite class="citation">Quote Source</cite>
+	<cite>Quote Source</cite>
 </blockquote>
-<p>In hac habitasse platea dictumst. Praesent dapibus metus et magna sollicitudin, quis laoreet massa gravida. Fusce sed ipsum iaculis, lacinia arcu sodales, lacinia dui. Duis vitae arcu ac odio facilisis scelerisque in sed tellus. Curabitur imperdiet eleifend mi eu semper. Quisque porta, mi sit amet venenatis rutrum, ante lacus lobortis dolor, eu lacinia enim sem quis nulla. Nunc non turpis sit amet metus gravida tincidunt. Praesent tristique lectus sit amet neque blandit, et vestibulum ante eleifend. Aliquam mollis, nisi vitae condimentum imperdiet, erat mi semper nisl, non viverra neque felis aliquam risus. Cras risus enim, sodales ac libero at, eleifend facilisis mi. Maecenas volutpat vestibulum nibh sit amet pharetra. Proin pharetra nisl elit, et lacinia mauris tempus a.<p>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur consectetur metus, vitae gravida mauris venenatis sit amet. Donec feugiat sed mi nec rhoncus. Nunc sollicitudin, magna pretium tincidunt sagittis, nibh nulla placerat dolor, eget cursus ipsum urna quis enim. Quisque sed pellentesque sapien. Donec ac lacus vulputate, vestibulum enim et, ultricies tellus. Quisque commodo id magna sed sodales. Cras eu tortor tincidunt, fermentum eros vitae, sollicitudin tortor. Morbi nisl enim, ullamcorper non volutpat nec, egestas vel tortor. Quisque aliquet non urna sit amet posuere. Nunc nulla risus, commodo sed volutpat vitae, hendrerit eu arcu.&lt;p&gt;
-&lt;blockquote&gt;
+										&lt;blockquote&gt;
    	&lt;p&gt;A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation. &lt;/p&gt;
-	&lt;cite class=&quot;citation&quot;&gt;Quote Source&lt;/cite&gt;
+	&lt;cite&gt;Quote Source&lt;/cite&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In hac habitasse platea dictumst. Praesent dapibus metus et magna sollicitudin, quis laoreet massa gravida. Fusce sed ipsum iaculis, lacinia arcu sodales, lacinia dui. Duis vitae arcu ac odio facilisis scelerisque in sed tellus. Curabitur imperdiet eleifend mi eu semper. Quisque porta, mi sit amet venenatis rutrum, ante lacus lobortis dolor, eu lacinia enim sem quis nulla. Nunc non turpis sit amet metus gravida tincidunt. Praesent tristique lectus sit amet neque blandit, et vestibulum ante eleifend. Aliquam mollis, nisi vitae condimentum imperdiet, erat mi semper nisl, non viverra neque felis aliquam risus. Cras risus enim, sodales ac libero at, eleifend facilisis mi. Maecenas volutpat vestibulum nibh sit amet pharetra. Proin pharetra nisl elit, et lacinia mauris tempus a.&lt;p&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1302,7 +2642,7 @@ p q r s t u v w x y z { | } ~
 								<pre class="sg-code-html">
 									<code>
 										&lt;p class=&quot;intro&quot;&gt;The intro text may be a lead-in to the passage of text, or it may just be used to create a visual distinction between the rest of the passage of text.&lt;/p&gt;
-&lt;p class=&quot;intro&quot;&gt;'Hannah Garrard reports from Monrovia on a crisis in Liberia&rsquo;s education system.'&lt;/p&gt;
+&lt;p class=&quot;intro&quot;&gt;'Hannah Garrard reports from Monrovia on a crisis in Liberia&acirc;€™s education system.'&lt;/p&gt;
 									</code>
 								</pre>
 							</div>
@@ -1313,22 +2653,24 @@ p q r s t u v w x y z { | } ~
 						<div class="sg-pattern-body">
 							<div class="demo">
 	<!--Grid 1up-->
-	<div class="g g-1up">
-		<div class="gi">1/1</div>
+	<div class="row">
+		<div class="column-24 text-center bg-gray color-white">1/1</div>
 	</div>
 	<!--End Grid 1up-->		
 </div><!--end .demo-->
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;demo&quot;&gt;
 	&lt;!--Grid 1up--&gt;
-	&lt;div class=&quot;g g-1up&quot;&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/1&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;column-24 text-center bg-gray color-white&quot;&gt;1/1&lt;/div&gt;
 	&lt;/div&gt;
 	&lt;!--End Grid 1up--&gt;		
 &lt;/div&gt;&lt;!--end .demo--&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1339,22 +2681,24 @@ p q r s t u v w x y z { | } ~
 						<div class="sg-pattern-body">
 							<div class="demo">
 	<!--Grid 2up-->
-	<div class="g g-2up">
-		<div class="gi">1/2</div>
-		<div class="gi">1/2</div>
+	<div class="row">
+		<div class="column-12 text-center bg-black color-white">1/2</div>
+		<div class="column-12 text-center bg-gray color-white">1/2</div>
 	</div>
 </div>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;demo&quot;&gt;
 	&lt;!--Grid 2up--&gt;
-	&lt;div class=&quot;g g-2up&quot;&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/2&lt;/div&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/2&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;column-12 text-center bg-black color-white&quot;&gt;1/2&lt;/div&gt;
+		&lt;div class=&quot;column-12 text-center bg-gray color-white&quot;&gt;1/2&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1365,24 +2709,26 @@ p q r s t u v w x y z { | } ~
 						<div class="sg-pattern-body">
 							<div class="demo">
 	<!--Grid 3up-->
-	<div class="g g-3up">
-		<div class="gi">1/3</div>
-		<div class="gi">1/3</div>
-		<div class="gi">1/3</div>
+	<div class="row">
+		<div class="column-8 text-center bg-black color-white">1/3</div>
+		<div class="column-8 text-center bg-gray color-white">1/3</div>
+		<div class="column-8 text-center bg-black color-white">1/3</div>
 	</div>
 </div>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;demo&quot;&gt;
 	&lt;!--Grid 3up--&gt;
-	&lt;div class=&quot;g g-3up&quot;&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/3&lt;/div&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/3&lt;/div&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/3&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;column-8 text-center bg-black color-white&quot;&gt;1/3&lt;/div&gt;
+		&lt;div class=&quot;column-8 text-center bg-gray color-white&quot;&gt;1/3&lt;/div&gt;
+		&lt;div class=&quot;column-8 text-center bg-black color-white&quot;&gt;1/3&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1393,26 +2739,118 @@ p q r s t u v w x y z { | } ~
 						<div class="sg-pattern-body">
 							<div class="demo">
 	<!--Grid 4up-->
-	<div class="g g-4up">
-		<div class="gi">1/4</div>
-		<div class="gi">1/4</div>
-		<div class="gi">1/4</div>
-		<div class="gi">1/4</div>
+	<div class="row">
+		<div class="column-6 text-center bg-black color-white">1/4</div>
+		<div class="column-6 text-center bg-gray color-white">1/4</div>
+		<div class="column-6 text-center bg-black color-white">1/4</div>
+		<div class="column-6 text-center bg-gray color-white">1/4</div>
 	</div>
 </div>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
 										&lt;div class=&quot;demo&quot;&gt;
 	&lt;!--Grid 4up--&gt;
-	&lt;div class=&quot;g g-4up&quot;&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/4&lt;/div&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/4&lt;/div&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/4&lt;/div&gt;
-		&lt;div class=&quot;gi&quot;&gt;1/4&lt;/div&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;column-6 text-center bg-black color-white&quot;&gt;1/4&lt;/div&gt;
+		&lt;div class=&quot;column-6 text-center bg-gray color-white&quot;&gt;1/4&lt;/div&gt;
+		&lt;div class=&quot;column-6 text-center bg-black color-white&quot;&gt;1/4&lt;/div&gt;
+		&lt;div class=&quot;column-6 text-center bg-gray color-white&quot;&gt;1/4&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="molecules-two-up-gutter" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-01-layout-04-two-up-gutter/01-molecules-01-layout-04-two-up-gutter.html" class="patternLink" data-patternpartial="molecules-two-up-gutter">Two Up Gutter</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+	<!--Grid 2up-->
+	<div class="row gutters">
+		<div class="column-12 text-center bg-black color-white">1/2</div>
+		<div class="column-12 text-center bg-gray color-white">1/2</div>
+	</div>
+</div>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+	&lt;!--Grid 2up--&gt;
+	&lt;div class=&quot;row gutters&quot;&gt;
+		&lt;div class=&quot;column-12 text-center bg-black color-white&quot;&gt;1/2&lt;/div&gt;
+		&lt;div class=&quot;column-12 text-center bg-gray color-white&quot;&gt;1/2&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="molecules-three-up-gutter" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-01-layout-05-three-up-gutter/01-molecules-01-layout-05-three-up-gutter.html" class="patternLink" data-patternpartial="molecules-three-up-gutter">Three Up Gutter</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+	<!--Grid 3up-->
+	<div class="row gutters">
+		<div class="column-8 text-center bg-black color-white">1/3</div>
+		<div class="column-8 text-center bg-gray color-white">1/3</div>
+		<div class="column-8 text-center bg-black color-white">1/3</div>
+	</div>
+</div>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+	&lt;!--Grid 3up--&gt;
+	&lt;div class=&quot;row gutters&quot;&gt;
+		&lt;div class=&quot;column-8 text-center bg-black color-white&quot;&gt;1/3&lt;/div&gt;
+		&lt;div class=&quot;column-8 text-center bg-gray color-white&quot;&gt;1/3&lt;/div&gt;
+		&lt;div class=&quot;column-8 text-center bg-black color-white&quot;&gt;1/3&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="molecules-four-up-gutter" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-01-layout-06-four-up-gutter/01-molecules-01-layout-06-four-up-gutter.html" class="patternLink" data-patternpartial="molecules-four-up-gutter">Four Up Gutter</a></h2>
+						<div class="sg-pattern-body">
+							<div class="demo">
+	<!--Grid 4up-->
+	<div class="row gutters">
+		<div class="column-6 text-center bg-black color-white">1/4</div>
+		<div class="column-6 text-center bg-gray color-white">1/4</div>
+		<div class="column-6 text-center bg-black color-white">1/4</div>
+		<div class="column-6 text-center bg-gray color-white">1/4</div>
+	</div>
+</div>
+
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;demo&quot;&gt;
+	&lt;!--Grid 4up--&gt;
+	&lt;div class=&quot;row gutters&quot;&gt;
+		&lt;div class=&quot;column-6 text-center bg-black color-white&quot;&gt;1/4&lt;/div&gt;
+		&lt;div class=&quot;column-6 text-center bg-gray color-white&quot;&gt;1/4&lt;/div&gt;
+		&lt;div class=&quot;column-6 text-center bg-black color-white&quot;&gt;1/4&lt;/div&gt;
+		&lt;div class=&quot;column-6 text-center bg-gray color-white&quot;&gt;1/4&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -1424,11 +2862,11 @@ p q r s t u v w x y z { | } ~
 							<div class="media-block">
     <a href="#" class="inner">
 		<picture class="list-pic">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-		    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-		    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
+		    <source srcset="" media="(min-width: 1000px)">
+		    <source srcset="" media="(min-width: 800px)">
+		    <source srcset="" media="(min-width: 480px)">
+		    <source srcset="">
+		    <img srcset="" alt="">
 		</picture>
 		<div class="text">
 			<h3 class="title">Lorem ipsum dolor sit (37 characters)</h3>
@@ -1448,11 +2886,11 @@ p q r s t u v w x y z { | } ~
 										&lt;div class=&quot;media-block&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
 		&lt;picture class=&quot;list-pic&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-		    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 1000px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 800px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 480px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot;&gt;
+		    &lt;img srcset=&quot;&quot; alt=&quot;&quot;&gt;
 		&lt;/picture&gt;
 		&lt;div class=&quot;text&quot;&gt;
 			&lt;h3 class=&quot;title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h3&gt;
@@ -1492,74 +2930,6 @@ p q r s t u v w x y z { | } ~
 							</div>
 						</div>
 					</div>
-					<div id="molecules-block-hero" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-02-block-hero/01-molecules-02-blocks-02-block-hero.html" class="patternLink" data-patternpartial="molecules-block-hero">Block Hero</a></h2>
-						<div class="sg-pattern-body">
-							<div class="block block-hero">
-	<a href="#" class="b-inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_16x9.png" alt="16x9 Image" />		</div>
-		<div class="b-text">
-			<h2 class="b-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)</h2>
-		</div>
-	</a>
-</div>
-							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-02-landscape-16x9/00-atoms-04-images-02-landscape-16x9.html"><code>atoms-landscape-16x9</code></a>
-									</div>
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;div class=&quot;block block-hero&quot;&gt;
-	&lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
-		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_16x9.png&quot; alt=&quot;16x9 Image&quot; /&gt;		&lt;/div&gt;
-		&lt;div class=&quot;b-text&quot;&gt;
-			&lt;h2 class=&quot;b-title&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)&lt;/h2&gt;
-		&lt;/div&gt;
-	&lt;/a&gt;
-&lt;/div&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="molecules-block-thumb-headline" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-03-block-thumb-headline/01-molecules-02-blocks-03-block-thumb-headline.html" class="patternLink" data-patternpartial="molecules-block-thumb-headline">Block Thumb Headline</a></h2>
-						<div class="sg-pattern-body">
-							<div class="block block-thumb">
-	<a href="#" class="b-inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_square.png" alt="Square Thumbnail" />		</div>
-		<div class="b-text">
-			<h2 class="b-title">Pattern Lab</h2>
-		</div>
-	</a>
-</div>
-							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-03-square/00-atoms-04-images-03-square.html"><code>atoms-square</code></a>
-									</div>
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;div class=&quot;block block-thumb&quot;&gt;
-	&lt;a href=&quot;#&quot; class=&quot;b-inner&quot;&gt;
-		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_square.png&quot; alt=&quot;Square Thumbnail&quot; /&gt;		&lt;/div&gt;
-		&lt;div class=&quot;b-text&quot;&gt;
-			&lt;h2 class=&quot;b-title&quot;&gt;Pattern Lab&lt;/h2&gt;
-		&lt;/div&gt;
-	&lt;/a&gt;
-&lt;/div&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
 					<div id="molecules-block-headline" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-04-block-headline/01-molecules-02-blocks-04-block-headline.html" class="patternLink" data-patternpartial="molecules-block-headline">Block Headline</a></h2>
 						<div class="sg-pattern-body">
@@ -1575,40 +2945,6 @@ p q r s t u v w x y z { | } ~
 										&lt;div class=&quot;block block-headline&quot;&gt;
 	&lt;a href=&quot;#&quot;&gt;
 		&lt;h2 class=&quot;headline&quot;&gt;Headline: Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/h2&gt;
-	&lt;/a&gt;
-&lt;/div&gt;
-									</code>
-								</pre>
-							</div>
-						</div>
-					</div>
-					<div id="molecules-block-inset" class="sg-pattern">
-						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-02-blocks-05-block-inset/01-molecules-02-blocks-05-block-inset.html" class="patternLink" data-patternpartial="molecules-block-inset">Block Inset</a></h2>
-						<div class="sg-pattern-body">
-							<div class="block block-inset">
-    <a href="#" class="inner">
-		<div class="b-thumb">
-			<img src="../../images/fpo_4x3.png" alt="4x3 Image" />		</div>
-		<div class="b-text">
-			<h2 class="headline">Lorem ipsum dolor sit (37 characters)</h2>
-		</div>
-	</a>
-</div>
-							<div class="sg-code" style="display: none">
-									<div class="sg-code-contains">
-										This pattern contains: 
-											<a href="../../patterns/00-atoms-04-images-01-landscape-4x3/00-atoms-04-images-01-landscape-4x3.html"><code>atoms-landscape-4x3</code></a>
-									</div>
-								<h3 class="sg-code-head">HTML</h3>
-								<pre class="sg-code-html">
-									<code>
-										&lt;div class=&quot;block block-inset&quot;&gt;
-    &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
-		&lt;div class=&quot;b-thumb&quot;&gt;
-			&lt;img src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;4x3 Image&quot; /&gt;		&lt;/div&gt;
-		&lt;div class=&quot;b-text&quot;&gt;
-			&lt;h2 class=&quot;headline&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h2&gt;
-		&lt;/div&gt;
 	&lt;/a&gt;
 &lt;/div&gt;
 									</code>
@@ -1649,6 +2985,20 @@ p q r s t u v w x y z { | } ~
 	&lt;img src=&quot;../../images/fpo_4x3.png&quot; alt=&quot;4x3 Image&quot; /&gt;	&lt;figcaption&gt;This is an example of an image with a caption. Photo captions, also known as cutlines,&lt;/figcaption&gt; 
 	&lt;figcaption&gt;are a few lines of text used to explain or elaborate on published photographs.&lt;/figcaption&gt;
 &lt;/figure&gt;
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
+					<div id="molecules-fib-two-image-block" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-03-media-02-fib-two-image-block/01-molecules-03-media-02-fib-two-image-block.html" class="patternLink" data-patternpartial="molecules-fib-two-image-block">Fib Two Image Block</a></h2>
+						<div class="sg-pattern-body">
+							<div class="fib-image">    <picture class="fib-pic">        <source srcset="http://placehold.it/1080x720/444/png/&amp;text=high%20res%201080x720" media="(min-width: 1000px)">        <source srcset="http://placehold.it/1080x720/444/png/&amp;text=high%20res%201080x720" media="(min-width: 800px)">        <source srcset="http://placehold.it/540x360/444/png/&amp;text=low%20res%20540x360">        <img srcset="http://placehold.it/540x360/444/png/&amp;text=low%20res%20540x360" alt="large image">    </picture>    <div class="fib-box">        <picture class="visible-smup medium-pic">            <source srcset="http://placehold.it/720x360/ccc/png/&amp;text=high%20res%20720x360" media="(min-width: 1000px)">            <source srcset="http://placehold.it/720x360/ccc/png/&amp;text=high%20res%20720x360" media="(min-width: 800px)">            <source srcset="http://placehold.it/360x180/ccc/png/&amp;text=low%20res%20360x180">            <img srcset="http://placehold.it/360x180/ccc/png/&amp;text=low%20res%20360x180" alt="medium image">        </picture>        <picture class="visible-xsup small-pic">            <source srcset="http://placehold.it/360x360/999/png/&amp;text=high%20res%20360x360" media="(min-width: 1000px)">            <source srcset="http://placehold.it/360x360/999/png/&amp;text=high%20res%20360x360" media="(min-width: 800px)">            <source srcset="http://placehold.it/180x180/999/png/&amp;text=low%20res%20180x180">            <img srcset="http://placehold.it/180x180/999/png/&amp;text=low%20res%20180x180" alt="small image">        </picture>        <picture class="visible-xsup small-pic">            <source srcset="http://placehold.it/360x360/666/png/&amp;text=high%20res%20360x360" media="(min-width: 1000px)">            <source srcset="http://placehold.it/360x360/666/png/&amp;text=high%20res%20360x360" media="(min-width: 800px)">            <source srcset="http://placehold.it/180x180/666/png/&amp;text=low%20res%20180x180">            <img srcset="http://placehold.it/180x180/666/png/&amp;text=low%20res%20180x180" alt="small image">        </picture>    </div></div>
+							<div class="sg-code" style="display: none">
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;div class=&quot;fib-image&quot;&gt;    &lt;picture class=&quot;fib-pic&quot;&gt;        &lt;source srcset=&quot;http://placehold.it/1080x720/444/png/&amp;amp;text=high%20res%201080x720&quot; media=&quot;(min-width: 1000px)&quot;&gt;        &lt;source srcset=&quot;http://placehold.it/1080x720/444/png/&amp;amp;text=high%20res%201080x720&quot; media=&quot;(min-width: 800px)&quot;&gt;        &lt;source srcset=&quot;http://placehold.it/540x360/444/png/&amp;amp;text=low%20res%20540x360&quot;&gt;        &lt;img srcset=&quot;http://placehold.it/540x360/444/png/&amp;amp;text=low%20res%20540x360&quot; alt=&quot;large image&quot;&gt;    &lt;/picture&gt;    &lt;div class=&quot;fib-box&quot;&gt;        &lt;picture class=&quot;visible-smup medium-pic&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/720x360/ccc/png/&amp;amp;text=high%20res%20720x360&quot; media=&quot;(min-width: 1000px)&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/720x360/ccc/png/&amp;amp;text=high%20res%20720x360&quot; media=&quot;(min-width: 800px)&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/360x180/ccc/png/&amp;amp;text=low%20res%20360x180&quot;&gt;            &lt;img srcset=&quot;http://placehold.it/360x180/ccc/png/&amp;amp;text=low%20res%20360x180&quot; alt=&quot;medium image&quot;&gt;        &lt;/picture&gt;        &lt;picture class=&quot;visible-xsup small-pic&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/360x360/999/png/&amp;amp;text=high%20res%20360x360&quot; media=&quot;(min-width: 1000px)&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/360x360/999/png/&amp;amp;text=high%20res%20360x360&quot; media=&quot;(min-width: 800px)&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/180x180/999/png/&amp;amp;text=low%20res%20180x180&quot;&gt;            &lt;img srcset=&quot;http://placehold.it/180x180/999/png/&amp;amp;text=low%20res%20180x180&quot; alt=&quot;small image&quot;&gt;        &lt;/picture&gt;        &lt;picture class=&quot;visible-xsup small-pic&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/360x360/666/png/&amp;amp;text=high%20res%20360x360&quot; media=&quot;(min-width: 1000px)&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/360x360/666/png/&amp;amp;text=high%20res%20360x360&quot; media=&quot;(min-width: 800px)&quot;&gt;            &lt;source srcset=&quot;http://placehold.it/180x180/666/png/&amp;amp;text=low%20res%20180x180&quot;&gt;            &lt;img srcset=&quot;http://placehold.it/180x180/666/png/&amp;amp;text=low%20res%20180x180&quot; alt=&quot;small image&quot;&gt;        &lt;/picture&gt;    &lt;/div&gt;&lt;/div&gt;
 									</code>
 								</pre>
 							</div>
@@ -1767,28 +3117,56 @@ p q r s t u v w x y z { | } ~
 					<div id="molecules-primary-nav" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-00-primary-nav/01-molecules-05-navigation-00-primary-nav.html" class="patternLink" data-patternpartial="molecules-primary-nav">Primary Nav</a></h2>
 						<div class="sg-pattern-body">
-							<nav id="nav" class="nav">
-	<ul class="nav-list">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Magazine</a></li>
-		<li><a href="#">Books</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Shop</a></li>
-	</ul>
+							<nav id="nav" role="navigation">
+    <div class="block">
+        <input type="search" placeholder="Search" />
+        <ul>
+            <li class="is-active">
+                <a href="#">Chapter 1</a>
+            </li>
+             <li>
+                    <a href="#">Chapter 2</a>
+                </li>
+             <li>
+                    <a href="#">Chapter 3</a>
+                </li>
+             <li>
+                    <a href="#">Chapter 4</a>
+                </li>
+             <li>
+                <a href="#">Chapter 5</a>
+            </li>
+        </ul>
+    </div>
+    <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
 </nav><!--end .nav-->
 
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;nav id=&quot;nav&quot; class=&quot;nav&quot;&gt;
-	&lt;ul class=&quot;nav-list&quot;&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Magazine&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Shop&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
+										&lt;nav id=&quot;nav&quot; role=&quot;navigation&quot;&gt;
+    &lt;div class=&quot;block&quot;&gt;
+        &lt;input type=&quot;search&quot; placeholder=&quot;Search&quot; /&gt;
+        &lt;ul&gt;
+            &lt;li class=&quot;is-active&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;Chapter 1&lt;/a&gt;
+            &lt;/li&gt;
+             &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Chapter 2&lt;/a&gt;
+                &lt;/li&gt;
+             &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Chapter 3&lt;/a&gt;
+                &lt;/li&gt;
+             &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Chapter 4&lt;/a&gt;
+                &lt;/li&gt;
+             &lt;li&gt;
+                &lt;a href=&quot;#&quot;&gt;Chapter 5&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;a class=&quot;close-btn&quot; id=&quot;nav-close-btn&quot; href=&quot;#top&quot;&gt;Return to Content&lt;/a&gt;
 &lt;/nav&gt;&lt;!--end .nav--&gt;
 
 									</code>
@@ -1855,39 +3233,27 @@ p q r s t u v w x y z { | } ~
 					<div id="molecules-pagination" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/01-molecules-05-navigation-03-pagination/01-molecules-05-navigation-03-pagination.html" class="patternLink" data-patternpartial="molecules-pagination">Pagination</a></h2>
 						<div class="sg-pattern-body">
-							<ol class="pagination">
-	<li><a href="#">Previous</a></li>
-	<li class="current visible-32up"><a href="#">1</a></li>
-	<li class="visible-32up"><a href="#">2</a></li>
-	<li class="visible-32up"><a href="#">3</a></li>
-	<li class="visible-32up"><a href="#">4</a></li>
-	<li class="visible-32up"><a href="#">5</a></li>
-	<li class="visible-32up"><a href="#">6</a></li>
-	<li class="visible-32up"><a href="#">7</a></li>
-	<li class="visible-32up"><a href="#">8</a></li>
-	<li class="visible-32up"><a href="#">9</a></li>
-	<li class="visible-32up"><a href="#">10</a></li>
-	<li><a href="#">Next</a></li>
-</ol>
+							<span class="group border-radius">
+    <button class="group-item"><i class="fa fa-angle-double-left"></i> First</button>
+    <button class="group-item">1</button>
+    <button class="group-item">2</button>
+    <button class="group-item active">3</button>
+    <button class="group-item">4</button>
+    <button class="group-item">Last <i class="fa fa-angle-double-right"></i></button>
+</span>
 
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;ol class=&quot;pagination&quot;&gt;
-	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Previous&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;current visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;7&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;8&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;9&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;10&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Next&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+										&lt;span class=&quot;group border-radius&quot;&gt;
+    &lt;button class=&quot;group-item&quot;&gt;&lt;i class=&quot;fa fa-angle-double-left&quot;&gt;&lt;/i&gt; First&lt;/button&gt;
+    &lt;button class=&quot;group-item&quot;&gt;1&lt;/button&gt;
+    &lt;button class=&quot;group-item&quot;&gt;2&lt;/button&gt;
+    &lt;button class=&quot;group-item active&quot;&gt;3&lt;/button&gt;
+    &lt;button class=&quot;group-item&quot;&gt;4&lt;/button&gt;
+    &lt;button class=&quot;group-item&quot;&gt;Last &lt;i class=&quot;fa fa-angle-double-right&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/span&gt;
 
 									</code>
 								</pre>
@@ -1956,13 +3322,14 @@ p q r s t u v w x y z { | } ~
 
 <div class="social-share">
 	<ul class="social-share-list">
-		<li><a href="#">Facebook</a></li>
-		<li><a href="#">Twitter</a></li>
-		<li><a href="#">Google+</a></li>
+		<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
+		<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+		<li><a href="#"><i class="fa fa-google-plus"></i> Google+</a></li>
 		<li><a href="#">RSS</a></li>
 		<li><a href="#">Email</a></li>
 	</ul>
 </div>
+
 							<div class="sg-code" style="display: none">
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -1978,13 +3345,14 @@ p q r s t u v w x y z { | } ~
 
 &lt;div class=&quot;social-share&quot;&gt;
 	&lt;ul class=&quot;social-share-list&quot;&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Google+&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt; Facebook&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; Twitter&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt; Google+&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;RSS&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Email&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/div&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -2099,35 +3467,53 @@ p q r s t u v w x y z { | } ~
 	    <h1>New Internationalist</h1>
 	    <h2>Putting the world to rights since 1973</h2>
 	</a>
-	<a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a>
-	<a href="#nav" class="nav-toggle nav-toggle-menu icon-menu"><span class="is-vishidden">Menu</span></a>
-	<nav id="nav" class="nav">
-		<ul class="nav-list">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Magazine</a></li>
-			<li><a href="#">Books</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Shop</a></li>
-		</ul>
-	</nav><!--end .nav-->
-	<form action="#" method="post" class="inline-form search-form">           
-	    <fieldset>
-		    <legend class="is-vishidden">Search</legend>
-		    <label for="search-field" class="is-vishidden">Search</label>
-		    <input type="search" placeholder="Search" id="search-field" class="search-field" />
-		    <button class="search-submit">
-		    	<span class="icon-search" aria-hidden="true"></span>
-		    	<span class="is-vishidden">Search</span>
-		    </button>
-	    </fieldset>
-	</form></header>
+	<!-- <a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a> -->
+	
+	<!-- <form action="#" method="post" class="inline-form search-form">           
+    <fieldset>
+	    <legend class="is-vishidden">Search</legend>
+	    <label for="search-field" class="is-vishidden">Search</label>
+	    <input type="search" placeholder="Search" id="search-field" class="search-field" />
+	    <button class="search-submit">
+	    	<span class="icon-search" aria-hidden="true"></span>
+	    	<span class="is-vishidden">Search</span>
+	    </button>
+    </fieldset>
+</form> -->
+    <a id="nav-open-btn" href="#nav"><span class="screen-reader">Main Navigation</span> <i class="fa fa-bars" ></i></a>
+
+</header>
+<nav id="nav" role="navigation">
+    <div class="block">
+        <input type="search" placeholder="Search" />
+        <ul>
+            <li class="is-active">
+                <a href="#">Chapter 1</a>
+            </li>
+             <li>
+                    <a href="#">Chapter 2</a>
+                </li>
+             <li>
+                    <a href="#">Chapter 3</a>
+                </li>
+             <li>
+                    <a href="#">Chapter 4</a>
+                </li>
+             <li>
+                <a href="#">Chapter 5</a>
+            </li>
+        </ul>
+    </div>
+    <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+</nav><!--end .nav-->
 <!-- End .header -->
+
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
 											<a href="../../patterns/00-atoms-04-images-00-logo/00-atoms-04-images-00-logo.html"><code>atoms-logo</code></a>
-											<a href="../../patterns/01-molecules-05-navigation-00-primary-nav/01-molecules-05-navigation-00-primary-nav.html"><code>molecules-primary-nav</code></a>
 											<a href="../../patterns/01-molecules-04-forms-00-search/01-molecules-04-forms-00-search.html"><code>molecules-search</code></a>
+											<a href="../../patterns/01-molecules-05-navigation-00-primary-nav/01-molecules-05-navigation-00-primary-nav.html"><code>molecules-primary-nav</code></a>
 									</div>
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
@@ -2138,29 +3524,47 @@ p q r s t u v w x y z { | } ~
 	    &lt;h1&gt;New Internationalist&lt;/h1&gt;
 	    &lt;h2&gt;Putting the world to rights since 1973&lt;/h2&gt;
 	&lt;/a&gt;
-	&lt;a href=&quot;#search-form&quot; class=&quot;nav-toggle nav-toggle-search icon-search&quot;&gt;&lt;span class=&quot;is-vishidden&quot;&gt;Search&lt;/span&gt;&lt;/a&gt;
-	&lt;a href=&quot;#nav&quot; class=&quot;nav-toggle nav-toggle-menu icon-menu&quot;&gt;&lt;span class=&quot;is-vishidden&quot;&gt;Menu&lt;/span&gt;&lt;/a&gt;
-	&lt;nav id=&quot;nav&quot; class=&quot;nav&quot;&gt;
-		&lt;ul class=&quot;nav-list&quot;&gt;
-			&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Magazine&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
-			&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Shop&lt;/a&gt;&lt;/li&gt;
-		&lt;/ul&gt;
-	&lt;/nav&gt;&lt;!--end .nav--&gt;
-	&lt;form action=&quot;#&quot; method=&quot;post&quot; class=&quot;inline-form search-form&quot;&gt;           
-	    &lt;fieldset&gt;
-		    &lt;legend class=&quot;is-vishidden&quot;&gt;Search&lt;/legend&gt;
-		    &lt;label for=&quot;search-field&quot; class=&quot;is-vishidden&quot;&gt;Search&lt;/label&gt;
-		    &lt;input type=&quot;search&quot; placeholder=&quot;Search&quot; id=&quot;search-field&quot; class=&quot;search-field&quot; /&gt;
-		    &lt;button class=&quot;search-submit&quot;&gt;
-		    	&lt;span class=&quot;icon-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
-		    	&lt;span class=&quot;is-vishidden&quot;&gt;Search&lt;/span&gt;
-		    &lt;/button&gt;
-	    &lt;/fieldset&gt;
-	&lt;/form&gt;&lt;/header&gt;
+	&lt;!-- &lt;a href=&quot;#search-form&quot; class=&quot;nav-toggle nav-toggle-search icon-search&quot;&gt;&lt;span class=&quot;is-vishidden&quot;&gt;Search&lt;/span&gt;&lt;/a&gt; --&gt;
+	
+	&lt;!-- &lt;form action=&quot;#&quot; method=&quot;post&quot; class=&quot;inline-form search-form&quot;&gt;           
+    &lt;fieldset&gt;
+	    &lt;legend class=&quot;is-vishidden&quot;&gt;Search&lt;/legend&gt;
+	    &lt;label for=&quot;search-field&quot; class=&quot;is-vishidden&quot;&gt;Search&lt;/label&gt;
+	    &lt;input type=&quot;search&quot; placeholder=&quot;Search&quot; id=&quot;search-field&quot; class=&quot;search-field&quot; /&gt;
+	    &lt;button class=&quot;search-submit&quot;&gt;
+	    	&lt;span class=&quot;icon-search&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+	    	&lt;span class=&quot;is-vishidden&quot;&gt;Search&lt;/span&gt;
+	    &lt;/button&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt; --&gt;
+    &lt;a id=&quot;nav-open-btn&quot; href=&quot;#nav&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Main Navigation&lt;/span&gt; &lt;i class=&quot;fa fa-bars&quot; &gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;/header&gt;
+&lt;nav id=&quot;nav&quot; role=&quot;navigation&quot;&gt;
+    &lt;div class=&quot;block&quot;&gt;
+        &lt;input type=&quot;search&quot; placeholder=&quot;Search&quot; /&gt;
+        &lt;ul&gt;
+            &lt;li class=&quot;is-active&quot;&gt;
+                &lt;a href=&quot;#&quot;&gt;Chapter 1&lt;/a&gt;
+            &lt;/li&gt;
+             &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Chapter 2&lt;/a&gt;
+                &lt;/li&gt;
+             &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Chapter 3&lt;/a&gt;
+                &lt;/li&gt;
+             &lt;li&gt;
+                    &lt;a href=&quot;#&quot;&gt;Chapter 4&lt;/a&gt;
+                &lt;/li&gt;
+             &lt;li&gt;
+                &lt;a href=&quot;#&quot;&gt;Chapter 5&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;a class=&quot;close-btn&quot; id=&quot;nav-close-btn&quot; href=&quot;#top&quot;&gt;Return to Content&lt;/a&gt;
+&lt;/nav&gt;&lt;!--end .nav--&gt;
 &lt;!-- End .header --&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -2203,11 +3607,12 @@ p q r s t u v w x y z { | } ~
 <p>Aliquam ultrices cursus mauris, eget volutpat justo mattis nec. Sed a orci turpis. Aliquam aliquet placerat dui, consectetur tincidunt leo tristique et. Vivamus enim nisi, blandit a venenatis quis, convallis et arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris libero sapien, placerat in sodales eu, tempor quis dui. Vivamus egestas faucibus pulvinar. Maecenas eget diam nunc. Phasellus at sem eros, ac suscipit neque. Phasellus sollicitudin libero a odio dignissim scelerisque. Aliquam purus nulla, tempor eget ullamcorper quis, rhoncus non dui.
 </p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur consectetur metus, vitae gravida mauris venenatis sit amet. Donec feugiat sed mi nec rhoncus. Nunc sollicitudin, magna pretium tincidunt sagittis, nibh nulla placerat dolor, eget cursus ipsum urna quis enim. Quisque sed pellentesque sapien. Donec ac lacus vulputate, vestibulum enim et, ultricies tellus. Quisque commodo id magna sed sodales. Cras eu tortor tincidunt, fermentum eros vitae, sollicitudin tortor. Morbi nisl enim, ullamcorper non volutpat nec, egestas vel tortor. Quisque aliquet non urna sit amet posuere. Nunc nulla risus, commodo sed volutpat vitae, hendrerit eu arcu.<p>
+<!-- section "blockquote" -->
 <blockquote>
-	<p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.</p>
+	A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.
 </blockquote>
-<p>In hac habitasse platea dictumst. Praesent dapibus metus et magna sollicitudin, quis laoreet massa gravida. Fusce sed ipsum iaculis, lacinia arcu sodales, lacinia dui. Duis vitae arcu ac odio facilisis scelerisque in sed tellus. Curabitur imperdiet eleifend mi eu semper. Quisque porta, mi sit amet venenatis rutrum, ante lacus lobortis dolor, eu lacinia enim sem quis nulla. Nunc non turpis sit amet metus gravida tincidunt. Praesent tristique lectus sit amet neque blandit, et vestibulum ante eleifend. Aliquam mollis, nisi vitae condimentum imperdiet, erat mi semper nisl, non viverra neque felis aliquam risus. Cras risus enim, sodales ac libero at, eleifend facilisis mi. Maecenas volutpat vestibulum nibh sit amet pharetra. Proin pharetra nisl elit, et lacinia mauris tempus a.<p>
+<!-- section "end" -->
+
 <p>Cras at fringilla ipsum. Donec nec libero eget est blandit dignissim a eu ante. Morbi augue nulla, luctus eu sagittis vel, malesuada ut felis. Aliquam erat volutpat. Morbi malesuada augue ac massa hendrerit fermentum. Integer scelerisque lacus a dolor convallis lobortis. Curabitur mollis ante in massa ultricies dignissim.
 </p>
 
@@ -2262,11 +3667,12 @@ p q r s t u v w x y z { | } ~
 &lt;p&gt;Aliquam ultrices cursus mauris, eget volutpat justo mattis nec. Sed a orci turpis. Aliquam aliquet placerat dui, consectetur tincidunt leo tristique et. Vivamus enim nisi, blandit a venenatis quis, convallis et arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris libero sapien, placerat in sodales eu, tempor quis dui. Vivamus egestas faucibus pulvinar. Maecenas eget diam nunc. Phasellus at sem eros, ac suscipit neque. Phasellus sollicitudin libero a odio dignissim scelerisque. Aliquam purus nulla, tempor eget ullamcorper quis, rhoncus non dui.
 &lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur consectetur metus, vitae gravida mauris venenatis sit amet. Donec feugiat sed mi nec rhoncus. Nunc sollicitudin, magna pretium tincidunt sagittis, nibh nulla placerat dolor, eget cursus ipsum urna quis enim. Quisque sed pellentesque sapien. Donec ac lacus vulputate, vestibulum enim et, ultricies tellus. Quisque commodo id magna sed sodales. Cras eu tortor tincidunt, fermentum eros vitae, sollicitudin tortor. Morbi nisl enim, ullamcorper non volutpat nec, egestas vel tortor. Quisque aliquet non urna sit amet posuere. Nunc nulla risus, commodo sed volutpat vitae, hendrerit eu arcu.&lt;p&gt;
+&lt;!-- section &quot;blockquote&quot; --&gt;
 &lt;blockquote&gt;
-	&lt;p&gt;A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.&lt;/p&gt;
+	A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.
 &lt;/blockquote&gt;
-&lt;p&gt;In hac habitasse platea dictumst. Praesent dapibus metus et magna sollicitudin, quis laoreet massa gravida. Fusce sed ipsum iaculis, lacinia arcu sodales, lacinia dui. Duis vitae arcu ac odio facilisis scelerisque in sed tellus. Curabitur imperdiet eleifend mi eu semper. Quisque porta, mi sit amet venenatis rutrum, ante lacus lobortis dolor, eu lacinia enim sem quis nulla. Nunc non turpis sit amet metus gravida tincidunt. Praesent tristique lectus sit amet neque blandit, et vestibulum ante eleifend. Aliquam mollis, nisi vitae condimentum imperdiet, erat mi semper nisl, non viverra neque felis aliquam risus. Cras risus enim, sodales ac libero at, eleifend facilisis mi. Maecenas volutpat vestibulum nibh sit amet pharetra. Proin pharetra nisl elit, et lacinia mauris tempus a.&lt;p&gt;
+&lt;!-- section &quot;end&quot; --&gt;
+
 &lt;p&gt;Cras at fringilla ipsum. Donec nec libero eget est blandit dignissim a eu ante. Morbi augue nulla, luctus eu sagittis vel, malesuada ut felis. Aliquam erat volutpat. Morbi malesuada augue ac massa hendrerit fermentum. Integer scelerisque lacus a dolor convallis lobortis. Curabitur mollis ante in massa ultricies dignissim.
 &lt;/p&gt;
 
@@ -2331,17 +3737,10 @@ p q r s t u v w x y z { | } ~
 		</form>		<ul class="comment-list">
 				<li class="comment-container">
 					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/tech/sepia" alt="Avatar" />						<h4 class="comment-name"><a href="#">Matthias Macguinness</a></h4>
+		<img src="http://placeimg.com/100/100/people/sepia" alt="Avatar" />						<h4 class="comment-name"><a href="#">Aquila Achterkamp</a></h4>
 					</div>
 					<div class="comment-text">
-						<p>Sugar plum wafer soufflÃ© ice cream. Wafer topping biscuit pie gummi bears topping. Gummies toffee powder applicake oat cake cookie. Bear claw candy tootsie roll fruitcake danish applicake candy canes macaroon. Liquorice tiramisu danish cotton candy gummies. Tiramisu dessert gummi bears macaroon sweet roll jelly-o gummi bears marzipan.</p>
-					</div>
-				</li>				<li class="comment-container">
-					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/any/grayscale" alt="Avatar" />						<h4 class="comment-name"><a href="#">Freyr Hines</a></h4>
-					</div>
-					<div class="comment-text">
-						<p>Wufoo diigo grockit sifteo divvyshot, unigo zooomr revver. Edmodo appjet joyent skype bubbli jajah zoodles joukuu xobni hojoki edmodo appjet, mozy mzinga akismet yuntaa joost yuntaa geni tivo insala yoono chumby, grockit sococo loopt zanga etsy cloudera koofers empressr jiglu blippy. Omgpop lanyrd joukuu sococo zimbra airbnb movity jibjab, foodzie.</p>
+						<p>Queso caerphilly cheesecake. Parmesan chalk and cheese port-salut port-salut babybel cottage cheese cheesy grin pepper jack. Croque monsieur paneer st. agur blue cheese emmental airedale monterey jack bavarian bergkase cheese triangles. Halloumi parmesan.</p>
 					</div>
 				</li>				<li class="comment-container">
 					<div class="comment-meta">
@@ -2352,34 +3751,35 @@ p q r s t u v w x y z { | } ~
 					</div>
 				</li>				<li class="comment-container">
 					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/animals" alt="Avatar" />						<h4 class="comment-name"><a href="#">Duane Wilms</a></h4>
+		<img src="http://placeimg.com/100/100/any/sepia" alt="Avatar" />						<h4 class="comment-name"><a href="#">Jacobus Sneiders</a></h4>
 					</div>
 					<div class="comment-text">
-						<p>Fanny pack ullamco et veniam semiotics. Shoreditch PBR reprehenderit cliche, magna Tonx aesthetic. Narwhal photo booth DIY aute post-ironic anim. Vice cliche brunch est before they sold out fap, street art Odd Future fashion axe messenger bag nihil Tonx tattooed. Nihil hashtag incididunt, do eu art party Banksy jean shorts four loko typewriter.</p>
+						<p>I find your lack of faith disturbing. A tremor in the Force. The last time I felt it was in the presence of my old master. Don't act so surprised, Your Highness. You weren't on any mercy mission this time. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. The plans you refer to will soon be back in our hands.</p>
 					</div>
 				</li>				<li class="comment-container">
 					<div class="comment-meta">
-		<img src="http://placeimg.com/100/100/tech" alt="Avatar" />						<h4 class="comment-name"><a href="#">Teun Richard</a></h4>
+		<img src="http://placeimg.com/100/100/any" alt="Avatar" />						<h4 class="comment-name"><a href="#">Bertil Aaij</a></h4>
 					</div>
 					<div class="comment-text">
-						<p>Boudin sausage jerky pastrami ground round salami biltong. Sausage fatback strip steak doner pork loin, pork belly drumstick ham short loin hamburger shankle. Short ribs sirloin rump tri-tip beef biltong. Meatball pig salami, jowl pork loin fatback short loin drumstick andouille.</p>
+						<p>Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs. Pit bull can be the right man's best friend... or the wrong man's worst enemy. You going to give me a dog for a pet, give me a pit bull.</p>
+					</div>
+				</li>				<li class="comment-container">
+					<div class="comment-meta">
+		<img src="http://placeimg.com/100/100/tech/grayscale" alt="Avatar" />						<h4 class="comment-name"><a href="#">Plinius Sloane</a></h4>
+					</div>
+					<div class="comment-text">
+						<p>The Knights Who Say Ni demand a sacrifice! â€¦Are you suggesting that coconuts migrate? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods. You don't frighten us, English pig-dogs! Go and boil your bottoms, sons of a silly person! I blow my nose at you, so-called Ah-thoor Keeng, you and all your silly English K-n-n-n-n-n-n-n-niggits!</p>
 					</div>
 				</li>		</ul>
 	</div>
-	<ol class="pagination">
-		<li><a href="#">Previous</a></li>
-		<li class="current visible-32up"><a href="#">1</a></li>
-		<li class="visible-32up"><a href="#">2</a></li>
-		<li class="visible-32up"><a href="#">3</a></li>
-		<li class="visible-32up"><a href="#">4</a></li>
-		<li class="visible-32up"><a href="#">5</a></li>
-		<li class="visible-32up"><a href="#">6</a></li>
-		<li class="visible-32up"><a href="#">7</a></li>
-		<li class="visible-32up"><a href="#">8</a></li>
-		<li class="visible-32up"><a href="#">9</a></li>
-		<li class="visible-32up"><a href="#">10</a></li>
-		<li><a href="#">Next</a></li>
-	</ol>
+	<span class="group border-radius">
+	    <button class="group-item"><i class="fa fa-angle-double-left"></i> First</button>
+	    <button class="group-item">1</button>
+	    <button class="group-item">2</button>
+	    <button class="group-item active">3</button>
+	    <button class="group-item">4</button>
+	    <button class="group-item">Last <i class="fa fa-angle-double-right"></i></button>
+	</span>
 </section>
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
@@ -2412,17 +3812,10 @@ p q r s t u v w x y z { | } ~
 		&lt;/form&gt;		&lt;ul class=&quot;comment-list&quot;&gt;
 				&lt;li class=&quot;comment-container&quot;&gt;
 					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/tech/sepia&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Matthias Macguinness&lt;/a&gt;&lt;/h4&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/people/sepia&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Aquila Achterkamp&lt;/a&gt;&lt;/h4&gt;
 					&lt;/div&gt;
 					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Sugar plum wafer souffl&eacute; ice cream. Wafer topping biscuit pie gummi bears topping. Gummies toffee powder applicake oat cake cookie. Bear claw candy tootsie roll fruitcake danish applicake candy canes macaroon. Liquorice tiramisu danish cotton candy gummies. Tiramisu dessert gummi bears macaroon sweet roll jelly-o gummi bears marzipan.&lt;/p&gt;
-					&lt;/div&gt;
-				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
-					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/any/grayscale&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Freyr Hines&lt;/a&gt;&lt;/h4&gt;
-					&lt;/div&gt;
-					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Wufoo diigo grockit sifteo divvyshot, unigo zooomr revver. Edmodo appjet joyent skype bubbli jajah zoodles joukuu xobni hojoki edmodo appjet, mozy mzinga akismet yuntaa joost yuntaa geni tivo insala yoono chumby, grockit sococo loopt zanga etsy cloudera koofers empressr jiglu blippy. Omgpop lanyrd joukuu sococo zimbra airbnb movity jibjab, foodzie.&lt;/p&gt;
+						&lt;p&gt;Queso caerphilly cheesecake. Parmesan chalk and cheese port-salut port-salut babybel cottage cheese cheesy grin pepper jack. Croque monsieur paneer st. agur blue cheese emmental airedale monterey jack bavarian bergkase cheese triangles. Halloumi parmesan.&lt;/p&gt;
 					&lt;/div&gt;
 				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
 					&lt;div class=&quot;comment-meta&quot;&gt;
@@ -2433,34 +3826,35 @@ p q r s t u v w x y z { | } ~
 					&lt;/div&gt;
 				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
 					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/animals&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Duane Wilms&lt;/a&gt;&lt;/h4&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/any/sepia&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Jacobus Sneiders&lt;/a&gt;&lt;/h4&gt;
 					&lt;/div&gt;
 					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Fanny pack ullamco et veniam semiotics. Shoreditch PBR reprehenderit cliche, magna Tonx aesthetic. Narwhal photo booth DIY aute post-ironic anim. Vice cliche brunch est before they sold out fap, street art Odd Future fashion axe messenger bag nihil Tonx tattooed. Nihil hashtag incididunt, do eu art party Banksy jean shorts four loko typewriter.&lt;/p&gt;
+						&lt;p&gt;I find your lack of faith disturbing. A tremor in the Force. The last time I felt it was in the presence of my old master. Don't act so surprised, Your Highness. You weren't on any mercy mission this time. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. The plans you refer to will soon be back in our hands.&lt;/p&gt;
 					&lt;/div&gt;
 				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
 					&lt;div class=&quot;comment-meta&quot;&gt;
-		&lt;img src=&quot;http://placeimg.com/100/100/tech&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Teun Richard&lt;/a&gt;&lt;/h4&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/any&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Bertil Aaij&lt;/a&gt;&lt;/h4&gt;
 					&lt;/div&gt;
 					&lt;div class=&quot;comment-text&quot;&gt;
-						&lt;p&gt;Boudin sausage jerky pastrami ground round salami biltong. Sausage fatback strip steak doner pork loin, pork belly drumstick ham short loin hamburger shankle. Short ribs sirloin rump tri-tip beef biltong. Meatball pig salami, jowl pork loin fatback short loin drumstick andouille.&lt;/p&gt;
+						&lt;p&gt;Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people. Like pit bulls. The dog of dogs. Pit bull can be the right man's best friend... or the wrong man's worst enemy. You going to give me a dog for a pet, give me a pit bull.&lt;/p&gt;
+					&lt;/div&gt;
+				&lt;/li&gt;				&lt;li class=&quot;comment-container&quot;&gt;
+					&lt;div class=&quot;comment-meta&quot;&gt;
+		&lt;img src=&quot;http://placeimg.com/100/100/tech/grayscale&quot; alt=&quot;Avatar&quot; /&gt;						&lt;h4 class=&quot;comment-name&quot;&gt;&lt;a href=&quot;#&quot;&gt;Plinius Sloane&lt;/a&gt;&lt;/h4&gt;
+					&lt;/div&gt;
+					&lt;div class=&quot;comment-text&quot;&gt;
+						&lt;p&gt;The Knights Who Say Ni demand a sacrifice! &acirc;€&brvbar;Are you suggesting that coconuts migrate? Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods. You don't frighten us, English pig-dogs! Go and boil your bottoms, sons of a silly person! I blow my nose at you, so-called Ah-thoor Keeng, you and all your silly English K-n-n-n-n-n-n-n-niggits!&lt;/p&gt;
 					&lt;/div&gt;
 				&lt;/li&gt;		&lt;/ul&gt;
 	&lt;/div&gt;
-	&lt;ol class=&quot;pagination&quot;&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Previous&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;current visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;7&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;8&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;9&lt;/a&gt;&lt;/li&gt;
-		&lt;li class=&quot;visible-32up&quot;&gt;&lt;a href=&quot;#&quot;&gt;10&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Next&lt;/a&gt;&lt;/li&gt;
-	&lt;/ol&gt;
+	&lt;span class=&quot;group border-radius&quot;&gt;
+	    &lt;button class=&quot;group-item&quot;&gt;&lt;i class=&quot;fa fa-angle-double-left&quot;&gt;&lt;/i&gt; First&lt;/button&gt;
+	    &lt;button class=&quot;group-item&quot;&gt;1&lt;/button&gt;
+	    &lt;button class=&quot;group-item&quot;&gt;2&lt;/button&gt;
+	    &lt;button class=&quot;group-item active&quot;&gt;3&lt;/button&gt;
+	    &lt;button class=&quot;group-item&quot;&gt;4&lt;/button&gt;
+	    &lt;button class=&quot;group-item&quot;&gt;Last &lt;i class=&quot;fa fa-angle-double-right&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+	&lt;/span&gt;
 &lt;/section&gt;
 									</code>
 								</pre>
@@ -2471,16 +3865,16 @@ p q r s t u v w x y z { | } ~
 						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-03-sections-00-latest-posts/02-organisms-03-sections-00-latest-posts.html" class="patternLink" data-patternpartial="organisms-latest-posts">Latest Posts</a></h2>
 						<div class="sg-pattern-body">
 							<section class="section latest-posts">
-	<h2 class="section-title">Latest Blogs</h2>
+	<h2 class="section-title">Latest Articles</h2>
 	<ul class="post-list">
 		<li><div class="media-block">
     <a href="#" class="inner">
 		<picture class="list-pic">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-		    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-		    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
+		    <source srcset="" media="(min-width: 1000px)">
+		    <source srcset="" media="(min-width: 800px)">
+		    <source srcset="" media="(min-width: 480px)">
+		    <source srcset="">
+		    <img srcset="" alt="">
 		</picture>
 		<div class="text">
 			<h3 class="title">Lorem ipsum dolor sit (37 characters)</h3>
@@ -2492,11 +3886,11 @@ p q r s t u v w x y z { | } ~
 		<li><div class="media-block">
     <a href="#" class="inner">
 		<picture class="list-pic">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-		    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-		    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
+		    <source srcset="" media="(min-width: 1000px)">
+		    <source srcset="" media="(min-width: 800px)">
+		    <source srcset="" media="(min-width: 480px)">
+		    <source srcset="">
+		    <img srcset="" alt="">
 		</picture>
 		<div class="text">
 			<h3 class="title">Lorem ipsum dolor sit (37 characters)</h3>
@@ -2508,11 +3902,11 @@ p q r s t u v w x y z { | } ~
 		<li><div class="media-block">
     <a href="#" class="inner">
 		<picture class="list-pic">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-		    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-		    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
+		    <source srcset="" media="(min-width: 1000px)">
+		    <source srcset="" media="(min-width: 800px)">
+		    <source srcset="" media="(min-width: 480px)">
+		    <source srcset="">
+		    <img srcset="" alt="">
 		</picture>
 		<div class="text">
 			<h3 class="title">Lorem ipsum dolor sit (37 characters)</h3>
@@ -2524,11 +3918,11 @@ p q r s t u v w x y z { | } ~
 		<li><div class="media-block">
     <a href="#" class="inner">
 		<picture class="list-pic">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-		    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-		    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
+		    <source srcset="" media="(min-width: 1000px)">
+		    <source srcset="" media="(min-width: 800px)">
+		    <source srcset="" media="(min-width: 480px)">
+		    <source srcset="">
+		    <img srcset="" alt="">
 		</picture>
 		<div class="text">
 			<h3 class="title">Lorem ipsum dolor sit (37 characters)</h3>
@@ -2540,11 +3934,11 @@ p q r s t u v w x y z { | } ~
 		<li><div class="media-block">
     <a href="#" class="inner">
 		<picture class="list-pic">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 1000px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 800px)">
-		    <source srcset="http://placehold.it/500x300/999/png/&amp;text=high%20res%20500x300" media="(min-width: 480px)">
-		    <source srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150">
-		    <img srcset="http://placehold.it/250x150/999/png/&amp;text=low%20res%20250x150" alt="">
+		    <source srcset="" media="(min-width: 1000px)">
+		    <source srcset="" media="(min-width: 800px)">
+		    <source srcset="" media="(min-width: 480px)">
+		    <source srcset="">
+		    <img srcset="" alt="">
 		</picture>
 		<div class="text">
 			<h3 class="title">Lorem ipsum dolor sit (37 characters)</h3>
@@ -2566,16 +3960,16 @@ p q r s t u v w x y z { | } ~
 								<pre class="sg-code-html">
 									<code>
 										&lt;section class=&quot;section latest-posts&quot;&gt;
-	&lt;h2 class=&quot;section-title&quot;&gt;Latest Blogs&lt;/h2&gt;
+	&lt;h2 class=&quot;section-title&quot;&gt;Latest Articles&lt;/h2&gt;
 	&lt;ul class=&quot;post-list&quot;&gt;
 		&lt;li&gt;&lt;div class=&quot;media-block&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
 		&lt;picture class=&quot;list-pic&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-		    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 1000px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 800px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 480px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot;&gt;
+		    &lt;img srcset=&quot;&quot; alt=&quot;&quot;&gt;
 		&lt;/picture&gt;
 		&lt;div class=&quot;text&quot;&gt;
 			&lt;h3 class=&quot;title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h3&gt;
@@ -2587,11 +3981,11 @@ p q r s t u v w x y z { | } ~
 		&lt;li&gt;&lt;div class=&quot;media-block&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
 		&lt;picture class=&quot;list-pic&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-		    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 1000px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 800px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 480px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot;&gt;
+		    &lt;img srcset=&quot;&quot; alt=&quot;&quot;&gt;
 		&lt;/picture&gt;
 		&lt;div class=&quot;text&quot;&gt;
 			&lt;h3 class=&quot;title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h3&gt;
@@ -2603,11 +3997,11 @@ p q r s t u v w x y z { | } ~
 		&lt;li&gt;&lt;div class=&quot;media-block&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
 		&lt;picture class=&quot;list-pic&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-		    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 1000px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 800px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 480px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot;&gt;
+		    &lt;img srcset=&quot;&quot; alt=&quot;&quot;&gt;
 		&lt;/picture&gt;
 		&lt;div class=&quot;text&quot;&gt;
 			&lt;h3 class=&quot;title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h3&gt;
@@ -2619,11 +4013,11 @@ p q r s t u v w x y z { | } ~
 		&lt;li&gt;&lt;div class=&quot;media-block&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
 		&lt;picture class=&quot;list-pic&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-		    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 1000px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 800px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 480px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot;&gt;
+		    &lt;img srcset=&quot;&quot; alt=&quot;&quot;&gt;
 		&lt;/picture&gt;
 		&lt;div class=&quot;text&quot;&gt;
 			&lt;h3 class=&quot;title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h3&gt;
@@ -2635,11 +4029,11 @@ p q r s t u v w x y z { | } ~
 		&lt;li&gt;&lt;div class=&quot;media-block&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;inner&quot;&gt;
 		&lt;picture class=&quot;list-pic&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 1000px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 800px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/500x300/999/png/&amp;amp;text=high%20res%20500x300&quot; media=&quot;(min-width: 480px)&quot;&gt;
-		    &lt;source srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot;&gt;
-		    &lt;img srcset=&quot;http://placehold.it/250x150/999/png/&amp;amp;text=low%20res%20250x150&quot; alt=&quot;&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 1000px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 800px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot; media=&quot;(min-width: 480px)&quot;&gt;
+		    &lt;source srcset=&quot;&quot;&gt;
+		    &lt;img srcset=&quot;&quot; alt=&quot;&quot;&gt;
 		&lt;/picture&gt;
 		&lt;div class=&quot;text&quot;&gt;
 			&lt;h3 class=&quot;title&quot;&gt;Lorem ipsum dolor sit (37 characters)&lt;/h3&gt;
@@ -2660,8 +4054,8 @@ p q r s t u v w x y z { | } ~
 					<div id="organisms-recent-tweets" class="sg-pattern">
 						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-03-sections-01-recent-tweets/02-organisms-03-sections-01-recent-tweets.html" class="patternLink" data-patternpartial="organisms-recent-tweets">Recent Tweets</a></h2>
 						<div class="sg-pattern-body">
-							<section class="section related-posts">
-	<h3 class="section-title">Recent Tweets</h3>
+							<section class="section faceted-search">
+	<h3 class="section-title">Filter Search</h3>
 	<ul class="headline-list">
 		<li><h4><a href="#">Headline Lorem ipsum dolor sit amet</a></h4> <time datetime="2014-06-12T12:32+00:00">12 Jun 2014</time></li>
 		<li><h4><a href="#">Laborum, molestiae, rerum, dolores eveniet </a></h4> <time datetime="2014-06-12T12:32+00:00">12 Jun 2014</time></li>
@@ -2672,6 +4066,7 @@ p q r s t u v w x y z { | } ~
 	</ul>
 	<a href="#" class="text-btn">Follow us on Twitter</a>
 </section>
+
 							<div class="sg-code" style="display: none">
 									<div class="sg-code-contains">
 										This pattern contains: 
@@ -2680,8 +4075,8 @@ p q r s t u v w x y z { | } ~
 								<h3 class="sg-code-head">HTML</h3>
 								<pre class="sg-code-html">
 									<code>
-										&lt;section class=&quot;section related-posts&quot;&gt;
-	&lt;h3 class=&quot;section-title&quot;&gt;Recent Tweets&lt;/h3&gt;
+										&lt;section class=&quot;section faceted-search&quot;&gt;
+	&lt;h3 class=&quot;section-title&quot;&gt;Filter Search&lt;/h3&gt;
 	&lt;ul class=&quot;headline-list&quot;&gt;
 		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;Headline Lorem ipsum dolor sit amet&lt;/a&gt;&lt;/h4&gt; &lt;time datetime=&quot;2014-06-12T12:32+00:00&quot;&gt;12 Jun 2014&lt;/time&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;Laborum, molestiae, rerum, dolores eveniet &lt;/a&gt;&lt;/h4&gt; &lt;time datetime=&quot;2014-06-12T12:32+00:00&quot;&gt;12 Jun 2014&lt;/time&gt;&lt;/li&gt;
@@ -2692,6 +4087,7 @@ p q r s t u v w x y z { | } ~
 	&lt;/ul&gt;
 	&lt;a href=&quot;#&quot; class=&quot;text-btn&quot;&gt;Follow us on Twitter&lt;/a&gt;
 &lt;/section&gt;
+
 									</code>
 								</pre>
 							</div>
@@ -2731,6 +4127,48 @@ p q r s t u v w x y z { | } ~
 							</div>
 						</div>
 					</div>
+					<div id="organisms-faceted-search" class="sg-pattern">
+						<h2 class="sg-pattern-head" ><a href="../../patterns/02-organisms-03-sections-03-faceted-search/02-organisms-03-sections-03-faceted-search.html" class="patternLink" data-patternpartial="organisms-faceted-search">Faceted Search</a></h2>
+						<div class="sg-pattern-body">
+							<section class="section related-posts">
+	<h3 class="section-title">Recent Tweets</h3>
+	<ul class="headline-list">
+		<li><h4><a href="#">Headline Lorem ipsum dolor sit amet</a></h4> <time datetime="2014-06-12T12:32+00:00">12 Jun 2014</time></li>
+		<li><h4><a href="#">Laborum, molestiae, rerum, dolores eveniet </a></h4> <time datetime="2014-06-12T12:32+00:00">12 Jun 2014</time></li>
+		<li><h4><a href="#">quae est fugit distinctio iure odit minus non ipsum </a></h4> <time datetime="2014-06-12T12:32+00:00">12 Jun 2014</time></li>
+		<li><h4><a href="#">dolorum deserunt omnis voluptates voluptatum</a></h4> <time datetime="2014-06-12T12:32+00:00">12 Jun 2014</time></li>
+		<li><h4><a href="#">nventore dignissimos vel molestiae, rerum, dolore</a></h4> <time datetime="2014-06-12T12:32+00:00">12 Jun 2014</time></li>
+		<li><h4><a href="#"></a></h4></li>
+	</ul>
+	<a href="#" class="text-btn">Follow us on Twitter</a>
+</section>
+
+							<div class="sg-code" style="display: none">
+									<div class="sg-code-contains">
+										This pattern contains: 
+											<a href="../../patterns/00-atoms-02-text-04-time/00-atoms-02-text-04-time.html"><code>atoms-time</code></a>
+									</div>
+								<h3 class="sg-code-head">HTML</h3>
+								<pre class="sg-code-html">
+									<code>
+										&lt;section class=&quot;section related-posts&quot;&gt;
+	&lt;h3 class=&quot;section-title&quot;&gt;Recent Tweets&lt;/h3&gt;
+	&lt;ul class=&quot;headline-list&quot;&gt;
+		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;Headline Lorem ipsum dolor sit amet&lt;/a&gt;&lt;/h4&gt; &lt;time datetime=&quot;2014-06-12T12:32+00:00&quot;&gt;12 Jun 2014&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;Laborum, molestiae, rerum, dolores eveniet &lt;/a&gt;&lt;/h4&gt; &lt;time datetime=&quot;2014-06-12T12:32+00:00&quot;&gt;12 Jun 2014&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;quae est fugit distinctio iure odit minus non ipsum &lt;/a&gt;&lt;/h4&gt; &lt;time datetime=&quot;2014-06-12T12:32+00:00&quot;&gt;12 Jun 2014&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;dolorum deserunt omnis voluptates voluptatum&lt;/a&gt;&lt;/h4&gt; &lt;time datetime=&quot;2014-06-12T12:32+00:00&quot;&gt;12 Jun 2014&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;nventore dignissimos vel molestiae, rerum, dolore&lt;/a&gt;&lt;/h4&gt; &lt;time datetime=&quot;2014-06-12T12:32+00:00&quot;&gt;12 Jun 2014&lt;/time&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;h4&gt;&lt;a href=&quot;#&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;a href=&quot;#&quot; class=&quot;text-btn&quot;&gt;Follow us on Twitter&lt;/a&gt;
+&lt;/section&gt;
+
+									</code>
+								</pre>
+							</div>
+						</div>
+					</div>
 			</div> <!--end #sg-patterns-->
 	
 		</div><!--end .sg-main-->
@@ -2742,7 +4180,19 @@ p q r s t u v w x y z { | } ~
 			var lineage = "";
 		</script>
 		
-
+        <script src="../../js/concise/js/naver.js"></script>
+        <script src="../../js/concise/js/close.js"></script>
+        <script src="../../js/concise/js/dropdown.js"></script>
+        <script src="../../js/concise/js/navigation.js"></script>
+        <script src="../../js/oc-menu/main.js"></script>
+        <script>
+            var init = function() {
+                console.log('********* tabs loaded *********');
+                $( "#tabs" ).tabs();
+                console.log('********* tabs loaded *********');
+            }
+            $(document).ready(init);
+        </script>
         <!--DO NOT REMOVE-->
         	<script>
 		/*!
@@ -2776,10 +4226,10 @@ p q r s t u v w x y z { | } ~
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1404417084">
+	<script id="pl-js-polyfill-insert-1406819851">
 		(function() {
 			if (self != top) {
-				var cb = '1404417084';
+				var cb = '1406819851';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -2788,10 +4238,10 @@ p q r s t u v w x y z { | } ~
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1404417084">
+	<script id="pl-js-insert-1406819851">
 		(function() {
 			if (self != top) {
-				var cb = '1404417084';
+				var cb = '1406819851';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}
@@ -2799,15 +4249,6 @@ p q r s t u v w x y z { | } ~
 	</script>
 	
 
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/jqueryui/jquery-ui.min.js"></script>
-        <script>
-            var init = function() {
-                console.log('********* tabs loaded *********');
-                $( "#tabs" ).tabs();
-                console.log('********* tabs loaded *********');
-            }
-            $(document).ready(init);
-        </script>
+        
     </body>
 </html>

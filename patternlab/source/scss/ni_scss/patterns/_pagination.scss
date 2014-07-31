@@ -6,6 +6,6 @@
 
     .pagination {
         @include max_width_rem(495);
-        @include center-block();
+        @extend .align-center;
     }
 }

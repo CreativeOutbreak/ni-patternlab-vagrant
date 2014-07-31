@@ -1,12 +1,13 @@
 #ni {
     #logo {
         h1, h2 {
-            @include text-hide(); 
+            @extend .text-hide; 
         }
         display: inline-block;
         width: 50px; 
         height: 40px;
-        background: url(../images/logo.png) no-repeat -135px -161px;
+        background: url(../images/logo-emb.svg) no-repeat -135px -161px;
+        float: left;
     }
 
 }
