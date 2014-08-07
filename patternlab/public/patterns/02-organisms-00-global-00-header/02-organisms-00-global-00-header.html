@@ -7,13 +7,13 @@
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
 
-		<!-- <link rel="stylesheet" href="../../css/style.css?1406819851" media="all" />-->
-        <link rel="stylesheet" href="../../css/ni_style.css?1406819851" media="all" />
-        <link rel="stylesheet" href="../../js/jqueryui/jquery-ui.min.css?1406819851" media="all" />
+		<!-- <link rel="stylesheet" href="../../css/style.css?1407430126" media="all" />-->
+        <link rel="stylesheet" href="../../css/ni_style.css?1407430126" media="all" />
+        <link rel="stylesheet" href="../../js/jqueryui/jquery-ui.min.css?1407430126" media="all" />
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         
         <!--[if (gt IE 8) | (IEMobile)]><!-->
-            <link rel="stylesheet" href="../../css/oc-menu/step4.css">
+            <link rel="stylesheet" href="../../css/oc-menu/menu.css">
         <!--<![endif]-->
         <!--[if (lt IE 9) & (!IEMobile)]>
             <link rel="stylesheet" href="../../css/oc-menu/ie.css">
@@ -37,8 +37,8 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1406819851" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1406819851" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1407430126" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1407430126" media="all" />
 		
 
 		<!-- End Pattern Lab -->
@@ -47,56 +47,40 @@
 	<body id="ni" class="body">	
 		
 <!-- Begin .header -->
-<header class="header cf" role="banner">
+
+<header id="header" class="header">
 	<a id="logo" href="#">
 	    <h1>New Internationalist</h1>
 	    <h2>Putting the world to rights since 1973</h2>
 	</a>
-	<!-- <a href="#search-form" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a> -->
-	
-	<!-- <form action="#" method="post" class="inline-form search-form">           
-    <fieldset>
-	    <legend class="is-vishidden">Search</legend>
-	    <label for="search-field" class="is-vishidden">Search</label>
-	    <input type="search" placeholder="Search" id="search-field" class="search-field" />
-	    <button class="search-submit">
-	    	<span class="icon-search" aria-hidden="true"></span>
-	    	<span class="is-vishidden">Search</span>
-	    </button>
-    </fieldset>
-</form> -->
-    <a id="nav-open-btn" href="#nav"><span class="screen-reader">Main Navigation</span> <i class="fa fa-bars" ></i></a>
-
+    <a id="nav-open-btn"  href="#header"><span class="screen-reader">Menu</span> <i class="fa fa-bars"></i></a>
+    <a id="login-open-btn"  href="#header"><span class="screen-reader">Login</span> <i class="fa fa-user"></i></a>
 </header>
-<nav id="nav" role="navigation">
-    <div class="block">
-        <input type="search" placeholder="Search" />
-        <ul>
-            <li class="is-active">
-                <a href="#">Chapter 1</a>
-            </li>
-             <li>
-                    <a href="#">Chapter 2</a>
-                </li>
-             <li>
-                    <a href="#">Chapter 3</a>
-                </li>
-             <li>
-                    <a href="#">Chapter 4</a>
-                </li>
-             <li>
-                <a href="#">Chapter 5</a>
-            </li>
-        </ul>
-    </div>
-    <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
-</nav><!--end .nav-->
+<div id="nav-holder" class="holder">
+    <a id="nav-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a> 
+    <nav> 
+    <ul>
+        <li><a href="#">Magazine</a></li>
+        <li><a class="selected" href="#">Articles</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Subscribe</a></li>
+    </ul>
+    </nav>
+</div>
+<div id="login-holder" class="holder">
+    <a id="login-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a> 
+    <h2>Login</h2>
+    <a class="tw btn" href="#"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
+    <a class="fb btn" href="#"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
+    <a class="gp btn" href="#"><i class="fa fa-google-plus"></i> <span>Google+</span></a>
+</div>
 <!-- End .header -->
         <script src="../../js/concise/js/naver.js"></script>
         <script src="../../js/concise/js/close.js"></script>
         <script src="../../js/concise/js/dropdown.js"></script>
         <script src="../../js/concise/js/navigation.js"></script>
-        <script src="../../js/oc-menu/main.js"></script>
+        <script src="../../js/oc-menu/menu.min.js"></script>
         <script>
             var init = function() {
                 console.log('********* tabs loaded *********');
@@ -110,7 +94,7 @@
 	<script>
 		// handle injection of items from PHP
 		var patternPartial = "organisms-header";
-		var lineage        = [{"lineagePattern":"atoms-logo","lineagePath":"..\/..\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html"},{"lineagePattern":"molecules-search","lineagePath":"..\/..\/patterns\/01-molecules-04-forms-00-search\/01-molecules-04-forms-00-search.html"},{"lineagePattern":"molecules-primary-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-00-primary-nav\/01-molecules-05-navigation-00-primary-nav.html"}];
+		var lineage        = [{"lineagePattern":"atoms-logo","lineagePath":"..\/..\/patterns\/00-atoms-04-images-00-logo\/00-atoms-04-images-00-logo.html"},{"lineagePattern":"molecules-primary-nav","lineagePath":"..\/..\/patterns\/01-molecules-05-navigation-00-primary-nav\/01-molecules-05-navigation-00-primary-nav.html"}];
 		var lineageR       = [{"lineagePattern":"templates-homepage","lineagePath":"..\/..\/patterns\/03-templates-00-homepage\/03-templates-00-homepage.html"},{"lineagePattern":"templates-blog","lineagePath":"..\/..\/patterns\/03-templates-01-blog\/03-templates-01-blog.html"},{"lineagePattern":"templates-article","lineagePath":"..\/..\/patterns\/03-templates-02-article\/03-templates-02-article.html"},{"lineagePattern":"templates-ni-blog","lineagePath":"..\/..\/patterns\/03-templates-03-ni-blog\/03-templates-03-ni-blog.html"},{"lineagePattern":"pages-blog","lineagePath":"..\/..\/patterns\/04-pages-01-blog\/04-pages-01-blog.html"}];
 		var patternState   = "";
 		var cssEnabled     = false;
@@ -147,10 +131,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1406819851">
+	<script id="pl-js-polyfill-insert-1407430126">
 		(function() {
 			if (self != top) {
-				var cb = '1406819851';
+				var cb = '1407430126';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -159,10 +143,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1406819851">
+	<script id="pl-js-insert-1407430126">
 		(function() {
 			if (self != top) {
-				var cb = '1406819851';
+				var cb = '1407430126';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}

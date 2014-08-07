@@ -7,6 +7,9 @@ module.exports = function(grunt) {
             patternlab: {
                 command: "php core/builder.php -wr"
             },
+            dropcache: {
+                command: "sudo touch /var/cache/mod_pagespeed/cache.flush"
+            },
         },
         compass: {                    // Task
             dist: {                   // Target
@@ -27,7 +30,7 @@ module.exports = function(grunt) {
             },
             css: {
                 files: ['source/scss/**/*.scss', 'source/scss/*.scss'],
-                tasks: ['compass'],
+                tasks: ['compass', 'shell:dropcache'],
                 options: {
                     spawn: true 
                 }
