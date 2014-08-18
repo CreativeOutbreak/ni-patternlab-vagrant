@@ -47,32 +47,36 @@
 //  `@include breakpoint(extra-small) { ... }`
 //
 //
-@mixin breakpoint($point) {
+@mixin breakpoint($point, $mod: "min") {
+  $sum: 0em;
+  @if $mod == "max" {
+    $sum: 0.001em;
+  }
   @if $point == extra-small {
-    @media (min-width: $extra-small-start)  { @content; }
+    @media (#{$mod}-width: $extra-small-start - $sum)  { @content; }
   }
 
   @else if $point == small {
-    @media (min-width: $small-start)  { @content; }
+    @media (#{$mod}-width: $small-start - $sum)  { @content; }
   }
 
   @else if $point == medium {
-    @media (min-width: $medium-start) { @content; }
+    @media (#{$mod}-width: $medium-start - $sum) { @content; }
   }
 
   @else if $point == large {
-    @media (min-width: $large-start) { @content; }
+    @media (#{$mod}-width: $large-start - $sum) { @content; }
   }
 
   @else if $point == extra-large {
-    @media (min-width: $extra-large-start) { @content; }
+    @media (#{$mod}-width: $extra-large-start - $sum) { @content; }
   }
 
   @else if $point == high-density {
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-           only screen and (min--moz-device-pixel-ratio: 1.5),
-           only screen and (-o-min-device-pixel-ratio: 3/2),
-           only screen and (min-device-pixel-ratio: 1.5) { @content; }
+    @media only screen and (-webkit-#{$mod}-device-pixel-ratio: 1.5),
+           only screen and (#{$mod}--moz-device-pixel-ratio: 1.5),
+           only screen and (-o-#{$mod}-device-pixel-ratio: 3/2),
+           only screen and (#{$mod}-device-pixel-ratio: 1.5) { @content; }
   }
 }
 

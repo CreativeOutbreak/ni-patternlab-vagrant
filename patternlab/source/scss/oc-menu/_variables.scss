@@ -1,0 +1,30 @@
+$use-buttons: true;
+$nav-off-canvas-width: 70%;
+
+
+$nav-bar-bg-color: #a03c3c;
+
+$menu-bg-color: #333;
+
+
+/*
+// Breakpoints
+$extra-small-start: 30em !default;  480px
+$small-start:       48em !default;  768px
+$medium-start:      60em !default;  960px
+$large-start:       70em !default;  1120px
+$extra-large-start: 80em !default;  1280px
+ */
+
+
+// Breakpoints
+$extra-small-start: 30em !default;
+$small-start:       48em !default;
+$medium-start:      60em !default;
+$large-start:       70em !default;
+$extra-large-start: 80em !default;
+
+$extra-small-end: $small-start - 0.001em;
+$small-end: $medium-start - 0.001em;
+$medium-end: $large-start - 0.001em;
+

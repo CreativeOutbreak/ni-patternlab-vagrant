@@ -1,0 +1,48 @@
+.header {
+    a.hgroup {
+        width: pem(320);
+        height: pem(87);
+    }
+}
+
+#nav-holder {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    @include vendor("transform", none);
+    @include vendor("transition", none);
+    @include vendor("box-shadow", none);
+    left: 0;
+    background-color: transparent; 
+    ul {
+        padding: 0 0 0 pem(10);
+        width: pem(600);
+ 
+        li {
+            float: left;
+            
+            a {
+                padding: pem(5);
+            }
+
+        }
+
+    }
+
+}
+
+
+#search-holder {
+    float: right;
+    margin-right: pem(20);
+    
+    input {
+        height: pem(32);
+    }
+}
+
+#login-open-btn {
+    position: absolute;
+    right: pem(20);
+    top: pem(5);
+}

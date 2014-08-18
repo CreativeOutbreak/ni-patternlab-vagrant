@@ -1,0 +1,173 @@
+// ----
+// Sass (v3.3.4)
+// Compass (v1.0.0.alpha.18)
+// ----
+
+// -----------------------------------------------------------------------------
+// Introduction
+// -----------------------------------------------------------------------------
+
+// Here is hacky and experimental solution for cross-scopes extends
+// ---
+// It works by generating one placeholder per breakpoint
+// instead of a single placeholder at root level as you'd normally do
+// (in a fully automatic way of course)
+// ---
+// The API is quite simple.
+// To create a placeholder, instead of doing:
+//   %my-awesome-placeholder {} 
+// You would do:
+//   @include placeholder(my-awesome-placeholder)
+// ---
+// To extend an existing placeholder, instead of doing:
+//   @extend %my-awesome-placeholder
+// You would do:
+//   @include _(my-awesome-placeholder)
+// ---
+
+// -----------------------------------------------------------------------------
+// Set up
+// -----------------------------------------------------------------------------
+
+// A list of breakpoints
+// When generating a placeholder,
+// The same placeholder will be generated in every breakpoint
+$breakpoints: (
+"small"  : 600px,
+"medium" : 900px,
+"large"  : 1200px
+);
+
+// -----------------------------------------------------------------------------
+// Core
+// -----------------------------------------------------------------------------
+
+// Caching current breakpoint
+// Not meant to be manually edited
+$default-breakpoint: root;
+$current-breakpoint: $default-breakpoint;
+
+// Caching existing placeholders
+// Not meant to be manually edited
+$placeholders: ();
+
+// The usual breakpoint mixin
+// Except it updates the $current-breakpoint variable
+// 1. If breakpoint name exists in map
+// 2. Update $current-breakpoint
+// 3. Open a media query
+// 4. Let the user dump content
+// 5. Then reset $current-breakpoint
+// 6. If breakpoint name doesn't exist in map, warn the user
+@mixin breakpoint($breakpoint) {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @if $value != null {                                    // 1
+        $current-breakpoint: $breakpoint         !global;     // 2
+        @media (min-width: $value) { @content; }              // 3
+        $current-breakpoint: $default-breakpoint !global;     // 5
+    }
+
+    @else {                                  
+        @warn "Invalid breakpoint `#{$breakpoint}`.";         // 6
+    }
+}
+
+// Generating placeholders
+// actually generating one placeholder per breakpoint
+// 1. If placeholder doesn't exist yet
+// 2. Store the name
+// 3. Looping through all the breakpoints
+// 4. Opening a media query
+// 5. Generating a placeholder at root level
+// 6. With desired content
+// 7. And dumping a placeholder out of any media query
+// 8. If placeholder already exist, warn the user
+@mixin placeholder($name) {
+    @if not index($placeholders, $name) {                  // 1
+        $placeholders: append($placeholders, $name) !global; // 2
+
+        @at-root {
+            @each $breakpoint, $value in $breakpoints {        // 3
+                @media (min-width: $value) {                     // 4
+                    %#{$name}-#{$breakpoint} {                     // 5
+                        @content;                                    // 6
+                    }
+                }
+            }
+
+            %#{$name}-#{$default-breakpoint} {                 // 7
+                @content;
+            }
+        }
+    }
+
+    @else {
+        @warn "Placeholder `#{$name}` already exists.";      // 8
+    }
+}
+
+// Extend the accurate placeholder
+// according to the current scope
+// Basically instead of doing:
+//    @extend %clear;
+// You go:
+//    @include _(clear);
+// Not much longer, is it?
+@mixin _($name) {
+    @extend %#{$name}-#{$current-breakpoint} !optional;
+}
+
+// -----------------------------------------------------------------------------
+// Generating a placeholder
+// -----------------------------------------------------------------------------
+
+// Creating placeholders
+// A simple one in our case
+// But it could have much more content
+// ---
+// Basically instead of doing:
+//    %clear { ... }
+// You go:
+//    @include placeholder('clear') { ... }
+@include placeholder('clear') {
+    clear: both;
+}
+
+// -----------------------------------------------------------------------------
+// Extending a placeholder
+// -----------------------------------------------------------------------------
+
+// At root level
+.a {
+    @include _(clear); // Same as @extend %clear
+}
+
+.b {
+    @include _(clear);
+}
+
+// In a nested media query
+.c {
+    @include breakpoint(medium) {
+        @include _(clear);
+    }
+}
+
+// In an outer media query
+@include breakpoint(medium) {
+    .d {
+        @include _(clear);
+    }
+}
+
+// Both in a nested media query and at root level
+.e {
+    @include _(clear);
+
+    @include breakpoint(large) {
+        @include _(clear);
+    }
+}
+
+// Have a look at the CSS output on the right.

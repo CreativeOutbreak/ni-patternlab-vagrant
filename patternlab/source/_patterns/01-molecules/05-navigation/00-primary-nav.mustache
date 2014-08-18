@@ -1,6 +1,8 @@
 <div id="nav-holder" class="holder">
-    <a id="nav-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a> 
-    <nav> 
+    <a id="nav-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a>
+    <h2>Menu</h2>
+
+    <nav class="global-nav" id="main-nav" role="navigation">
     <ul>
         <li><a href="#">Magazine</a></li>
         <li><a class="selected" href="#">Articles</a></li>
@@ -9,11 +11,24 @@
         <li><a href="#">Subscribe</a></li>
     </ul>
     </nav>
+    <h2>Search</h2>
+    <div id="search-holder">
+        <input type="search" name="search" placeholder="Type and press enter" />
+    </div>
 </div>
+
+
 <div id="login-holder" class="holder">
-    <a id="login-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a> 
+    <a id="login-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a>
     <h2>Login</h2>
+    <form id="login-form">
+        <input type="text" name="email" placeholder="Email Address" />
+        <input type="password" name="password" placeholder="Password" />
+        <input class="btn" type="submit" name="submit" value="Login" />
+    </form>
+    <h4>Social Login</h4>
     <a class="tw btn" href="#"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
     <a class="fb btn" href="#"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
     <a class="gp btn" href="#"><i class="fa fa-google-plus"></i> <span>Google+</span></a>
 </div>
+

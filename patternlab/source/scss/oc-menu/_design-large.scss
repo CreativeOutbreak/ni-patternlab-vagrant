@@ -1,0 +1,56 @@
+.header {
+    a.hgroup {
+        background-position: 0 0;
+        border-right: none;
+    }
+}
+
+#nav-open-btn, #nav-holder .close-btn, #nav-holder h2, #nav-holder i {
+    display: none;
+}
+
+#nav-holder {
+    border-bottom: double  #a03c3c;    
+    padding-bottom: pem(10);
+
+    ul {
+        list-style: none;
+
+        li {
+            margin: 0 pem(3);
+
+            a {
+                width: auto;
+                text-decoration: none;
+                color: #a03c3c;
+                @include vendor("border-radius", pem(5));
+                padding: pem(5) pem(8);
+                text-align: center;
+                
+                &:hover {
+                    background-color: #a03c3c;
+                    color: #fff;
+                }
+            }
+            a.selected {
+                background-color: #a03c3c;
+                color: #fff;
+            } 
+        }
+    }
+}
+
+
+#login-holder {
+    border: pem(1) solid rgba(0,0,0,0.2);
+}
+
+#login-open-btn {
+    color: #a03c3c;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+    &:hover {
+        color: darken(#a03c3c, 10%);
+    }
+}

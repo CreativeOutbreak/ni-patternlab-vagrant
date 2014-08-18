@@ -1,0 +1,54 @@
+// Thanks to inuitcss for this handy mixin
+// (https://github.com/csswizardry/inuit.css/blob/master/generic/_mixins.scss)
+@mixin vendor($property, $value...) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+
+//
+// By passing in one of the pre-defined media queries that
+// are packaged with Concise by default, you can easily
+// create styles that are built from the ground-up to be
+// mobile friendly.
+//
+//  `@include breakpoint(extra-small) { ... }`
+//
+//
+@mixin breakpoint($point, $mod: "min") {
+  $sum: 0em;
+  @if $mod == "max" {
+    $sum: 0.001em;
+  }
+  @if $point == extra-small {
+    @media (#{$mod}-width: $extra-small-start - $sum)  { @content; }
+  }
+
+  @else if $point == small {
+    @media (#{$mod}-width: $small-start - $sum)  { @content; }
+  }
+
+  @else if $point == medium {
+    @media (#{$mod}-width: $medium-start - $sum) { @content; }
+  }
+
+  @else if $point == large {
+    @media (#{$mod}-width: $large-start - $sum) { @content; }
+  }
+
+  @else if $point == extra-large {
+    @media (#{$mod}-width: $extra-large-start - $sum) { @content; }
+  }
+
+  @else if $point == high-density {
+    @media only screen and (-webkit-#{$mod}-device-pixel-ratio: 1.5),
+           only screen and (#{$mod}--moz-device-pixel-ratio: 1.5),
+           only screen and (-o-#{$mod}-device-pixel-ratio: 3/2),
+           only screen and (#{$mod}-device-pixel-ratio: 1.5) { @content; }
+  }
+}
+
+

@@ -22,10 +22,10 @@
 @import "ni_scss/base";
 @import "ni_scss/patterns/main-div";
 @import "ni_scss/patterns/color";
-@import "ni_scss/patterns/logo";
-@import "ni_scss/patterns/header";
-@import "ni_scss/patterns/search";
-@import "ni_scss/patterns/primary-nav";
+//@import "ni_scss/patterns/logo";
+//@import "ni_scss/patterns/header";
+//@import "ni_scss/patterns/search";
+//@import "ni_scss/patterns/primary-nav";
 @import "ni_scss/patterns/fib-image";
 @import "ni_scss/patterns/titles";
 @import "ni_scss/patterns/list-pic";
@@ -48,7 +48,7 @@ $extra-large-start: 80em !default;  1280px
 // > 480px
 @media (min-width: $extra-small-start) { //$screen-xs-min) {    
     @import "ni_scss/patterns/color-xs"; 
-    @import "ni_scss/patterns/logo-xsup";
+    //@import "ni_scss/patterns/logo-xsup";
     @import "ni_scss/patterns/fib-image-xsup";
     @import "ni_scss/patterns/titles-xsup";
 }
@@ -56,20 +56,20 @@ $extra-large-start: 80em !default;  1280px
 // > 768px
 @media (min-width: $small-start) { //$screen-sm-min) {
     
-    @import "ni_scss/patterns/logo-smup";
-    @import "ni_scss/patterns/search-smup";
+    //@import "ni_scss/patterns/logo-smup";
+    //@import "ni_scss/patterns/search-smup";
     @import "ni_scss/patterns/fib-image-smup";
     @import "ni_scss/patterns/titles-smup";
 }
 
 // > 800px
 @media (min-width: 50em) {
-    @import "ni_scss/patterns/search-50emup";
+    //@import "ni_scss/patterns/search-50emup";
 }
 
 // > 880px
 @media (min-width: 55em) {
-    @import "ni_scss/patterns/search-55emup";
+    //@import "ni_scss/patterns/search-55emup";
 
 }
 

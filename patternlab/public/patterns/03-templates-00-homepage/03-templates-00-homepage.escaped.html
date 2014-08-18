@@ -2,16 +2,19 @@
 	&lt;!-- Begin .header --&gt;
 
 	&lt;header id=&quot;header&quot; class=&quot;header&quot;&gt;
-	&lt;a id=&quot;logo&quot; href=&quot;#&quot;&gt;
-	    &lt;h1&gt;New Internationalist&lt;/h1&gt;
-	    &lt;h2&gt;Putting the world to rights since 1973&lt;/h2&gt;
-	&lt;/a&gt;
-	    &lt;a id=&quot;nav-open-btn&quot;  href=&quot;#header&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Menu&lt;/span&gt; &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-	    &lt;a id=&quot;login-open-btn&quot;  href=&quot;#header&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Login&lt;/span&gt; &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;a class=&quot;hgroup&quot; href=&quot;#&quot;&gt;
+    &lt;h1&gt;New Internationalist&lt;/h1&gt;
+    &lt;h2&gt;People, ideas and action for the global justice&lt;/h2&gt;
+&lt;/a&gt;
+	&lt;a id=&quot;nav-open-btn&quot;  href=&quot;#header&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Menu&lt;/span&gt; &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+	&lt;a id=&quot;login-open-btn&quot;  href=&quot;#header&quot;&gt;&lt;span&gt;Login&lt;/span&gt; &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;&lt;/a&gt;
 	&lt;/header&gt;
+
 &lt;div id=&quot;nav-holder&quot; class=&quot;holder&quot;&gt;
-    &lt;a id=&quot;nav-close-btn&quot; class=&quot;close-btn&quot; href=&quot;#nav-holder&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Close Menu&lt;/span&gt; &lt;i class=&quot;fa fa-times-circle-o &quot;&gt;&lt;/i&gt;&lt;/a&gt; 
-    &lt;nav&gt; 
+    &lt;a id=&quot;nav-close-btn&quot; class=&quot;close-btn&quot; href=&quot;#nav-holder&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Close Menu&lt;/span&gt; &lt;i class=&quot;fa fa-times-circle-o &quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;h2&gt;Menu&lt;/h2&gt;
+
+    &lt;nav class=&quot;global-nav&quot; id=&quot;main-nav&quot; role=&quot;navigation&quot;&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Magazine&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a class=&quot;selected&quot; href=&quot;#&quot;&gt;Articles&lt;/a&gt;&lt;/li&gt;
@@ -20,15 +23,35 @@
         &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Subscribe&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;/nav&gt;
+    &lt;h2&gt;Search&lt;/h2&gt;
+    &lt;div id=&quot;search-holder&quot;&gt;
+        &lt;input type=&quot;search&quot; name=&quot;search&quot; placeholder=&quot;Type and press enter&quot; /&gt;
+    &lt;/div&gt;
 &lt;/div&gt;
+
+
 &lt;div id=&quot;login-holder&quot; class=&quot;holder&quot;&gt;
-    &lt;a id=&quot;login-close-btn&quot; class=&quot;close-btn&quot; href=&quot;#nav-holder&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Close Menu&lt;/span&gt; &lt;i class=&quot;fa fa-times-circle-o &quot;&gt;&lt;/i&gt;&lt;/a&gt; 
+    &lt;a id=&quot;login-close-btn&quot; class=&quot;close-btn&quot; href=&quot;#nav-holder&quot;&gt;&lt;span class=&quot;screen-reader&quot;&gt;Close Menu&lt;/span&gt; &lt;i class=&quot;fa fa-times-circle-o &quot;&gt;&lt;/i&gt;&lt;/a&gt;
     &lt;h2&gt;Login&lt;/h2&gt;
+    &lt;form id=&quot;login-form&quot;&gt;
+        &lt;input type=&quot;text&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; /&gt;
+        &lt;input type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Password&quot; /&gt;
+        &lt;input class=&quot;btn&quot; type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Login&quot; /&gt;
+    &lt;/form&gt;
+    &lt;h4&gt;Social Login&lt;/h4&gt;
     &lt;a class=&quot;tw btn&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; &lt;span&gt;Twitter&lt;/span&gt;&lt;/a&gt;
     &lt;a class=&quot;fb btn&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt; &lt;span&gt;Facebook&lt;/span&gt;&lt;/a&gt;
     &lt;a class=&quot;gp btn&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt; &lt;span&gt;Google+&lt;/span&gt;&lt;/a&gt;
 &lt;/div&gt;
-	&lt;!-- End .header --&gt;
+
+
+&lt;ul class=&quot;breadcrumbs&quot;&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandparent&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Parent&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Child&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandchild&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Great-Grandchild&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;	&lt;!-- End .header --&gt;
 	&lt;div role=&quot;main&quot;&gt;
 
 		&lt;div class=&quot;g g-3up&quot;&gt;

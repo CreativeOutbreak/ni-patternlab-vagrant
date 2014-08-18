@@ -1,0 +1,15 @@
+.js-nav.csstransforms { 
+    #nav-holder {
+        @include vendor("transform", translate(0,0));
+    }   
+
+}
+
+.js-nav.csstransforms3d { 
+    #nav-holder {
+        @include vendor("transform", translate3d(0,0,0));
+    }   
+
+}
+
+

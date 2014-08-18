@@ -1,0 +1,31 @@
+/**
+ *  This styling is simply for the page layout and is not really anything to do with the menu system itself.
+ */
+
+@import "variables";
+@import "functions";
+@import "mixins";
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    max-width: pem(1200);
+    margin: auto;
+    position: relative;
+}
+
+@media (max-width: $extra-small-end) {
+
+}
+
+@media (min-width: $small-start) {
+
+body {
+    border-top: 5px solid #a03c3c;
+}
+
+}

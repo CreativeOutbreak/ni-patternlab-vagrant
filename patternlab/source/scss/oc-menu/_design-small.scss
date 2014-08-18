@@ -1,0 +1,79 @@
+.header {
+    background-color: $nav-bar-bg-color;
+
+
+    a.hgroup {
+        width: pem(45);
+        height: pem(45);
+        background-position: pem(-217) pem(-92);
+        border-right: pem(1) solid rgba(0,0,0,0.2);
+    }
+}
+
+
+.holder ul li {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.holder ul li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.holder ul li a:hover {
+    background-color: #444;
+}
+
+.holder ul li a.selected {
+    color: #fff;  
+}
+
+.holder ul li a.selected i {
+    width: 0;
+    height: 0;
+    color: #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+
+    border-right:10px solid #fff;
+    right: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+#nav-open-btn, #login-open-btn {
+    color: #ffffff;
+    font-size: pem(24);
+    float: right;
+    
+    i {
+        line-height: pem(30);
+        width: pem(30);
+        text-align: center;
+    }
+
+}
+
+#login-open-btn {
+    
+    span {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;        
+    }
+}
+
+@include breakpoint(extra-small) {
+    .header {
+        a.hgroup {
+            background-position: pem(0) pem(-92);
+            width: pem(215);
+            border: none;
+        }
+    }
+}
