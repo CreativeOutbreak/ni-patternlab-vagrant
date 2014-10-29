@@ -1,9 +1,10 @@
 <!-- Begin .header -->
 
 <header id="header" class="header">
-{{> atoms-logo }}
-<a id="nav-open-btn"  href="#header"><span class="screen-reader">Menu</span> <i class="fa fa-bars"></i></a>
-<a id="login-open-btn"  href="#header"><span>Login</span> <i class="fa fa-user"></i></a>
+  {{> atoms-logo }}
+  <a class="menu-button" id="nav-open-btn"  href="#nav-holder"><span class="screen-reader">Menu</span> <i class="fa fa-bars"></i></a> 
+  <a class="menu-button" id="login-open-btn"  href="#login-holder"><span>Login</span> <i class="fa fa-user"></i></a> 
+  <a class="menu-button" id="search-open-btn"  href="#search-holder"><span>Search</span> <i class="fa fa-search"></i></a>
 </header>
 
 {{> molecules-primary-nav }}

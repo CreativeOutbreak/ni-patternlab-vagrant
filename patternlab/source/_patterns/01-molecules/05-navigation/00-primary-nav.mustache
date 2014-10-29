@@ -1,34 +1,70 @@
-<div id="nav-holder" class="holder">
-    <a id="nav-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a>
+<div id="nav-holder" class="holder menu">
+  <a id="nav-close-btn" class="close-btn" href="#nav-open-btn"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a>
+  <div class="menu-wrap">
     <h2>Menu</h2>
-
     <nav class="global-nav" id="main-nav" role="navigation">
-    <ul>
+      <ul>
         <li><a href="#">Magazine</a></li>
-        <li><a class="selected" href="#">Articles</a></li>
+        <li><a href="#">Articles</a></li>
+        <li>
+        <label for="subjects">Subjects <i class="fa fa-sort-desc"></i></label>
+        <input type="checkbox" id="subjects" />
+        <ul>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Enviroment</a></li>
+          <li><a href="#">Humen Rights</a></li>
+        </ul>
+        </li>
         <li><a href="#">Books</a></li>
         <li><a href="#">Shop</a></li>
-        <li><a href="#">Subscribe</a></li>
-    </ul>
+      </ul>
     </nav>
-    <h2>Search</h2>
-    <div id="search-holder">
-        <input type="search" name="search" placeholder="Type and press enter" />
-    </div>
+    <div class="push"></div>
+  </div>
+  <section>
+    <h3>Feminism Fights Back</h3>
+    <p>info... </p>
+    <a class="subslink" href="#Subscribe">Subscribe</a>
+    <img src="images/474-01-cover-small.jpg" alt="" />
+  </section>
+</div>
+<div id="login-holder" class="holder">
+  <a id="login-close-btn" class="close-btn" href="#login-open-btn"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a>
+  <h2>Login</h2>
+  <form id="login-form">
+    <input type="text" name="email" placeholder="Email Address" />
+    <input type="password" name="password" placeholder="Password" />
+    <input class="btn" type="submit" name="submit" value="Login" />
+  </form>
+  <h4>Social Login</h4>
+  <a class="tw btn" href="#"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
+  <a class="fb btn" href="#"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
+  <a class="gp btn" href="#"><i class="fa fa-google-plus"></i> <span>Google+</span></a>
 </div>
 
-
-<div id="login-holder" class="holder">
-    <a id="login-close-btn" class="close-btn" href="#nav-holder"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a>
-    <h2>Login</h2>
-    <form id="login-form">
-        <input type="text" name="email" placeholder="Email Address" />
-        <input type="password" name="password" placeholder="Password" />
-        <input class="btn" type="submit" name="submit" value="Login" />
-    </form>
-    <h4>Social Login</h4>
-    <a class="tw btn" href="#"><i class="fa fa-twitter"></i> <span>Twitter</span></a>
-    <a class="fb btn" href="#"><i class="fa fa-facebook"></i> <span>Facebook</span></a>
-    <a class="gp btn" href="#"><i class="fa fa-google-plus"></i> <span>Google+</span></a>
+<div id="search-holder" class="holder">
+  <a id="login-close-btn" class="close-btn" href="#login-open-btn"><span class="screen-reader">Close Menu</span> <i class="fa fa-times-circle-o "></i></a>
+  <h2>Search</h2>
+  <div id="search-box">
+    <input type="search" name="search" placeholder="Type and press enter" /> <i class="fa fa-search"></i>
+  </div>
+  <div class="squaredThree">
+    <input type="checkbox" value="None" id="magcheck" name="check" checked />
+    <label for="magcheck">
+      <i>Magazine</i>
+    </label>
+  </div>
+  <div class="squaredThree">
+    <input type="checkbox" value="None" id="blogcheck" name="check" checked />
+    <label for="blogcheck">
+      <i>Blog</i>
+    </label>
+  </div>
+  <div class="squaredThree">
+    <input type="checkbox" value="None" id="sitecheck" name="check" />
+    <label for="sitecheck">
+      <i>Site</i>
+    </label>
+  </div>
 </div>
 
